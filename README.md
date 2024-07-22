@@ -22,11 +22,16 @@ When submitting a task, please adhere to the following schema:
 
 ```
 Name: {Task Name, String}
-Description: {Details of what the task is, String}
-Example(s) {list of example inputs and outputs for the task, String}:
 
-Example 1 input and output
-Example 2 input and output
+Description: {Details of what the task is, String}
+
+Example(s) {list of example inputs and outputs for the task, String}:
+- Example 1:
+   input and output
+
+- Example 2:
+   input and output
+
 Diagram (Optional) {image of a diagram/workflow of how the task would work, Image}`
 ```
 
@@ -34,14 +39,19 @@ Diagram (Optional) {image of a diagram/workflow of how the task would work, Imag
 
 ```
 Name: Syllogism Reasoning
-Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
-Example(s):
 
-Input: All men are mortal. Socrates is a man. What can we conclude?
-Output: Socrates is mortal.
-Input: All fruits have seeds. An apple is a fruit. What can we conclude?
-Output: An apple has seeds.
-Diagram (Optional):
+Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
+
+Example(s):
+- Example 1:
+    Input: All men are mortal. Socrates is a man. What can we conclude?
+    Output: Socrates is mortal.
+
+- Example 2:
+    Input: All fruits have seeds. An apple is a fruit. What can we conclude?
+    Output: An apple has seeds.
+
+Diagram (Optional): None
 ```
 
 ## Contributing
