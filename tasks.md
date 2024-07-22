@@ -531,8 +531,6 @@ Diagram (Optional): None
 
 ---
 
----
-
 Name: Critical Factor Identification in Theory of Mind
 
 Description: Understand that similar agents may act differently, or different agents may act similarly, based on a third factor. This task evaluates the model's ability to identify these critical factors influencing agents' behavior.
