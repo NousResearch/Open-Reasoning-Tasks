@@ -499,8 +499,6 @@ Diagram (Optional): None
 
 ---
 
----
-
 Name: First-Order False Belief
 
 Description: This task involves identifying why a misinformed agent may behave contrary to reality due to inaccurate beliefs. It evaluates the model's theory of mind ability and understanding of false beliefs.
@@ -514,8 +512,6 @@ Example(s):
     Output: The husband drove the car because he had been told that the brakes were improved, not dismantled. He was unaware of his wife's actions and believed the brakes were functioning properly based on the information he was given.
 
 Diagram (Optional): None
-
----
 
 ---
 
@@ -553,8 +549,6 @@ Diagram (Optional): None
 
 ---
 
----
-
 Name: Second-Order False Belief
 
 Description: This task involves understanding that an agent may hold a false belief about another agent's belief, leading to misinterpretations of actions or intentions. It additionally involves the understanding that an agent may know the false belief of another agent is incorrect. It evaluates the model's ability to reason about higher-order beliefs and their implications.
@@ -568,8 +562,6 @@ Example(s):
     Output: Bob is likely to tell Felicia that the kid can't get the tooth fairy to visit for five dollars, without referencing the accuracy of her belief in the tooth fairy. Bob knows that Felicia believes in the tooth fairy, and he also knows that the tooth fairy isn't real. Bob would likely want to protect Felicia from being misled or disappointed by the false claim, so he would likely intervene to prevent her from spending money on a false promise. However, he would do so in a way that doesn't inform Felicia about the tooth fairy not being real to avoid upsetting her.
 
 Diagram (Optional): None
-
----
 
 ---
 
