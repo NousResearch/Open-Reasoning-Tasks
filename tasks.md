@@ -1022,3 +1022,86 @@ This timeline suggests a rapidly growing company:
 Overall, this timeline depicts a successful startup that achieved significant milestones roughly every 2-3 years, culminating in international expansion within a decade of founding.
 
 ---
+
+Name: Detect the Presence of Reasoning in Messages
+
+Description: This task involves detecting various patterns of reasoning in text messages.
+
+Types of Reasoning:
+
+- Deductive: Disjunctive Syllogism, Hypothetical Syllogism, Constructive Dilemma
+- Inductive: Generalization, Statistical Syllogism, Argument from Analogy
+- Abductive: Inference to the Best Explanation
+- Causal: Cause to Effect, Effect to Cause
+- Conditional: Equivalence
+
+Example(s):
+
+DEDUCTIVE REASONING
+
+- Example 1: Modus Ponens
+    Input: If the weather is sunny, then we will go to the beach. The weather is sunny.
+    Output: Modus Ponens (Affirming the Antecedent): The conclusion follows logically from the given premises.
+
+- Example 2: Modus Tollens
+    Input: If the email was sent, I would have received it. I did not receive the email.
+    Output: Modus Tollens (Denying the Consequent): If the email was sent, I would have received it. I did not receive the email, hence it was not sent.
+
+- Example 3: Disjunctive Syllogism
+    Input: Either I will go for a run or I will stay home. I am not going for a run.
+    Output: Disjunctive Syllogism: Since you are not going for a run, you will stay home.
+
+- Example 4: Hypothetical Syllogism
+    Input: If it rains, the ground will be wet. If the ground is wet, the baseball game will be canceled.
+    Output: Hypothetical Syllogism: If it rains, the baseball game will be canceled.
+
+- Example 5: Constructive Dilemma
+    Input: If I get a job, I will move to the city. If I don't get a job, I will stay in my hometown. I will either get a job or not.
+    Output: Constructive Dilemma: I will either move to the city or stay in my hometown.
+
+INDUCTIVE REASONING
+
+- Example 6: Generalization
+    Input: All the dogs I've met have been friendly. Therefore, all dogs are friendly.
+    Output: Generalization: Based on the observed pattern, the conclusion is that all dogs are friendly.
+
+- Example 7: Statistical Syllogism
+    Input: Most students who study hard get good grades. Jane studies hard.
+    Output: Statistical Syllogism: Jane is likely to get good grades.
+
+- Example 8: Argument from Analogy
+    Input: The human brain works like a computer. A computer can be programmed. Therefore, the human brain can be programmed.
+   Output: Argument from Analogy: Since the human brain works like a computer and computers can be programmed, the human brain can be programmed.
+
+ABDUCTIVE REASONING
+
+- Example 9: Inference to the Best Explanation:
+    Input: The lights are out in the house. The best explanation is that there is a power outage.
+    Output: Inference to the Best Explanation: The most likely reason for the lights being out is a power outage.
+
+CAUSAL REASONING
+
+- Example 10: Cause to Effect
+    Input: Exposure to loud noise can cause hearing loss. John works in a noisy factory.
+    Output: Cause to Effect: John is at risk of hearing loss because he works in a noisy factory.
+
+- Example 11: Effect to Cause
+    Input: The streets are wet. It likely rained last night.
+    Output: Effect to Cause: The wet streets indicate that it probably rained last night.
+
+CONDITIONL REASONING
+
+- Example 12: Equivalence Reasoning
+    Input: A shape is a square if and only if it has four equal sides and four right angles. This shape has four equal sides and four right angles.
+    Output: Equivalence Reasoning: Since the shape has four equal sides and four right angles, it is a square.
+
+*Question: How to detect logical fallacies?*
+
+- Ad Hominem
+- Straw Man
+- False Dilemma
+- Circular Reasoning
+- Hasty Generalization
+- Others [add below]
+
+---
