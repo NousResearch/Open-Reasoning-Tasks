@@ -282,3 +282,28 @@ Example(s):
 Diagram (Optional): None
 
 ---
+
+Name: Analyzing "What If" Scenarios
+
+Description: This task involves examining hypothetical situations and reasoning about their potential consequences. It evaluates the model's ability to apply logical thinking to imaginary scenarios, consider multiple factors, and predict plausible outcomes.
+
+Example(s):
+- Example 1:
+    Input: What if the Internet had never been invented? Describe three potential consequences for modern society.
+    Output:
+    1. Communication: Without the Internet, long-distance communication would rely more heavily on telephone and postal services. This could lead to slower information exchange and potentially less globalization.
+    2. Commerce: E-commerce wouldn't exist, meaning traditional brick-and-mortar stores would likely remain dominant. This could result in different economic structures and potentially slower global trade.
+    3. Education: Online learning platforms and easy access to information would not be available. This might lead to more reliance on traditional educational institutions and physical libraries, potentially limiting access to knowledge for many people.
+
+- Example 2:
+    Input: What if humans could photosynthesize like plants? How might this ability change our society and daily lives?
+    Output:
+    1. Food consumption: The need for regular meals might decrease significantly, potentially changing the entire food industry and eating habits.
+    2. Agriculture: There could be less demand for large-scale farming, leading to changes in land use and potentially benefiting wildlife.
+    3. Energy industry: People might spend more time outdoors to "charge up," potentially reducing reliance on traditional energy sources for heating and lighting.
+    4. Work schedules: The workday might be structured around optimal sunlight hours, changing the typical 9-to-5 schedule.
+    5. Health: New health concerns related to photosynthesis efficiency might arise, while some nutrition-related diseases could decrease.
+
+Diagram (Optional): None
+
+---
