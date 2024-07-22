@@ -23,8 +23,6 @@ Output:
 
 An apple has seeds.
 
-Diagram (Optional): None
-
 ---
 
 Name: Mathematical Word Problems
@@ -53,8 +51,6 @@ Output:
 
 The train will travel 150 miles.
 Explanation: We multiply the speed (60 miles/hour) by the time (2.5 hours): 60 * 2.5 = 150 miles.
-
-Diagram (Optional): None
 
 ---
 
@@ -85,8 +81,6 @@ Output:
 Bob is in the middle.
 Explanation: If Alice is not last and Bob is not first, the only possible arrangement is: Charlie, Bob, Alice.
 
-Diagram (Optional): None
-
 ---
 
 Name: Lateral Thinking Puzzles
@@ -115,8 +109,6 @@ Output:
 
 The woman is a photographer. She shot a picture of her husband, developed it in water, and hung it up to dry.
 Explanation: This puzzle relies on the multiple meanings of words like "shoot" and "hang" to create a misleading scenario.
-
-Diagram (Optional): None
 
 ---
 
@@ -157,8 +149,6 @@ Output:
 | F | F |    F    |
 Explanation: XOR (exclusive or) is true when P and Q have different truth values, and false when they have the same truth value.
 
-Diagram (Optional): None
-
 ---
 Name: Identifying Logical Fallacies
 
@@ -186,8 +176,6 @@ Output:
 
 This statement contains the Slippery Slope fallacy.
 Explanation: The Slippery Slope fallacy assumes that a relatively small first step inevitably leads to a chain of related events resulting in a significant and often undesirable effect. It exaggerates the consequences of a proposed action without providing evidence for the alleged chain reaction.
-
-Diagram (Optional): None
 
 ---
 
@@ -222,8 +210,6 @@ Explanation:
 - Height after t minutes = 0.5t cm
 - Substituting: V = (2w) * w * (0.5t/100) = tw²/100
 - Final equation: V = 0.01tw², where V is in cubic meters, t in minutes, and w in meters.
-
-Diagram (Optional): None
 
 ---
 
@@ -269,8 +255,6 @@ Output:
 
 The proof is correct. It uses proof by contradiction effectively. By assuming n is odd and showing that this leads to n² being odd (which contradicts the given information), the proof logically concludes that n must be even.
 
-Diagram (Optional): None
-
 ---
 
 Name: Completing Analogies
@@ -300,8 +284,6 @@ Output:
 Painter
 Explanation: A pen is the primary tool used by a writer, just as a brush is the primary tool used by a painter.
 
-Diagram (Optional): None
-
 ---
 
 Name: Identifying Relationships
@@ -328,8 +310,6 @@ Identify the relationship between "cause" and "effect".
 Output:
 
 The relationship between "cause" and "effect" is one of consequence. A cause is an action, event, or condition that leads to or produces a result, which is the effect. This relationship is fundamental in many fields, including science, logic, and philosophy.
-
-Diagram (Optional): None
 
 ---
 
@@ -362,8 +342,6 @@ Cause: Launching a new marketing campaign
 Effect: Increase in company's profits
 Explanation: The new marketing campaign is presented as the cause that led to the effect of increased profits. However, it's important to note that in real-world scenarios, there might be multiple factors contributing to such outcomes.
 
-Diagram (Optional): None
-
 ---
 
 Name: Predicting Outcomes Based on Scenarios
@@ -392,8 +370,6 @@ Output:
 
 1. Increased user engagement: Users may spend more time on the platform as they see more relevant and personal content from their close connections.
 2. Reduced reach for businesses and influencers: Companies and public figures may see a decrease in their organic reach, potentially leading to increased spending on paid advertising to maintain visibility.
-
-Diagram (Optional): None
 
 ---
 
@@ -450,7 +426,7 @@ Output:
 1. Axis powers gain more control: Without U.S. involvement, the Allies might have struggled to open a Western Front in Europe. This could have allowed Nazi Germany to focus more resources on the Eastern Front against the Soviet Union, potentially leading to a different outcome there. In the Pacific, Japan might have been able to consolidate its gains without U.S. opposition.
 Reasoning: The U.S. brought significant military power, resources, and industrial capacity to the Allied cause. Its absence would have dramatically shifted the balance of power.
 
-2. Prolonged stalemate: The war might have dragged on for many more years, with neither side able to gain a decisive advantage. This could have led to a negotiated peace rather than the unconditional surrender of the Axis powers.
+1. Prolonged stalemate: The war might have dragged on for many more years, with neither side able to gain a decisive advantage. This could have led to a negotiated peace rather than the unconditional surrender of the Axis powers.
 Reasoning: Without U.S. involvement, the remaining Allied powers might have had enough strength to prevent an Axis victory but not enough to achieve a decisive win, leading to a protracted conflict.
 
 - Example 2:
@@ -470,8 +446,6 @@ Potential outcome: IBM and Microsoft dominate, with slower innovation in user ex
 - The tech industry might be less focused on sleek design and user experience, as Apple has been a major driver of these aspects.
 
 Reasoning: Apple has been a significant innovator and competitor in the personal computing space, often pushing the industry towards more user-friendly and design-focused products. Without this influence, other companies like IBM and Microsoft, which were initially more focused on business applications and raw functionality, might have shaped the industry differently.
-
-Diagram (Optional): None
 
 ---
 
@@ -511,8 +485,6 @@ Explanation:
 4. P(Both) = 30/100 = 0.3
 5. P(Chocolate or Vanilla) = 0.6 + 0.5 - 0.3 = 0.8
 6. 0.8 = 80%
-
-Diagram (Optional): None
 
 ---
 
@@ -569,8 +541,6 @@ Interpretation of the sales data:
    - Factors contributing to the strong Q4 performance
    - Sustainability of the high growth rate compared to the industry average
 
-Diagram (Optional): None
-
 ---
 
 Name: Describing Spatial Relationships
@@ -598,8 +568,6 @@ Output:
 
 On a standard QWERTY keyboard, the keys are arranged in staggered horizontal rows. The top row contains number keys, with letter keys occupying the next three rows. The letter keys are not in alphabetical order; instead, they follow the QWERTY layout (named after the first six letters in the top letter row). The space bar, typically the largest key, is centered at the bottom. Special character keys are often located on the right side and top row.
 
-Diagram (Optional): None
-
 ---
 
 Name: Mental Rotation Tasks
@@ -626,8 +594,6 @@ Picture the letter 'F' in your mind. If you rotate it 90 degrees clockwise, then
 Output:
 
 After rotating 'F' 90 degrees clockwise, it would look like '⊥'. After flipping it horizontally, it would appear as '⊢'. The vertical line would be on the left, with the two horizontal lines extending to the right, the longer one at the top and the shorter one in the middle.
-
-Diagram (Optional): None
 
 ---
 
@@ -660,8 +626,6 @@ What shape comes next in the sequence?
 Output:
 
 The shape that comes next in the sequence is an Octahedron. The pattern repeats every three shapes: Cube, Tetrahedron, Octahedron. This is the second repetition of the sequence, so it should follow the same order.
-
-Diagram (Optional): None
 
 ---
 
@@ -702,8 +666,6 @@ To find the maximum diameter of the rug:
 
 This ensures the rug fits within the room while maintaining at least 2 feet of space from all walls.
 
-Diagram (Optional): None
-
 ---
 
 Name: First-Order False Belief
@@ -730,8 +692,6 @@ A wife tells her husband she's going to improve the brakes of his car, but inste
 Output:
 
 The husband drove the car because he had been told that the brakes were improved, not dismantled. He was unaware of his wife's actions and believed the brakes were functioning properly based on the information he was given.
-
-Diagram (Optional): None
 
 ---
 
@@ -760,8 +720,6 @@ Output:
 
 Mary isn't excited for the party because she is ignorant of it, as it is a surprise. Since she doesn't know about the party, she doesn't anticipate or feel excitement for the event.
 
-Diagram (Optional): None
-
 ---
 
 Name: Critical Factor Identification in Theory of Mind
@@ -788,8 +746,6 @@ A pack of wolves is aggressively hunting a deer. The deer is running, terrified,
 Output:
 
 The wolves run away. The critical factor influencing their behavior is the perceived threat from the tank. While the wolves were hunting the deer, the sudden appearance of a tank and the loud noises and explosions from the shells create a new immediate threat that causes the wolves to flee, just as the deer does. The shared response is driven by the external danger posed by the tank.
-
-Diagram (Optional): None
 
 ---
 
@@ -818,8 +774,6 @@ Output:
 
 Bob is likely to tell Felicia that the kid can't get the tooth fairy to visit for five dollars, without referencing the accuracy of her belief in the tooth fairy. Bob knows that Felicia believes in the tooth fairy, and he also knows that the tooth fairy isn't real. Bob would likely want to protect Felicia from being misled or disappointed by the false claim, so he would likely intervene to prevent her from spending money on a false promise. However, he would do so in a way that doesn't inform Felicia about the tooth fairy not being real to avoid upsetting her.
 
-Diagram (Optional): None
-
 ---
 
 Name: Higher Order False Belief
@@ -836,8 +790,6 @@ Alice, Bob, and Charlie are friends. Alice is planning a surprise party for Bob'
 Output:
 
 Bob is likely to feel deeply wounded, as he believes Alice is reprimanding Charlie for accidentally telling him about a party for Charlie - meaning that Alice wants to keep the party a secret from Bob - keep it between her and Charlie. Bob is unaware that the party is actually for him, and he interprets Alice's actions as excluding him from the planning process, and her reprimand of Charlie is interpreted as brutal mockery by Bob - who had just asked to be included in the planning process. Bob is likely to feel deeply hurt and excluded by Alice's actions.
-
-Diagram (Optional): None
 
 ---
 
@@ -882,8 +834,6 @@ The correct order is:
 3. A) Add toppings
 4. B) Cut the sandwich
 
-Diagram (Optional): None
-
 ---
 
 Name: Understanding Time-Based Relationships
@@ -925,8 +875,6 @@ The time-based relationship is:
 3. B) Housing prices decrease (longer-term consequence)
 This sequence shows a chain of events where the increase in interest rates makes mortgages more expensive, leading to fewer applications. Over time, this reduced demand can cause housing prices to decrease.
 
-Diagram (Optional): None
-
 ---
 
 Name: Estimating Duration
@@ -967,8 +915,6 @@ From shortest to longest:
 3. B) Human pregnancy (about 9 months)
 4. A) Continental drift (millions of years)
 
-Diagram (Optional): None
-
 ---
 
 Name: Identifying Anachronisms
@@ -997,8 +943,6 @@ Find the anachronism in this historical description:
 Output:
 
 The anachronism is the mention of tractors. Tractors were not invented until the late 19th/early 20th century, long after the Middle Ages (which typically refers to the 5th to 15th centuries).
-
-Diagram (Optional): None
 
 ---
 
@@ -1030,8 +974,6 @@ The flight arrives in Sydney at 5:00 PM on Wednesday. Here's the calculation:
 2. 15 hours of flight time + 19 hours of time zone difference = 34 hours.
 3. 34 hours from Monday 11:00 PM brings us to Wednesday 5:00 PM.
 Note: This calculation doesn't account for potential seasonal time changes or the exact flight path.
-
-Diagram (Optional): None
 
 ---
 
@@ -1078,7 +1020,5 @@ This timeline suggests a rapidly growing company:
 3. Just 2 years later, the company went public, indicating financial success and investor confidence.
 4. Three years post-IPO, they expanded internationally, showing continued growth and market expansion.
 Overall, this timeline depicts a successful startup that achieved significant milestones roughly every 2-3 years, culminating in international expansion within a decade of founding.
-
-Diagram (Optional): None
 
 ---
