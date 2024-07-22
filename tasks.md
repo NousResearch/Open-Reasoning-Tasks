@@ -498,3 +498,90 @@ Example(s):
 Diagram (Optional): None
 
 ---
+
+---
+
+Name: First-Order False Belief
+
+Description: This task involves identifying why a misinformed agent may behave contrary to reality due to inaccurate beliefs. It evaluates the model's theory of mind ability and understanding of false beliefs.
+
+Example(s):
+- Example 1:
+    Input: Paul and Jane are working to debug code. Paul thinks the bug is in the file *server.js*, and Jane agrees. Jane then goes out to lunch. While Jane is at lunch, Paul realizes the problem is instead in the file *tableloader.js*. He then goes on his lunch break. When Jane gets back from lunch, which file will she start debugging?
+    Output: Jane will start debugging the file *server.js*. Even though Paul discovered the bug is in *tableloader.js*, Jane is unaware of this new information. She still believes the bug is in *server.js* based on her last conversation with Paul.
+- Example 2:
+    Input: A wife tells her husband she’s going to improve the brakes of his car, but instead dismantles them. He then drives off a cliff, unable to slow down. Why would he have driven in the car if the breaks didn’t work?
+    Output: The husband drove the car because he had been told that the brakes were improved, not dismantled. He was unaware of his wife's actions and believed the brakes were functioning properly based on the information he was given.
+
+Diagram (Optional): None
+
+---
+
+---
+
+Name: First-Order Ignorance
+
+Description: This task involves identifying why an agent may lack knowledge or awareness of certain facts or events. It evaluates the model's understanding of ignorance and its impact on decision-making.
+
+Example(s):
+- Example 1:
+    Input: A cat hides behind a tree, preparing to ambush an approaching squirrel. Why isn’t the squirrel scared?
+    Output: The squirrel isn't scared because it is unaware of the cat's presence behind the tree. The squirrel lacks knowledge of the cat's intentions or actions, so it doesn't perceive any threat.
+- Example 2:
+    Input: Mary’s friends plan a surprise party for her. Why isn’t Mary excited for the party?
+    Output: Mary isn't excited for the party because she is ignorant of it, as it is a surprise. Since she doesn't know about the party, she doesn't anticipate or feel excitement for the event.
+
+Diagram (Optional): None
+
+---
+
+---
+
+Name: Critical Factor Identification in Theory of Mind
+
+Description: Understand that similar agents may act differently, or different agents may act similarly, based on a third factor. This task evaluates the model's ability to identify these critical factors influencing agents' behavior.
+
+Example(s):
+- Example 1:
+    Input: Alex is a devout Christian and Nathan is a devout Jew. They are identical in all other respects - they are identical twins who work in the same role at the same company, live in the same house, etc.. They both split a piece of meatloaf. They then check the ingredients list and see that pork is on it. Alex reacts with indifference. How does Nathan react?
+    Output: Nathan reacts with disgust. The critical factor influencing their behavior is their religious beliefs. Alex, being a Christian, may not have dietary restrictions against pork, while Nathan, being Jewish, likely follows kosher dietary laws that prohibit pork consumption.
+- Example 2:
+    Input: A pack of wolves is aggressively hunting a deer. The deer is running, terrified, and the wolves are aggressively pursuing. Suddenly, a tank bursts through the undergrowth, firing shells through the forest. The deer runs. How do the wolves react?
+    Output: The wolves run away. The critical factor influencing their behavior is the perceived threat from the tank. While the wolves were hunting the deer, the sudden appearance of a tank and the loud noises and explosions from the shells create a new immediate threat that causes the wolves to flee, just as the deer does. The shared response is driven by the external danger posed by the tank.
+
+Diagram (Optional): None
+
+---
+
+---
+
+Name: Second-Order False Belief
+
+Description: This task involves understanding that an agent may hold a false belief about another agent's belief, leading to misinterpretations of actions or intentions. It additionally involves the understanding that an agent may know the false belief of another agent is incorrect. It evaluates the model's ability to reason about higher-order beliefs and their implications.
+
+Example(s):
+- Example 1:
+    Input: Yelena tells Alice that Joseph has nice hair. Yelena then goes up to Joseph and tells him that she made him look good in front of Alice - that she highlighted his hair. Alice mishears what Yelena said as Joseph having lice in his hair - and she is disgusted by the thought of being near him. In his next interaction with Alice, is Joseph likely to start out confident about his hair?
+    Output: Joseph is likely to start out confident about his hair. He knows that Yelena told Alice that he has nice hair, and he is unaware of Alice's misinterpretation. Therefore, he would not expect Alice to be disgusted by his hair.
+- Example 2:
+    Input: Bob and Felicia are children who both believe in the tooth fairy. Bob then learns from his mother that the tooth fairy isn’t real. The next day at school, a kid claims that he can get the tooth fairy to visit you for five dollars - and Felicia is super enthusiastic to pay. Bob knows that Felicia loves the tooth fairy and cares about her feelings, but he also knows the tooth fairy isn’t real. How is he likely to act in the situation?
+    Output: Bob is likely to tell Felicia that the kid can't get the tooth fairy to visit for five dollars, without referencing the accuracy of her belief in the tooth fairy. Bob knows that Felicia believes in the tooth fairy, and he also knows that the tooth fairy isn't real. Bob would likely want to protect Felicia from being misled or disappointed by the false claim, so he would likely intervene to prevent her from spending money on a false promise. However, he would do so in a way that doesn't inform Felicia about the tooth fairy not being real to avoid upsetting her.
+
+Diagram (Optional): None
+
+---
+
+---
+
+Name: Higher Order False Belief
+
+Description: This task involves handling a complex chain of agent’s beliefs about the knowledge (and accuracy of the knowledge) of other agents - to ultimately predict the behavior of an agent. It evaluates the model's ability to reason about multiple layers of beliefs and their impact on actions.
+
+Example(s):
+- Example 1:
+    Input: Alice, Bob, and Charlie are friends. Alice is planning a surprise party for Bob's birthday (which is very close to Charlie’s). She tells Charlie about the plan, asking him to keep it a secret. Charlie agrees but accidentally adds Bob to the group chat titled ‘Party Planning’. He quickly removes him, but now assumes that the jig is up: Bob found out about the surprise party. Bob, however, assumes the party is for Charlie’s coming birthday - and is offended he was removed from the planning process. He then vents to Alice that he feels excluded from the planning of the party, and feels very upset at Charlie and wants her to talk to him. Alice does as she’s asked - she walks across the room to Charlie, and loudly reprimands him for ruining the party they were planning by telling Bob about it. She doesn’t mention the party is a surprise. Bob still thinks the party is for Charlie. How is Bob likely to feel?
+    Output: Bob is likely to feel deeply wounded, as he believes Alice is reprimanding Charlie for accidentally telling him about a party for Charlie - meaning that Alice wants to keep the party a secret from Bob - keep it between her and Charlie. Bob is unaware that the party is actually for him, and he interprets Alice's actions as excluding him from the planning process, and her reprimand of Charlie is interpreted as brutal mockery by Bob - who had just asked to be included in the planning process. Bob is likely to feel deeply hurt and excluded by Alice's actions.
+
+Diagram (Optional): None
+
+---
