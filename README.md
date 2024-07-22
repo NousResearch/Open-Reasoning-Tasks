@@ -1,5 +1,5 @@
 # Open-Reasoning-Tasks
-A comprehensive repository of reasoning tasks for LLMs (and beyond)
+![image](https://github.com/user-attachments/assets/2527a05e-afbc-4145-9daa-96f0229600f6)
 
 # LLM Reasoning Task Collection
 
