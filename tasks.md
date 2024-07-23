@@ -1152,7 +1152,7 @@ Input:
 Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
 
 Output:
-(Reasoning: The model will likely create a stack of instructions, where the first item pushed to the stack is "preheat skillet", when the first item in the stack should be "eat fried eggs", which is the final action. This requires the model to plan the list, then reverse the items, so that the first item POPPED will be the first actional item. It does help if you request the model to show the stack as it goes.)
+(Reasoning: The model will likely create a stack of instructions, where the first item pushed to the stack is "preheat skillet", when the first item pushed to the stack should be "eat fried eggs", which is the final action. This requires the model to plan the list, then reverse the items, so that the first item POPPED will be the first actional item. It does help if you request the model to show the stack as it goes.)
 
 PUSH enjoy your eggs
 PUSH place eggs on plate
