@@ -1133,4 +1133,34 @@ I'm not familiar enough with *Undertale: Yellow* to provide a list of characters
 
 ---
 
+Name: Stack-Based Reasoning
+
+Description: This task exercises the ability to prioritize tasks into a stack so that an implementing worker may pop items from the top of the stack to complete a task. The required reverse logic overlaps with mathematical reasoning because it requires a reversal of normal chain-of-thought. 
+
+- Example 1:
+
+Input:
+Which number is bigger, 0.11 or 0.2
+
+Output:
+(Reasoning: Many models see "11" as bigger than "2", when the decimal places to the right of the decimal actually get progressively smaller instead of larger.)
+0.2 is larger than 0.11
+
+- Example 2:
+
+Input:
+Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
+
+Output:
+(Reasoning: The model will likely create a stack of instructions, where the first item in the stack is "preheat skillet", when the first item in the stack should be "eat fried eggs", as the first action popped from the stack should be "preheat skillet". This requires the model to plan the list, then reverse the items. It does help if you request the model to show the stack as it goes.)
+
+PUSH enjoy your eggs
+PUSH place eggs on plate
+PUSH sprinkle salt to taste
+PUSH fry egg
+PUSH dispose of shell
+PUSH crack egg into skillet
+PUSH find egg
+PUSH oil skillet
+PUSH preheat skillet
 
