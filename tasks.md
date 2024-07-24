@@ -1134,3 +1134,336 @@ I'm not familiar enough with *Undertale: Yellow* to provide a list of characters
 ---
 
 
+Name: Bootstrap
+Description: This task involves initiating processes from minimal starting conditions, creating self-sustaining cycles or systems that can grow from small beginnings.
+Example(s):
+
+- Example 1:
+Input: How can a small startup with limited resources begin to build a customer base?
+Output: Start by offering a free version of the product to a small group of early adopters. Encourage them to provide feedback and refer others, gradually bootstrapping a larger user base.
+- Example 2:
+Input: In a new community, how can we bootstrap a neighborhood watch program with just a few interested residents?
+Output: Begin with a small core group of volunteers. Have them start patrolling their immediate area and reach out to neighbors. As awareness grows, more residents can join, expanding the program's coverage.
+Diagram (Optional): [A circular arrow surrounding a central point]
+
+---
+
+Name: Source
+Description: This task involves identifying and utilizing primary origins of information, ideas, or resources, and distributing them outward.
+Example(s):
+
+- Example 1:
+Input: How can a teacher effectively introduce a new scientific concept to students?
+Output: Start by clearly explaining the core principle. Then, demonstrate how this central idea branches out into various applications and related concepts, allowing students to see how the source concept influences multiple areas of study.
+- Example 2:
+Input: In content marketing, how can a company leverage a key piece of research?
+Output: Use the research as the source material to create multiple content pieces such as blog posts, infographics, videos, and social media posts, each highlighting different aspects of the findings and targeting various audience segments.
+Diagram (Optional): [A central circle with multiple arrows radiating outward]
+
+---
+Name: Spreading
+Description: This task focuses on disseminating ideas or information across a wide area, emphasizing methods of distribution and expansion.
+Example(s):
+
+- Example 1:
+Input: How can a public health campaign effectively spread awareness about a new vaccination program?
+Output: Utilize multiple channels such as social media, local news, community centers, and healthcare providers. Create shareable content and encourage community leaders to amplify the message, allowing information to spread widely and reach diverse populations.
+- Example 2:
+Input: How can a new restaurant spread word-of-mouth recommendations in its local area?
+Output: Start by offering exceptional service and food to initial customers. Encourage them to share their experiences on social media and review sites. Participate in local events and offer samples. As positive reviews spread, more people will be drawn to try the restaurant.
+Diagram (Optional): [A semicircle with smaller elements dispersing along its curve]
+
+---
+
+Name: Attraction
+Description: This task involves drawing elements towards a central focus, creating gravitational pulls in concepts or systems.
+Example(s):
+
+- Example 1:
+Input: How can a city center attract more visitors and businesses?
+Output: Develop a mix of amenities such as shops, restaurants, cultural venues, and green spaces. Host regular events and improve transportation links. These elements will act as attractors, drawing people and businesses to the city center.
+- Example 2:
+Input: In a business context, how can a company attract top talent?
+Output: Create a strong employer brand highlighting unique benefits, growth opportunities, and company culture. Offer competitive salaries and engaging work. Use these factors to attract skilled professionals from various sources.
+Diagram (Optional): [A central point with multiple arrows pointing inward]
+
+---
+
+Name: Involving
+Description: This task focuses on incorporating multiple elements into a larger system, integrating diverse components.
+Example(s):
+
+- Example 1:
+Input: How can a project manager involve various stakeholders in a new initiative?
+Output: Create a stakeholder engagement plan that identifies all relevant parties. Set up regular meetings, feedback channels, and collaborative platforms. Assign specific roles or contributions to each stakeholder, ensuring they feel involved and valued in the project's development.
+- Example 2:
+Input: In product development, how can user feedback be involved throughout the process?
+Output: Implement a system of continuous user testing and feedback loops. Involve users in early prototyping, beta testing, and post-launch improvements. Regularly survey users and include their suggestions in product roadmaps, making them an integral part of the development cycle.
+Diagram (Optional): [A large circle with smaller circles revolving around it]
+
+---
+
+Name: Togetherness
+Description: This task emphasizes unity and close relationships between elements, focusing on creating and maintaining connections.
+Example(s):
+
+- Example 1:
+Input: How can a remote team foster a sense of togetherness?
+Output: Schedule regular virtual team-building activities, create channels for casual conversation, and encourage collaboration on projects. Use video calls for meetings to maintain face-to-face interaction, and celebrate team achievements together to reinforce a sense of unity despite physical distance.
+- Example 2:
+Input: In a community garden project, how can we promote togetherness among participants?
+Output: Organize communal planting and harvesting days, set up a shared tool shed, and create a rotation system for maintenance tasks. Host regular potlucks using garden produce, encouraging participants to work together and share the fruits of their collective labor.
+Diagram (Optional): [Three circles in close proximity]
+
+---
+
+Name: Selection
+Description: This task involves choosing optimal elements from a set of options, focusing on criteria for making informed choices.
+Example(s):
+
+- Example 1:
+Input: How can a hiring manager effectively select the best candidate from a pool of applicants?
+Output: Develop a clear set of criteria based on the job requirements. Use a combination of resume screening, structured interviews, and skills assessments. Compare candidates objectively against these criteria, selecting the one who best meets the role's needs.
+- Example 2:
+Input: In a product development process, how can we select the most promising features to implement?
+Output: Gather data on user needs and preferences. Evaluate each potential feature based on factors like user impact, development cost, and alignment with product strategy. Use a prioritization matrix to objectively compare and select the features that offer the best value.
+Diagram (Optional): [A circle with several smaller circles, one highlighted]
+
+--- 
+
+Name: Simplification
+Description: This task involves reducing complexity to core essentials, distilling ideas to their fundamental components.
+Example(s):
+
+- Example 1:
+Input: How can we simplify a complex software user interface for better user experience?
+Output: Identify the most frequently used features. Streamline the interface by prominently displaying these core functions and hiding less common options in submenus. Use clear, intuitive icons and minimize text where possible.
+- Example 2:
+Input: How can a teacher simplify a complex scientific concept for young students?
+Output: Break down the concept into its most basic elements. Use analogies or real-world examples that students can relate to. Create visual aids that illustrate the core idea without extraneous details.
+Diagram (Optional): [A large circle with smaller, streamlined elements]
+
+--- 
+Name: Consistency
+Description: This task focuses on maintaining uniformity and coherence across elements, seeking patterns and regularities.
+Example(s):
+
+- Example 1:
+Input: How can a brand maintain consistency across its various marketing materials?
+Output: Develop a comprehensive brand guide that outlines consistent use of logos, colors, fonts, and tone of voice. Ensure all team members have access to this guide and implement regular checks to verify that all materials adhere to these standards.
+- Example 2:
+Input: In software development, how can we ensure consistency in code across a large project?
+Output: Establish clear coding standards and style guides. Implement automated code review tools that check for consistency. Conduct regular team code reviews to ensure adherence to agreed-upon practices and maintain a consistent approach throughout the project.
+Diagram (Optional): [A circle with an arrow passing through it]
+
+--- 
+Name: Looseness
+Description: This task embraces flexibility and non-rigid structures, looking for adaptable arrangements and fluid connections.
+Example(s):
+
+- Example 1:
+Input: How can a company implement a loose organizational structure to foster innovation?
+Output: Adopt a flat hierarchy with fewer management layers. Encourage cross-functional teams and allow employees to move between projects based on interest and skills. Implement flexible working hours and spaces to promote creativity and spontaneous collaboration.
+- Example 2:
+Input: In urban planning, how can we design loose spaces that adapt to community needs?
+Output: Create multi-purpose public spaces with movable furniture and adaptable layouts. Allow for temporary installations and community-led projects. Design parks and plazas that can easily transform to host various events, from markets to performances.
+Diagram (Optional): [A cluster of scattered dots]
+
+--- 
+Name: Flexibility
+Description: This task involves adapting to changing conditions and requirements, seeking ways to bend without breaking.
+Example(s):
+
+- Example 1:
+Input: How can a small business demonstrate flexibility in response to changing market conditions?
+Output: Regularly monitor market trends and customer feedback. Be prepared to pivot product offerings or services quickly. Maintain a diverse skill set among employees and foster a culture that embraces change and continuous learning.
+- Example 2:
+Input: In education, how can teachers incorporate flexibility into their teaching methods?
+Output: Develop multiple approaches to teaching the same concept to cater to different learning styles. Use a mix of individual, group, and project-based learning. Be ready to adjust lesson plans based on student progress and engagement, allowing for spontaneous exploration of topics that capture students' interest.
+Diagram (Optional): [A wavy, organic shape]
+
+
+--- 
+
+Name: Abundance
+Description: This task focuses on plentiful resources and opportunities, looking for ways to generate or identify surplus.
+Example(s):
+
+- Example 1:
+Input: How can a community garden create an abundance of produce for its members?
+Output: Implement companion planting and vertical gardening techniques to maximize space. Use succession planting to ensure continuous harvests. Encourage members to grow a diverse range of crops and set up a system for sharing surplus produce among the community.
+- Example 2:
+Input: In a brainstorming session, how can we generate an abundance of ideas?
+Output: Use techniques like mind mapping and free association to encourage uninhibited idea generation. Set ambitious idea quotas to push beyond obvious solutions. Create a judgment-free environment where all ideas, no matter how unconventional, are welcomed and recorded.
+Diagram (Optional): [A central circle surrounded by numerous smaller circles]
+
+--- 
+
+Name: Building Up
+Description: This task involves constructing complex structures from simpler components, creating hierarchies or layered systems.
+Example(s):
+
+- Example 1:
+Input: How can a software development team build up a complex application?
+Output: Start with a basic functional core. Incrementally add features, testing each addition thoroughly. Build layers of abstraction, from low-level data management to high-level user interfaces, ensuring each layer integrates smoothly with others.
+- Example 2:
+Input: In education, how can we build up a student's understanding of a complex topic?
+Output: Begin with foundational concepts. Gradually introduce more advanced ideas, building on previously learned material. Use scaffolding techniques to support learning at each stage, slowly removing support as the student's comprehension builds up.
+Diagram (Optional): [Stacked elements with an upward arrow]
+
+--- 
+
+Name: Organic Growth
+Description: This task focuses on natural, gradual expansion, seeking patterns of sustainable development over time.
+Example(s):
+
+- Example 1:
+Input: How can a small business achieve organic growth?
+Output: Focus on core products or services and gradually expand based on customer demand. Reinvest profits into the business, slowly adding new offerings or expanding to new markets. Build strong customer relationships to encourage word-of-mouth referrals and repeat business.
+- Example 2:
+Input: In community organizing, how can we foster organic growth of a grassroots movement?
+Output: Start with a small, committed group. Encourage members to share the message with their networks. Organize small, local events that can grow naturally. Allow leadership and initiatives to emerge from within the community, adapting to local needs and interests.
+Diagram (Optional): [Concentric semicircles expanding outward]
+
+--- 
+
+Name: Reflecting
+Description: This task involves analyzing similarities and differences between related concepts, looking for symmetries and parallels.
+Example(s):
+
+- Example 1:
+Input: How can we use reflecting to improve team dynamics?
+Output: Conduct regular retrospectives where team members reflect on their processes and outcomes. Encourage individuals to consider how their actions mirror or contrast with team goals. Use these reflections to identify patterns and make improvements.
+- Example 2:
+Input: In literature analysis, how can we apply reflecting to compare two novels?
+Output: Identify key themes, characters, and plot structures in both works. Reflect on how each author approaches similar concepts differently. Look for mirroring elements that provide contrast or reinforcement between the two narratives.
+Diagram (Optional): [Nested circular shapes suggesting a mirror image]
+
+--- 
+
+Name: Accompany
+Description: This task focuses on partnerships and supportive relationships, seeking ways to create synergies between elements.
+Example(s):
+
+- Example 1:
+Input: How can a mentor effectively accompany a mentee in their professional development?
+Output: Regularly meet with the mentee to understand their goals and challenges. Offer guidance and support that complements the mentee's efforts. Be present at key moments (like presentations or important meetings) to provide moral support and feedback.
+- Example 2:
+Input: In music, how does an accompaniment enhance a solo performance?
+Output: The accompaniment provides harmonic and rhythmic support that complements the solo melody. It fills in the sonic landscape without overpowering the main performance, enhancing the overall musical experience through contrast and harmony.
+Diagram (Optional): [Two circles side by side]
+
+--- 
+
+Name: Enhancement
+Description: This task involves looking for ways to improve or amplify existing elements, focusing on upgrades and optimizations.
+Example(s):
+
+- Example 1:
+Input: How can we enhance the user experience of a mobile app?
+Output: Analyze user feedback and usage data to identify pain points. Implement UI/UX improvements like streamlined navigation or personalized features. Optimize performance for faster load times and smoother interactions.
+- Example 2:
+Input: In agriculture, how can we enhance crop yield sustainably?
+Output: Implement precision farming techniques using sensors and data analytics. Enhance soil quality through targeted nutrient management. Introduce companion planting to naturally boost plant health and productivity.
+Diagram (Optional): [Two circles with arrows suggesting mutual reinforcement]
+
+--- 
+
+Name: Empathy
+Description: This task emphasizes understanding and sharing the feelings of others, looking for emotional connections and shared experiences.
+Example(s):
+
+- Example 1:
+Input: How can a customer service representative use empathy to handle a complaint?
+Output: Actively listen to the customer's concerns without interrupting. Acknowledge their feelings and frustrations. Use phrases like "I understand how you feel" and share a similar experience if appropriate. Work together to find a solution that addresses their emotional as well as practical needs.
+- Example 2:
+Input: In product design, how can empathy be used to create more inclusive solutions?
+Output: Conduct user research with diverse groups, including those with different abilities or backgrounds. Use techniques like shadowing or immersive experiences to understand users' challenges firsthand. Apply these insights to create designs that address a wide range of user needs and experiences.
+Diagram (Optional): [Two overlapping ovals with shading]
+
+---
+Name: Endeavor
+Description: This task emphasizes effort and journey towards goals, focusing on processes and persistent action.
+Example(s):
+
+- Example 1:
+Input: How can a student endeavor to master a difficult subject?
+Output: Set clear, achievable milestones. Develop a consistent study schedule, gradually increasing complexity. Seek help when needed, and persist through challenges. Regularly review progress and adjust strategies as necessary.
+- Example 2:
+Input: In scientific research, how does one endeavor to make a breakthrough?
+Output: Start with a well-defined research question. Conduct thorough literature reviews, design meticulous experiments, and analyze data rigorously. Be prepared for setbacks, iterate on methods, and collaborate with peers. Maintain focus on the long-term goal despite short-term obstacles.
+Diagram (Optional): [An elongated oval with a smaller circle moving along it]
+
+--- 
+
+Name: Connecting
+Description: This task involves establishing links between distinct elements, seeking relationships and bridges between concepts.
+Example(s):
+
+- Example 1:
+Input: How can a teacher connect different subjects to enhance student learning?
+Output: Identify common themes or skills across subjects. Create interdisciplinary projects that require applying knowledge from multiple areas. Use analogies to show how concepts in one field relate to another, helping students build a more interconnected understanding.
+- Example 2:
+Input: In business networking, how can one effectively connect with new contacts?
+Output: Find common interests or goals. Listen actively and look for opportunities to offer value or assistance. Follow up consistently and nurture relationships over time. Use social media and professional platforms to maintain and expand connections.
+Diagram (Optional): [Three circles linked by lines]
+
+--- 
+Name: Positioning
+Description: This task focuses on strategic placement within a context, looking for optimal arrangements and relative advantages.
+Example(s):
+
+- Example 1:
+Input: How can a retail store position itself to attract more customers?
+Output: Analyze the local market and identify underserved niches. Develop a unique selling proposition that differentiates the store from competitors. Choose a location with high foot traffic and visibility. Align product offerings and marketing messages to appeal to the target demographic.
+- Example 2:
+Input: In a debate, how can a speaker effectively position their argument?
+Output: Anticipate counterarguments and address them proactively. Use strong opening and closing statements to frame the discussion. Position key points strategically throughout the speech, reinforcing them with evidence and examples. Adjust tone and language to resonate with the specific audience.
+Diagram (Optional): [A circle with an arrow indicating a specific location]
+
+--- 
+
+Name: Differentiating
+Description: This task involves identifying unique qualities and distinctions, seeking ways to highlight contrasts and individual characteristics.
+Example(s):
+
+- Example 1:
+Input: How can a job applicant differentiate themselves in a competitive market?
+Output: Identify and emphasize unique skills or experiences. Develop a personal brand that highlights individual strengths. Create a distinctive portfolio or resume format. Prepare specific examples that demonstrate unique problem-solving approaches or achievements.
+- Example 2:
+Input: In product development, how can a company differentiate its offering in a saturated market?
+Output: Conduct thorough market research to identify gaps or unmet needs. Develop innovative features or design elements that set the product apart. Create a unique brand story or user experience. Focus on a specific niche or user group that competitors have overlooked.
+Diagram (Optional): [Two partially overlapping circles with distinct areas]
+
+--- 
+Name: Overlapping
+Description: This task focuses on areas of commonality between distinct elements, looking for shared traits or synergies.
+Example(s):
+
+- Example 1:
+Input: How can two departments in a company find overlapping areas for collaboration?
+Output: Identify common goals or challenges. Look for projects that could benefit from combined expertise. Create cross-functional teams to work on shared initiatives. Develop processes that leverage the strengths of both departments to achieve better outcomes.
+- Example 2:
+Input: In academic research, how can we find overlapping areas between different disciplines?
+Output: Organize interdisciplinary workshops or conferences. Encourage researchers to explore literature from adjacent fields. Look for common methodologies or theoretical frameworks that can be applied across disciplines. Develop joint research projects that address complex problems requiring diverse expertise.
+Diagram (Optional): [Two circles with a shaded area of intersection]
+
+--- 
+
+Name: Continuous Relation
+Description: This task emphasizes ongoing connections and cyclical processes, seeking perpetual interactions and feedback loops.
+Example(s):
+
+- Example 1:
+Input: How can a company maintain a continuous relation with its customers?
+Output: Implement a robust customer relationship management (CRM) system. Regularly engage customers through personalized communications, surveys, and loyalty programs. Provide ongoing support and value-added services. Use feedback to continuously improve products and services, creating a cycle of engagement and improvement.
+- Example 2:
+Input: In ecosystem management, how can we ensure continuous relations between different species?
+Output: Monitor interactions between species over time. Maintain habitat connectivity to allow for natural movement and interactions. Implement conservation strategies that consider the entire food web and nutrient cycles. Regularly assess and adjust management practices based on observed changes in species relationships.
+Diagram (Optional): [An infinity symbol-like shape]
+
+
+---
+
+Sources: 
+https://x.com/IntuitMachine/status/1814264457255608693/photo/1 
