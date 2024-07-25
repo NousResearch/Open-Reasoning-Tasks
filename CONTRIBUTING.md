@@ -74,24 +74,28 @@ Yes
 
 ---
 
+
 ## Diagram (Optional): 
 
 {image here} 
-
 
 
 ## Citations:
 - Citation 1
 - Citation 2
 
+
 ## Tags:
 - Tag 1
 - Tag 2
 - ...
 
+---
+
+
 
 ### Example Entry
-```
+
 # Reasoning Task 
 
 ## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
@@ -130,6 +134,8 @@ Yes
 ```  
 
 ---
+
+
 
 ## Guidelines
 
