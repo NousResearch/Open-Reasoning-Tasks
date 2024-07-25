@@ -35,12 +35,14 @@ Thank you for your interest in contributing to the **LLM Reasoning Task Collecti
 
 Please follow the task schema below when adding a new task:
 
-# Reasoning Task 
+---
 
-## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
+# Reasoning Task Name
+
+## Description: {Text description of the task}
 
 
-## Modality: {whether it is text only, image+text-> text, etc}
+## Modality: {Whether it is text only, image+text-> text, etc}
 
 
 ## Examples:
@@ -95,6 +97,8 @@ Yes
 
 
 ### Example Entry
+
+---
 
 # Reasoning Task 
 

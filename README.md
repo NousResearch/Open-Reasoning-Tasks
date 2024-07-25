@@ -37,6 +37,8 @@ The goal of this repository is to gather a diverse set of reasoning tasks design
 
 ## Schema
 
+--- 
+
 # Reasoning Task 
 
 ## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
@@ -96,6 +98,8 @@ Yes
 
 
 ### Example Entry
+
+---
 
 # Reasoning Task 
 
