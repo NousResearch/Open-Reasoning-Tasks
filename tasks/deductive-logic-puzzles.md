@@ -1,9 +1,12 @@
-Name: Deductive Logic Puzzles
+# Deductive Logic Puzzles
 
-Description: This task involves solving deductive logic puzzles to evaluate the model's ability to use given information, make logical inferences, and arrive at a correct conclusion.
+## Description: This task involves solving deductive logic puzzles to evaluate the model's ability to use given information, make logical inferences, and arrive at a correct conclusion.
 
-Example(s):
-- Example 1:
+## Modality: Text only
+
+## Examples:
+
+### Example 1:
 
 Input:
 
@@ -18,7 +21,9 @@ The French person owns the snail.
 Explanation: This is a complex puzzle that requires multiple steps of deduction. The full solution involves creating a grid and eliminating possibilities based on the given clues.
 ```
 
-- Example 2:
+---
+
+### Example 2:
 
 Input:
 
