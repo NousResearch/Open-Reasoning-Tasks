@@ -150,6 +150,7 @@ Output:
 Explanation: XOR (exclusive or) is true when P and Q have different truth values, and false when they have the same truth value.
 
 ---
+
 Name: Identifying Logical Fallacies
 
 Description: This task involves identifying and explaining common logical fallacies in given arguments or statements to evaluate the model's ability to recognize flawed reasoning.

@@ -1,0 +1,46 @@
+# Critical Factor Identification in Theory of Mind
+
+## Description:
+Understand that similar agents may act differently, or different agents may act similarly, based on a third factor. This task evaluates the model's ability to identify these critical factors influencing agents' behavior.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+Alex is a devout Christian and Nathan is a devout Jew. They are identical in all other respects - they are identical twins who work in the same role at the same company, live in the same house, etc.. They both split a piece of meatloaf. They then check the ingredients list and see that pork is on it. Alex reacts with indifference. How does Nathan react?
+```
+
+Output:
+
+```
+Nathan reacts with disgust. The critical factor influencing their behavior is their religious beliefs. Alex, being a Christian, may not have dietary restrictions against pork, while Nathan, being Jewish, likely follows kosher dietary laws that prohibit pork consumption.
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+A pack of wolves is aggressively hunting a deer. The deer is running, terrified, and the wolves are aggressively pursuing. Suddenly, a tank bursts through the undergrowth, firing shells through the forest. The deer runs. How do the wolves react?
+```
+
+Output:
+
+```
+The wolves run away. The critical factor influencing their behavior is the perceived threat from the tank. While the wolves were hunting the deer, the sudden appearance of a tank and the loud noises and explosions from the shells create a new immediate threat that causes the wolves to flee, just as the deer does. The shared response is driven by the external danger posed by the tank.
+```
+
+## Tags:
+- Theory of Mind
+- Behavioral Analysis
+- Critical Thinking
+- Comparative Psychology
+- Social Cognition
