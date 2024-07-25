@@ -88,7 +88,7 @@ Yes
 - Tag 1
 - Tag 2
 - ...
-```
+
 
 ### Example Entry
 ```
