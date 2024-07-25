@@ -36,38 +36,101 @@ Thank you for your interest in contributing to the **LLM Reasoning Task Collecti
 Please follow the task schema below when adding a new task:
 
 ```
-Name: {Task Name, String}
+# Reasoning Task 
 
-Description: {Details of what the task is, String}
+## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
 
-Example(s) {list of example inputs and outputs for the task, String}:
 
-- Example 1:
-    input and output
+## Modality: {whether it is text only, image+text-> text, etc}
 
-- Example 2:
-   input and output
 
-Diagram (Optional) {image of a diagram/workflow of how the task would work, Image}
+## Examples:
+
+### Example 1:
+
+Input:
+```
+Karen is 25. The age to vote is 18. Can Karen vote?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
+
+### Example 2:
+
+
+Input:
+```
+Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
+
+## Diagram (Optional): 
+
+{image here} 
+
+
+
+## Citations:
+- Citation 1
+- Citation 2
+
+## Tags:
+- Tag 1
+- Tag 2
+- ...
 ```
 
 ### Example Entry
 ```
-Name: Syllogism Reasoning
+# Reasoning Task 
 
-Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
+## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
 
-Example(s):
-- Example 1:
-    Input: All men are mortal. Socrates is a man. What can we conclude?
-    Output: Socrates is mortal.
 
-- Example 2:
-    Input: All fruits have seeds. An apple is a fruit. What can we conclude?
-    Output: An apple has seeds.
+## Modality: Text
 
-Diagram (Optional): None
+
+## Examples:
+
+### Example 1:
+
+Input:
 ```
+Karen is 25. The age to vote is 18. Can Karen vote?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
+
+### Example 2:
+
+
+Input:
+```
+Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
 
 ## Guidelines
 
