@@ -12,8 +12,8 @@ Welcome to the **LLM Reasoning Task Collection** repository! This project is an 
   - [Contents](#contents)
   - [Introduction](#introduction)
   - [Schema](#schema)
-- [Reasoning Task](#reasoning-task)
-  - [Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.](#description-this-task-involves-providing-a-series-of-syllogisms-to-the-model-to-evaluate-its-logical-reasoning-capabilities)
+- [Reasoning Task Name](#reasoning-task-name)
+  - [Description: {Text description of the task}](#description-text-description-of-the-task)
   - [Modality: {whether it is text only, image+text-\> text, etc}](#modality-whether-it-is-text-only-imagetext--text-etc)
   - [Examples:](#examples)
     - [Example 1:](#example-1)
@@ -22,8 +22,8 @@ Welcome to the **LLM Reasoning Task Collection** repository! This project is an 
   - [Citations:](#citations)
   - [Tags:](#tags)
     - [Example Entry](#example-entry)
-- [Reasoning Task](#reasoning-task-1)
-  - [Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.](#description-this-task-involves-providing-a-series-of-syllogisms-to-the-model-to-evaluate-its-logical-reasoning-capabilities-1)
+- [Reasoning Task](#reasoning-task)
+  - [Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.](#description-this-task-involves-providing-a-series-of-syllogisms-to-the-model-to-evaluate-its-logical-reasoning-capabilities)
   - [Modality: Text](#modality-text)
   - [Examples:](#examples-1)
     - [Example 1:](#example-1-1)
@@ -39,9 +39,9 @@ The goal of this repository is to gather a diverse set of reasoning tasks design
 
 --- 
 
-# Reasoning Task 
+# Reasoning Task Name
 
-## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
+## Description: {Text description of the task} 
 
 
 ## Modality: {whether it is text only, image+text-> text, etc}
