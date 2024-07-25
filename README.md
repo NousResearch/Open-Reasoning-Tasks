@@ -7,10 +7,29 @@ Welcome to the **LLM Reasoning Task Collection** repository! This project is an 
 
 ## Contents
 
-- [Introduction](#introduction)
-- [Schema](#schema)
-- [Contributing](#contributing)
-- [License](#license)
+- [Open-Reasoning-Tasks](#open-reasoning-tasks)
+- [LLM Reasoning Task Collection](#llm-reasoning-task-collection)
+  - [Contents](#contents)
+  - [Introduction](#introduction)
+  - [Schema](#schema)
+- [Reasoning Task](#reasoning-task)
+  - [Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.](#description-this-task-involves-providing-a-series-of-syllogisms-to-the-model-to-evaluate-its-logical-reasoning-capabilities)
+  - [Modality: {whether it is text only, image+text-\> text, etc}](#modality-whether-it-is-text-only-imagetext--text-etc)
+  - [Examples:](#examples)
+    - [Example 1:](#example-1)
+    - [Example 2:](#example-2)
+  - [Diagram (Optional):](#diagram-optional)
+  - [Citations:](#citations)
+  - [Tags:](#tags)
+    - [Example Entry](#example-entry)
+- [Reasoning Task](#reasoning-task-1)
+  - [Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.](#description-this-task-involves-providing-a-series-of-syllogisms-to-the-model-to-evaluate-its-logical-reasoning-capabilities-1)
+  - [Modality: Text](#modality-text)
+  - [Examples:](#examples-1)
+    - [Example 1:](#example-1-1)
+    - [Example 2:](#example-2-1)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
@@ -18,41 +37,104 @@ The goal of this repository is to gather a diverse set of reasoning tasks design
 
 ## Schema
 
-When submitting a task, please adhere to the following schema:
+# Reasoning Task 
 
+## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
+
+
+## Modality: {whether it is text only, image+text-> text, etc}
+
+
+## Examples:
+
+### Example 1:
+
+Input:
 ```
-Name: {Task Name, String}
+Karen is 25. The age to vote is 18. Can Karen vote?
+```  
 
-Description: {Details of what the task is, String}
-
-Example(s) {list of example inputs and outputs for the task, String}:
-- Example 1:
-   input and output
-
-- Example 2:
-   input and output
-
-Diagram (Optional) {image of a diagram/workflow of how the task would work, Image}`
+Output:
 ```
+Yes
+```  
+
+---
+
+### Example 2:
+
+
+Input:
+```
+Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
+
+
+## Diagram (Optional): 
+
+{image here} 
+
+
+## Citations:
+- Citation 1
+- Citation 2
+
+
+## Tags:
+- Tag 1
+- Tag 2
+- ...
+
+---
+
 
 ### Example Entry
 
+# Reasoning Task 
+
+## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
+
+
+## Modality: Text
+
+
+## Examples:
+
+### Example 1:
+
+Input:
 ```
-Name: Syllogism Reasoning
+Karen is 25. The age to vote is 18. Can Karen vote?
+```  
 
-Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
-
-Example(s):
-- Example 1:
-    Input: All men are mortal. Socrates is a man. What can we conclude?
-    Output: Socrates is mortal.
-
-- Example 2:
-    Input: All fruits have seeds. An apple is a fruit. What can we conclude?
-    Output: An apple has seeds.
-
-Diagram (Optional): None
+Output:
 ```
+Yes
+```  
+
+---
+
+### Example 2:
+
+
+Input:
+```
+Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
+```  
+
+Output:
+```
+Yes
+```  
+
+---
 
 ## Contributing
 
