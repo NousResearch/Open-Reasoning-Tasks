@@ -1,8 +1,10 @@
 # Lateral Thinking Puzzles
 
-## Description: This task involves solving lateral thinking puzzles to evaluate the model's ability to think creatively, consider unconventional scenarios, and ask relevant questions to reach the correct solution.
+## Description: 
+This task involves solving lateral thinking puzzles to evaluate the model's ability to think creatively, consider unconventional scenarios, and ask relevant questions to reach the correct solution.
 
-## Modality: Text only
+## Modality: 
+Text only
 
 ## Examples:
 

@@ -1,8 +1,10 @@
 # Syllogism Reasoning
 
-## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
+## Description: 
+This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.
 
-## Modality: Text only
+## Modality: 
+Text only
 
 ## Examples:
 

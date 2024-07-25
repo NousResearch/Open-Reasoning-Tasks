@@ -1,8 +1,10 @@
 # Deductive Logic Puzzles
 
-## Description: This task involves solving deductive logic puzzles to evaluate the model's ability to use given information, make logical inferences, and arrive at a correct conclusion.
+## Description: 
+This task involves solving deductive logic puzzles to evaluate the model's ability to use given information, make logical inferences, and arrive at a correct conclusion.
 
-## Modality: Text only
+## Modality: 
+Text only
 
 ## Examples:
 
