@@ -1,0 +1,74 @@
+# Trait Attribution in Behavioral Scenarios
+
+## Description:
+This task involves analyzing described behaviors or actions and inferring personality traits or characteristics that might explain those behaviors. It evaluates the model's ability to understand human psychology, make reasonable inferences about personality based on limited information, and consider alternative explanations for behavior.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+Sarah always arrives 15 minutes early to every meeting and appointment. What personality traits might this behavior suggest?
+```
+
+Output:
+
+```
+This behavior might suggest the following traits:
+
+1. Conscientiousness: Sarah's consistent early arrival indicates a high level of responsibility and reliability.
+
+2. Time management skills: Her ability to consistently arrive early suggests good planning and organizational skills.
+
+3. Respect for others: Arriving early shows consideration for other people's time.
+
+4. Anxiety or fear of being late: In some cases, always being early might indicate an underlying anxiety about potentially being late.
+
+5. Perfectionism: This behavior could be part of a broader pattern of striving for flawlessness in all aspects of life.
+
+It's important to note that while these traits are possible explanations, a single behavior alone is not definitive proof of any particular trait. Context and other behaviors would provide a more complete picture of Sarah's personality.
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+During a group project, Alex takes charge of assigning tasks and setting deadlines without consulting the team. What personality traits might this behavior indicate?
+```
+
+Output:
+
+```
+This behavior might suggest the following traits:
+
+1. Leadership: Alex's initiative in organizing the project could indicate natural leadership tendencies.
+
+2. Assertiveness: Taking charge without consultation shows a willingness to assert oneself in group situations.
+
+3. Efficiency-oriented: Alex might prioritize getting things done quickly over group consensus.
+
+4. Controlling tendencies: This behavior could suggest a need for control or difficulty trusting others with important decisions.
+
+5. Confidence: Alex seems sure of their ability to manage the project effectively.
+
+6. Poor teamwork skills: The lack of consultation might indicate difficulty in collaborative settings or valuing individual work over teamwork.
+
+7. Task-oriented: Alex appears to focus more on the work to be done than on interpersonal dynamics.
+
+It's crucial to remember that these are potential interpretations based on limited information. Alex's behavior could be influenced by various factors, including past experiences, the specific project context, or misunderstanding of group dynamics. A more comprehensive assessment would require observing Alex in multiple situations and considering team members' perspectives.
+```
+
+## Tags:
+- Psychology
+- Personality Assessment
+- Behavioral Analysis
+- Social Cognition
+- Character Inference

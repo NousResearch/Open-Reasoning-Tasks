@@ -5,6 +5,10 @@
 
 Welcome to the **LLM Reasoning Task Collection** repository! This project is an open collaboration to create a comprehensive master list of reasoning tasks that can teach, elicit, or show reasoning samples to large language models (LLMs) for training purposes.
 
+# Synthetic Reasoning Tasks
+
+These tasks, contained in the `synthetic-tasks` folder, are identical in all respects to the standard reasoning tasks, except that they are generated synthetically using a consensus-based method with multiple LLMs. A single source model generates a task with examples, and if those examples are solvable by multiple different LLMs, the task is considered valid. This generally selects for correct solutions, but does impair the ability to generate tasks that are difficult for LLMs to solve. Therefore, the majority of synthetic tasks are quite easy. 
+
 ## Contents
 
 - [Open-Reasoning-Tasks](#open-reasoning-tasks)
