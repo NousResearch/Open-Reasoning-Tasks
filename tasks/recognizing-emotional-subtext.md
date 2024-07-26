@@ -58,3 +58,4 @@ The carefully worded response indicates that the employee is trying to balance e
 - Subtext Interpretation
 - Social Cognition
 - Language Nuance
+- Synthetic

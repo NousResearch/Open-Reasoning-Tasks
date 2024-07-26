@@ -72,3 +72,4 @@ This analysis demonstrates how a technological innovation can have profound and 
 - Cause and Effect
 - Hypothetical Scenarios
 - Complex Systems
+- Synthetic

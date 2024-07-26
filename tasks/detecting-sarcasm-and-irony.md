@@ -46,3 +46,4 @@ This scenario contains irony. The student's statement is sarcastic because they 
 - Figurative Language
 - Social Intelligence
 - Linguistic Nuance
+- Synthetic

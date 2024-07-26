@@ -78,3 +78,4 @@ This sentence structure allows for a rich, layered description of the scene, com
 - Linguistic Complexity
 - Sentence Structure
 - Clause Identification
+- Synthetic

@@ -86,3 +86,4 @@ This resolution aims to respect the village's needs and cultural heritage while 
 - Cultural Sensitivity
 - Environmental Ethics
 - Moral Philosophy
+- Synthetic

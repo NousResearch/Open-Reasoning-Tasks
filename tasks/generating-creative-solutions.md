@@ -81,3 +81,4 @@ This solution combines the traditional joy of reading with modern technology and
 - Lateral Thinking
 - Idea Generation
 - Unconventional Approaches
+- Synthetic

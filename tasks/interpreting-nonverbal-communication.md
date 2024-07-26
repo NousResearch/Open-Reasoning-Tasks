@@ -66,3 +66,4 @@ Again, it's crucial to consider these cues in context. Cultural differences, per
 - Communication Skills
 - Emotional Intelligence
 - Behavioral Analysis
+- Synthetic

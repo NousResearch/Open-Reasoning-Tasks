@@ -95,3 +95,4 @@ Strategy:
 - Resource Allocation
 - Goal Setting
 - Trade-off Analysis
+- Synthetic

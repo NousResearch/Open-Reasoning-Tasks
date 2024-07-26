@@ -57,3 +57,4 @@ The ambiguity stems from whether "in her garage" refers to where she found the s
 - Context Consideration
 - Linguistic Ambiguity
 - Critical Thinking
+- Synthetic

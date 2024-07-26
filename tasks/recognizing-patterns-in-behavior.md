@@ -65,3 +65,4 @@ These patterns suggest that the website caters to a professional audience who pr
 - Data Interpretation
 - Predictive Reasoning
 - Consumer Behavior
+- Synthetic

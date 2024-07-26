@@ -82,3 +82,4 @@ The actual motivation could be a combination of these factors or something entir
 - Social Dynamics
 - Critical Thinking
 - Empathy
+- Synthetic

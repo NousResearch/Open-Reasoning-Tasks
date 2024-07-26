@@ -79,3 +79,4 @@ This deduction allows us to understand the meaning of each word and the basic st
 - Inductive Reasoning
 - Linguistic Analysis
 - Mathematical Thinking
+- Synthetic

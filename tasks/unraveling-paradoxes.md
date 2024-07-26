@@ -68,3 +68,4 @@ This paradox is often used in discussions about personal identity, organizationa
 - Philosophy
 - Conceptual Analysis
 - Problem Solving
+- Synthetic

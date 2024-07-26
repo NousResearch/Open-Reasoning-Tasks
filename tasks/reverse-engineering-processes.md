@@ -75,3 +75,4 @@ Note: The exact process may vary depending on the specific tools and strategies 
 - Logical Reasoning
 - Systems Thinking
 - Problem Solving
+- Synthetic

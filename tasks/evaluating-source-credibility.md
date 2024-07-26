@@ -62,3 +62,4 @@ Conclusion: While the peer-review process lends some credibility, the potential 
 - Source Evaluation
 - Research Skills
 - Media Literacy
+- Synthetic

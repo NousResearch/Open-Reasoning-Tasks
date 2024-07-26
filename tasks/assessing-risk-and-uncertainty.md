@@ -89,3 +89,4 @@ The final decision should weigh the potential benefits of reduced congestion aga
 - Probability
 - Scenario Analysis
 - Critical Thinking
+- Synthetic

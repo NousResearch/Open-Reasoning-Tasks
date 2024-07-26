@@ -72,3 +72,4 @@ Without more information about the student's circumstances, these are plausible 
 - Critical Thinking
 - Motivation Theory
 - Context Consideration
+- Synthetic

@@ -85,3 +85,4 @@ Suggestions for Improvement:
 - Argumentation
 - Fallacy Identification
 - Reasoning Skills
+- Synthetic

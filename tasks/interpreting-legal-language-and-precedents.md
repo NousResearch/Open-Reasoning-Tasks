@@ -73,3 +73,4 @@ This precedent significantly impacts how police conduct interrogations and how c
 - Case Law Analysis
 - Legal Precedents
 - Criminal Procedure
+- Synthetic

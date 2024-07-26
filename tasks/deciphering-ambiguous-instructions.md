@@ -68,3 +68,4 @@ A clearer version might be:
 - Clarification
 - Problem Solving
 - Instruction Analysis
+- Synthetic

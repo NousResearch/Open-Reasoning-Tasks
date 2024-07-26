@@ -69,3 +69,4 @@ Remember, there's no perfect solution here, and any action will have complex con
 - Decision Making
 - Interpersonal Relationships
 - Conflict Resolution
+- Synthetic

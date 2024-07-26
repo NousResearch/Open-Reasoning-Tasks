@@ -70,3 +70,4 @@ Overall, this analogy effectively communicates the importance of using time wise
 - Conceptual Relationships
 - Logical Reasoning
 - Metaphor Evaluation
+- Synthetic

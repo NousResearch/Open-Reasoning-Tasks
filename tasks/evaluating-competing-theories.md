@@ -106,3 +106,4 @@ A comprehensive understanding of language origins likely involves elements from 
 - Comparative Analysis
 - Scientific Reasoning
 - Theory Assessment
+- Synthetic

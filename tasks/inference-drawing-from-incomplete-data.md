@@ -83,3 +83,4 @@ Note: These inferences are speculative and based on limited information. The cor
 - Data Analysis
 - Hypothesis Formation
 - Scientific Inference
+- Synthetic

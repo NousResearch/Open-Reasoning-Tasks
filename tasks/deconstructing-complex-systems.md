@@ -99,3 +99,4 @@ This deconstruction shows how hardware, software, and data components interact t
 - Component Interaction
 - Process Understanding
 - Analytical Thinking
+- Synthetic

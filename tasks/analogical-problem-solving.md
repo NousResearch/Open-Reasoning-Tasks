@@ -81,3 +81,4 @@ This approach demonstrates how viewing a city as a living organism can provide i
 - Creative Thinking
 - Interdisciplinary Application
 - Systems Thinking
+- Synthetic

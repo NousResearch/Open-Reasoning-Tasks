@@ -50,3 +50,4 @@ During the flight, severe weather forces an emergency landing in Madrid. With al
 - Storytelling
 - Context Understanding
 - Inference
+- Synthetic

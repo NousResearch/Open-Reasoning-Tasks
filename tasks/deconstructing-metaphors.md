@@ -76,3 +76,4 @@ This metaphor suggests that life is a performance where we all play our parts, w
 - Symbolic Interpretation
 - Critical Thinking
 - Communication Skills
+- Synthetic

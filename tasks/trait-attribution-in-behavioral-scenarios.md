@@ -72,3 +72,4 @@ It's crucial to remember that these are potential interpretations based on limit
 - Behavioral Analysis
 - Social Cognition
 - Character Inference
+- Synthetic

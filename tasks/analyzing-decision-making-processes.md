@@ -90,3 +90,4 @@ By systematically evaluating these factors and considering additional aspects, t
 - Problem Solving
 - Strategic Planning
 - Risk Assessment
+- Synthetic

@@ -80,3 +80,4 @@ The investigation should keep an open mind to all possibilities until more concl
 - Problem Solving
 - Decision Making
 - Evidence Evaluation
+- Synthetic

@@ -85,3 +85,4 @@ Therefore, the rectangle's dimensions are 10 cm wide and 25 cm long.
 - Word Problems
 - System of Equations
 - Problem Solving
+- Synthetic

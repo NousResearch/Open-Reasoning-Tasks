@@ -73,3 +73,4 @@ This is a very rough estimate and could easily be off by a factor of 10 in eithe
 - Quantitative Reasoning
 - Order of Magnitude
 - Logical Thinking
+- Synthetic

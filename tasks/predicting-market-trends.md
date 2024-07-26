@@ -91,3 +91,4 @@ The market for these technologies is likely to see rapid growth as businesses an
 - Trend Prediction
 - Data Synthesis
 - Strategic Planning
+- Synthetic

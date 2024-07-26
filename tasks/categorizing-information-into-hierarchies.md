@@ -78,3 +78,4 @@ Programming Concepts
 - Conceptual Organization
 - Pattern Recognition
 - Logical Structuring
+- Synthetic

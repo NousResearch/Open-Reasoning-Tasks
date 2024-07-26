@@ -48,3 +48,4 @@ Explanation: The Baader-Meinhof Phenomenon occurs when something you've just lea
 - Decision Making
 - Behavioral Economics
 - Psychological Biases
+- Synthetic

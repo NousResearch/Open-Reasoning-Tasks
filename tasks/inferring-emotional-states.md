@@ -60,3 +60,4 @@ Yara is likely experiencing surprise, possibly mixed with joy or excitement. The
 - Social Cognition
 - Psychological Interpretation
 - Non-verbal Communication
+- Synthetic

@@ -66,3 +66,4 @@ Reasoning: King's leadership was crucial in maintaining nonviolent tactics and b
 - Cause and Effect
 - Critical Thinking
 - Scenario Planning
+- Synthetic

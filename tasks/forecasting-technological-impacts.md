@@ -86,3 +86,4 @@ Output:
 - Scenario Planning
 - Trend Analysis
 - Societal Impact
+- Synthetic

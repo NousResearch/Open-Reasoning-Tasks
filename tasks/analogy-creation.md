@@ -60,3 +60,4 @@ Just as a snowball's growth can be dramatic over a long, steep hill, compound in
 - Conceptual Mapping
 - Communication
 - Explanatory Skills
+- Synthetic

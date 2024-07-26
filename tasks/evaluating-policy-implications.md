@@ -118,3 +118,4 @@ Implementing a UBI would be a transformative policy with wide-ranging effects on
 - Stakeholder Analysis
 - Unintended Consequences
 - Socioeconomic Impact Assessment
+- Synthetic

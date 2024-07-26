@@ -73,3 +73,4 @@ This argument is valid because it builds a logical chain from the properties of 
 - Argumentation
 - Reasoning
 - Premise-Conclusion Relationships
+- Synthetic

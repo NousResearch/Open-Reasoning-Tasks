@@ -51,3 +51,4 @@ The primary unstated assumption is that there is a viable and profitable market 
 - Argument Evaluation
 - Implicit Reasoning
 - Decision-Making
+- Synthetic

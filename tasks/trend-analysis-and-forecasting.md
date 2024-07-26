@@ -108,3 +108,4 @@ These factors emphasize that while the mathematical trend suggests continued exp
 - Critical Thinking
 - Quantitative Reasoning
 - Contextual Analysis
+- Synthetic

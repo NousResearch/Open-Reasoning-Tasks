@@ -61,3 +61,4 @@ While it's a fact that Leonardo da Vinci painted the Mona Lisa, the claim that i
 - Objectivity
 - Media Analysis
 - Reasoning
+- Synthetic

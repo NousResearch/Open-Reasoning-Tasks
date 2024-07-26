@@ -121,3 +121,4 @@ The hiker should carefully weigh these factors before making a decision, priorit
 - Critical Thinking
 - Scenario Planning
 - Cost-Benefit Analysis
+- Synthetic

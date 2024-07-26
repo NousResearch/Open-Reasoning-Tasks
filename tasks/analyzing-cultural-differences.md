@@ -93,3 +93,4 @@ Output:
 - Social Norms
 - Cross-Cultural Communication
 - Global Awareness
+- Synthetic

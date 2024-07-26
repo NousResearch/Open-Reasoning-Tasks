@@ -76,3 +76,4 @@ These strategies aim to create a sense of need, establish credibility, and motiv
 - Communication Analysis
 - Critical Thinking
 - Language
+- Synthetic

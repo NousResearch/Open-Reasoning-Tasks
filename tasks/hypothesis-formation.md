@@ -52,3 +52,4 @@ Explanation: Changes in temperature, precipitation patterns, or seasonal timing 
 - Problem Solving
 - Analytical Skills
 - Ecological Reasoning
+- Synthetic

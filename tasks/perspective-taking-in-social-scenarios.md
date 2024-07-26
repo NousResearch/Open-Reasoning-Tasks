@@ -79,3 +79,4 @@ Both parties:
 - Conflict Resolution
 - Emotional Intelligence
 - Multiple Perspectives
+- Synthetic

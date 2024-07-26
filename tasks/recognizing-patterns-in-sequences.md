@@ -79,3 +79,4 @@ Explanation: This is the Fibonacci sequence, where each number is the sum of the
 - Logical Reasoning
 - Mathematical Thinking
 - Problem Solving
+- Synthetic

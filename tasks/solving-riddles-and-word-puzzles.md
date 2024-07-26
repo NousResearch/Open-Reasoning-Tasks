@@ -62,3 +62,4 @@ Each step removes one letter while still forming a valid English word, until we'
 - Language Skills
 - Deductive Reasoning
 - Creative Thinking
+- Synthetic

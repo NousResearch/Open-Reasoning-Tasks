@@ -88,3 +88,4 @@ It's worth noting that while this simplified decision tree provides a quick diag
 - Tree Structures
 - Conditional Logic
 - Problem Diagnosis
+- Synthetic

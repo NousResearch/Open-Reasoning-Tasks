@@ -59,3 +59,4 @@ These inconsistencies create a logically flawed and potentially misleading adver
 - Contradiction Detection
 - Argument Analysis
 - Reasoning
+- Synthetic

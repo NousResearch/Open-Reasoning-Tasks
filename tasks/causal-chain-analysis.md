@@ -77,3 +77,4 @@ This chain illustrates how the act of deforestation sets off a complex series of
 - Environmental Science
 - Economics
 - Complex Systems Analysis
+- Synthetic

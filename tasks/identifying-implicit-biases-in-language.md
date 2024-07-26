@@ -57,3 +57,4 @@ These word choices could discourage older applicants from applying, which is a f
 - Critical Thinking
 - Social Awareness
 - Equality and Inclusion
+- Synthetic
