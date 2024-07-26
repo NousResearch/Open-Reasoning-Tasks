@@ -8,7 +8,7 @@ Text only
 
 ## Examples:
 
-### Example 1 (Barbara):
+### Example 1:
 
 Input:
 
@@ -25,7 +25,7 @@ Socrates is mortal.
 
 ---
 
-### Example 2 (Celarent):
+### Example 2:
 
 Input:
 
@@ -41,7 +41,7 @@ Instagram is not completely private.
 
 ---
 
-### Example 3 (Darii):
+### Example 3:
 
 Input:
 ```
@@ -55,7 +55,7 @@ Some handheld gadgets are internet-capable devices.
 
 ---
 
-### Example 4 (Ferio):
+### Example 4:
 
 Input:
 ```
@@ -69,7 +69,7 @@ Some popular lunches are not nutritionally balanced.
 
 ---
 
-### Example 5 (Cesare):
+### Example 5:
 
 Input:
 ```
@@ -83,7 +83,7 @@ Coal power plants are not renewable energy sources.
 
 ---
 
-### Example 6 (Camestres):
+### Example 6:
 
 Input:
 ```
@@ -97,7 +97,7 @@ No wind turbines are solar panels.
 
 ---
 
-### Example 7 (Festino):
+### Example 7:
 
 Input:
 ```
@@ -111,7 +111,7 @@ Some popular snacks are not organic foods.
 
 ---
 
-### Example 8 (Baroco):
+### Example 8:
 
 Input:
 ```
@@ -125,7 +125,7 @@ Some job applicants are not college graduates.
 
 ---
 
-### Example 9 (Darapti):
+### Example 9:
 
 Input:
 ```
@@ -139,7 +139,7 @@ Some vehicles with electric motors are fuel-efficient.
 
 ---
 
-### Example 10 (Disamis):
+### Example 10:
 
 Input:
 ```
@@ -153,7 +153,7 @@ Some courses accessible from home are free.
 
 ---
 
-### Example 11 (Datisi):
+### Example 11:
 
 Input:
 ```
@@ -167,7 +167,7 @@ Some budget-friendly devices have touchscreens.
 
 ---
 
-### Example 12 (Felapton):
+### Example 12:
 
 Input:
 ```
@@ -181,7 +181,7 @@ Some carbon-emitting energy sources are not sustainable.
 
 ---
 
-### Example 13 (Bocardo):
+### Example 13:
 
 Input:
 ```
@@ -195,7 +195,7 @@ Some widely read books are not fiction.
 
 ---
 
-### Example 14 (Ferison):
+### Example 14:
 
 Input:
 ```
@@ -209,7 +209,7 @@ Some packaging materials are not environmentally friendly.
 
 ---
 
-### Example 15 (Camenes):
+### Example 15:
 
 Input:
 ```
@@ -223,7 +223,7 @@ No gasoline-powered cars are electric vehicles.
 
 ---
 
-### Example 16 (Dimaris):
+### Example 16:
 
 Input:
 ```
@@ -237,7 +237,7 @@ Some environmentally friendly energy sources are wind power.
 
 ---
 
-### Example 17 (Celaront):
+### Example 17:
 
 Input:
 ```
@@ -251,7 +251,7 @@ Some potato chips are not nutritious.
 
 ---
 
-### Example 18 (Cesaro):
+### Example 18:
 
 Input:
 ```
@@ -265,7 +265,7 @@ Some tangible assets are not digital currencies.
 
 ---
 
-### Example 19 (Calemes):
+### Example 19:
 
 Input:
 ```
@@ -279,7 +279,7 @@ No dishes containing beef are vegetarian dishes.
 
 ---
 
-### Example 20 (Fresison):
+### Example 20:
 
 Input:
 ```
@@ -293,7 +293,7 @@ Some popular games are not educational.
 
 ---
 
-### Example 21 (Bramantip):
+### Example 21:
 
 Input:
 ```
@@ -307,7 +307,7 @@ Some battery-powered items are smartphones.
 
 ---
 
-### Example 22 (Camestros):
+### Example 22:
 
 Input:
 ```
@@ -321,7 +321,7 @@ No diesel engines are electric cars.
 
 ---
 
-### Example 23 (Darapti):
+### Example 23:
 
 Input:
 ```
@@ -335,7 +335,7 @@ Some birds that can hover in mid-air are nectar-feeding birds.
 
 ---
 
-### Example 24 (Felapton):
+### Example 24:
 
 Input:
 ```
