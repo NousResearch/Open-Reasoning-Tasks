@@ -7,145 +7,53 @@ Thank you for your interest in contributing to the **LLM Reasoning Task Collecti
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
 
 2. **Clone the Repository**: Clone the forked repository to your local machine.
-    ```bash
-    git clone https://github.com/NousResearch/Open-Reasoning-Tasks.git
-    ```
+
+```bash
+git clone https://github.com/YourUsername/Open-Reasoning-Tasks.git
+```  
 
 3. **Create a New Branch**: Create a new branch for your contribution.
-    ```bash
-    git checkout -b add-new-task
-    ```
 
-4. **Add Your Task**: Add your task to the `tasks.md` file using the schema provided in the [README](README.md).
-
-5. **Commit Your Changes**: Commit your changes with a meaningful commit message.
-    ```bash
-    git add tasks.md
-    git commit -m "Add new task: {Task Name}"
-    ```
-
-6. **Push Your Branch**: Push your branch to your forked repository.
-    ```bash
-    git push origin add-new-task
-    ```
-
-7. **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository. Provide a clear description of the task you are submitting and its purpose.
-
-## Task Schema
-
-Please follow the task schema below when adding a new task:
-
----
-
-# Reasoning Task Name
-
-## Description: {Text description of the task}
-
-
-## Modality: {Whether it is text only, image+text-> text, etc}
-
-
-## Examples:
-
-### Example 1:
-
-Input:
+```bash
+git checkout -b add-new-task
 ```
-Karen is 25. The age to vote is 18. Can Karen vote?
+
+
+4. **Add Your Task**: To add a new task, you need to do two things:
+
+   a. Add a new row to the `tasks.md` file in the root directory.
+   b. Create a new file in the `tasks/` directory for your task.
+
+5. **Update tasks.md**: Add a new row to the table in `tasks.md` using this format:
+
+```markdown
+| Task Name | Brief description of the task. |
+```
+    Ensure the task name is in title case and the link uses lowercase with hyphens.
+
+1. **Create Task File**: In the `tasks/` directory, create a new file named `task-name.md` (use lowercase and hyphens). Use the template provided in [tasks/template.md](task-template.md).
+
+2. **Commit Your Changes**: Commit your changes with a meaningful commit message.
+
+```bash
+git add tasks.md tasks/your-new-task.md
+git commit -m "Add new task: Task Name"
 ```  
 
-Output:
-```
-Yes
+8. **Push Your Branch**: Push your branch to your forked repository.
+
+```bash
+git push origin add-new-task
 ```  
 
----
-
-### Example 2:
-
-
-Input:
-```
-Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
-```  
-
-Output:
-```
-Yes
-```  
-
----
-
-
-## Diagram (Optional): 
-
-{image here} 
-
-
-## Citations:
-- Citation 1
-- Citation 2
-
-
-## Tags:
-- Tag 1
-- Tag 2
-- ...
-
----
-
-
-
-### Example Entry
-
----
-
-# Reasoning Task 
-
-## Description: This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities. 
-
-
-## Modality: Text
-
-
-## Examples:
-
-### Example 1:
-
-Input:
-```
-Karen is 25. The age to vote is 18. Can Karen vote?
-```  
-
-Output:
-```
-Yes
-```  
-
----
-
-### Example 2:
-
-
-Input:
-```
-Dog's eat bread. Bread comes from wheat. Do dogs eat food made from wheat?
-```  
-
-Output:
-```
-Yes
-```  
-
----
-
-
+9. **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository. Provide a clear description of the task you are submitting and its purpose.
 
 ## Guidelines
 
 - Ensure your task is clear and well-defined.
-- Provide multiple examples if you can, to illustrate the task.
-- Optionally include a diagram or workflow image to enhance understanding.
+- Provide multiple examples to illustrate the task.
+- Use relevant tags to categorize your task.
 - Follow the existing format and style of the repository.
+- Make sure your task file name matches the link in tasks.md.
 
 Thank you for contributing!
