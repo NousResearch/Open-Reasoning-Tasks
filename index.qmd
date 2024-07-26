@@ -1,0 +1,15 @@
+---
+listing:
+  contents: tasks
+  type: table
+  categories: true
+  fields: [title, description, categories]
+  field-display-names:
+    title: "Task"
+    categories: "Tags"
+  sort: Task
+---
+
+# Tasks List
+
+This is a collection of open reasoning tasks for language models.

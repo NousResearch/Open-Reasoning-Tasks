@@ -1,0 +1,2421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.47">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Contributors">
+<meta name="dcterms.date" content="2024-07-25">
+
+<title>Open Reasoning Tasks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./tasks/analogical-problem-solving.html" rel="next">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Tasks List</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Open Reasoning Tasks</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Tasks List</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tasks</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analogical-problem-solving.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Analogical Problem Solving</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analogy-creation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Analogy Creation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analyzing-cultural-differences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Analyzing Cultural Differences</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analyzing-decision-making-processes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Analyzing Decision-Making Processes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analyzing-decision-trees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Analyzing Decision Trees</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analyzing-historical-counterfactuals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Analyzing Historical Counterfactuals</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/analyzing-rhetorical-strategies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Analyzing Rhetorical Strategies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/assessing-risk-and-uncertainty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Assessing Risk and Uncertainty</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/bias-detection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Bias Detection</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/bias-mitigation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bias Mitigation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/calculating-probabilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Calculating Probabilities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/categorizing-information-into-hierarchies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Categorizing Information into Hierarchies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/causal-chain-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Causal Chain Analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/completing-analogies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Completing Analogies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/constructing-valid-arguments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Constructing Valid Arguments</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/counterfactual-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Counterfactual Analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/critical-factor-identification-in-theory-of-mind.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Critical Factor Identification in Theory of Mind</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/critiquing-argument-structures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Critiquing Argument Structures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deciphering-ambiguous-instructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Deciphering Ambiguous Instructions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deconstructing-complex-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Deconstructing Complex Systems</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deconstructing-metaphors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Deconstructing Metaphors</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deducing-motives-from-actions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Deducing Motives from Actions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deducing-rules-from-examples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Deducing Rules from Examples</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/deductive-logic-puzzles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Deductive Logic Puzzles</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/describing-spatial-relationships.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Describing Spatial Relationships</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/detecting-sarcasm-and-irony.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Detecting Sarcasm and Irony</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/determining-alternative-outcomes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Determining Alternative Outcomes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/distinguishing-correlation-from-causation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Distinguishing Correlation from Causation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/distinguishing-fact-from-opinion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Distinguishing Fact from Opinion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/equation-derivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Equation Derivation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/estimating-duration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Estimating Duration</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/ethical-dilemma-resolution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Ethical Dilemma Resolution</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/evaluating-analogies-for-accuracy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Evaluating Analogies for Accuracy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/evaluating-competing-theories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Evaluating Competing Theories</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/evaluating-policy-implications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Evaluating Policy Implications</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/evaluating-source-credibility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Evaluating Source Credibility</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/fermi-estimation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Fermi Estimation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/first-order-false-belief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">First-Order False Belief</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/first-order-ignorance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">First-Order Ignorance</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/forecasting-technological-impacts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Forecasting Technological Impacts</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/generating-creative-solutions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Generating Creative Solutions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/higher-order-false-belief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Higher Order False Belief</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/hypothesis-formation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">Hypothesis Formation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-anachronisms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">Identifying Anachronisms</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-cause-and-effect-relationships.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">Identifying Cause and Effect Relationships</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-cognitive-biases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">Identifying Cognitive Biases</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-hallucination-prone-questions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Identifying Hallucination-Prone Questions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-implicit-biases-in-language.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Identifying Implicit Biases in Language</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-logical-fallacies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">Identifying Logical Fallacies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-logical-inconsistencies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">Identifying Logical Inconsistencies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-relationships.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Identifying Relationships</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/identifying-unstated-assumptions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Identifying Unstated Assumptions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/inference-drawing-from-incomplete-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">Inference Drawing from Incomplete Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/inferring-emotional-states.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">Inferring Emotional States</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/inferring-motivations-from-actions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">Inferring Motivations from Actions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-ambiguous-statements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Interpreting Ambiguous Statements</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-and-creating-timelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Interpreting and Creating Timelines</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-body-language-cues.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Interpreting Body Language Cues</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-legal-language-and-precedents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">Interpreting Legal Language and Precedents</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-nonverbal-communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">Interpreting Nonverbal Communication</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/interpreting-statistical-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">Interpreting Statistical Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/lateral-thinking-puzzles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">Lateral Thinking Puzzles</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/mathematical-word-problems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">64</span>&nbsp; <span class="chapter-title">Mathematical Word Problems</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/mental-rotation-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">Mental Rotation Tasks</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/moral-reasoning-in-everyday-situations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Moral Reasoning in Everyday Situations</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/narrative-gap-filling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Narrative Gap Filling</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/parsing-complex-sentences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">Parsing Complex Sentences</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/pattern-recognition-in-spatial-arrangements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">Pattern Recognition in Spatial Arrangements</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/perspective-taking-in-social-scenarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Perspective-Taking in Social Scenarios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/predicting-market-trends.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Predicting Market Trends</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/predicting-outcomes-based-on-scenarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">Predicting Outcomes Based on Scenarios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/prioritizing-conflicting-goals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Prioritizing Conflicting Goals</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/proof-verification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">74</span>&nbsp; <span class="chapter-title">Proof Verification</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/recognizing-emotional-subtext.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">75</span>&nbsp; <span class="chapter-title">Recognizing Emotional Subtext</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/recognizing-patterns-in-behavior.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">76</span>&nbsp; <span class="chapter-title">Recognizing Patterns in Behavior</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/recognizing-patterns-in-sequences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">77</span>&nbsp; <span class="chapter-title">Recognizing Patterns in Sequences</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/reconciling-conflicting-information.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">78</span>&nbsp; <span class="chapter-title">Reconciling Conflicting Information</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/reverse-engineering-processes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">79</span>&nbsp; <span class="chapter-title">Reverse Engineering Processes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/risk-assessment-in-decision-making.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">80</span>&nbsp; <span class="chapter-title">Risk Assessment in Decision-Making</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/second-order-false-belief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">81</span>&nbsp; <span class="chapter-title">Second-Order False Belief</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/sequencing-events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Sequencing Events</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/solving-riddles-and-word-puzzles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">Solving Riddles and Word Puzzles</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/solving-word-problems-with-multiple-variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">84</span>&nbsp; <span class="chapter-title">Solving Word Problems with Multiple Variables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/spatial-problem-solving.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">Spatial Problem-Solving</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/syllogism-reasoning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">86</span>&nbsp; <span class="chapter-title">Syllogism Reasoning</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/trait-attribution-in-behavioral-scenarios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">87</span>&nbsp; <span class="chapter-title">Trait Attribution in Behavioral Scenarios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/trend-analysis-and-forecasting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">88</span>&nbsp; <span class="chapter-title">Trend Analysis and Forecasting</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/truth-table-completions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">Truth Table Completion</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/understanding-time-based-relationships.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">90</span>&nbsp; <span class="chapter-title">Understanding Time-Based Relationships</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/understanding-time-zones-and-global-time-differences.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">91</span>&nbsp; <span class="chapter-title">Understanding Time Zones and Global Time Differences</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tasks/unraveling-paradoxes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">92</span>&nbsp; <span class="chapter-title">Unraveling Paradoxes</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#tasks-list" id="toc-tasks-list" class="nav-link active" data-scroll-target="#tasks-list"><span class="header-section-number">1</span> Tasks List</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(91)</span></div><div class="category" data-category="Abstract Reasoning">Abstract Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Algebra">Algebra <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Anachronism Detection">Anachronism Detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analogical Reasoning">Analogical Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analogies">Analogies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analogy Analysis">Analogy Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analysis">Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Analytical Skills">Analytical Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Analytical Thinking">Analytical Thinking <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Applied Mathematics">Applied Mathematics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Argument Analysis">Argument Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Argument Evaluation">Argument Evaluation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Argumentation">Argumentation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Arithmetic">Arithmetic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Behavioral Analysis">Behavioral Analysis <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Behavioral Economics">Behavioral Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Behavioral Interpretation">Behavioral Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bias Correction">Bias Correction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bias Detection">Bias Detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bias Identification">Bias Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Body Language">Body Language <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Boolean Algebra">Boolean Algebra <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Business Development">Business Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Case Law Analysis">Case Law Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Causal Reasoning">Causal Reasoning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Causal Relationships">Causal Relationships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cause and Effect">Cause and Effect <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Character Inference">Character Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chronological Ordering">Chronological Ordering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Clarification">Clarification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Classification">Classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Clause Identification">Clause Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cognitive Processing">Cognitive Processing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cognitive Psychology">Cognitive Psychology <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Communication">Communication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Communication Analysis">Communication Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Communication Skills">Communication Skills <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Comparative Analysis">Comparative Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Comparative Psychology">Comparative Psychology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Comparative Studies">Comparative Studies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Complex Reasoning">Complex Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Complex Systems">Complex Systems <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Complex Systems Analysis">Complex Systems Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Component Interaction">Component Interaction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conceptual Analysis">Conceptual Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conceptual Mapping">Conceptual Mapping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conceptual Organization">Conceptual Organization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conceptual Relationships">Conceptual Relationships <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Conditional Logic">Conditional Logic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conflict Resolution">Conflict Resolution <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Constitutional Law">Constitutional Law <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Consumer Behavior">Consumer Behavior <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Context Analysis">Context Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Context Consideration">Context Consideration <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Context Understanding">Context Understanding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Contextual Analysis">Contextual Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Contradiction Detection">Contradiction Detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cost-Benefit Analysis">Cost-Benefit Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Counterfactual Thinking">Counterfactual Thinking <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Creative Thinking">Creative Thinking <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Creative Writing">Creative Writing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Criminal Procedure">Criminal Procedure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Critical Thinking">Critical Thinking <span class="quarto-category-count">(40)</span></div><div class="category" data-category="Cross-Cultural Communication">Cross-Cultural Communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cultural Analysis">Cultural Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cultural Context">Cultural Context <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cultural Sensitivity">Cultural Sensitivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analysis">Data Analysis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data Interpretation">Data Interpretation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Synthesis">Data Synthesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Decision Analysis">Decision Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Decision Making">Decision Making <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Decision-Making">Decision-Making <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Deductive Reasoning">Deductive Reasoning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Descriptive Skills">Descriptive Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ecological Reasoning">Ecological Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Economic Analysis">Economic Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Economics">Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Emotional Intelligence">Emotional Intelligence <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Empathy">Empathy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Environmental Ethics">Environmental Ethics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Environmental Science">Environmental Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Equality and Inclusion">Equality and Inclusion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Equation Formulation">Equation Formulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Estimation">Estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ethical Reasoning">Ethical Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ethics">Ethics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Event Sequencing">Event Sequencing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Evidence Evaluation">Evidence Evaluation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Explanatory Skills">Explanatory Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fallacies">Fallacies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fallacy Identification">Fallacy Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="False Beliefs">False Beliefs <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Figurative Language">Figurative Language <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Forecasting">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Futurism">Futurism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="General Knowledge">General Knowledge <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Geometric Thinking">Geometric Thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Geometric Transformation">Geometric Transformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Global Awareness">Global Awareness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Global Time">Global Time <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Goal Setting">Goal Setting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Grammar Analysis">Grammar Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hallucination Prevention">Hallucination Prevention <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hierarchical Thinking">Hierarchical Thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Higher-Order Reasoning">Higher-Order Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Historical Analysis">Historical Analysis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Historical Knowledge">Historical Knowledge <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Hypothesis Formation">Hypothesis Formation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hypothetical Scenarios">Hypothetical Scenarios <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Idea Generation">Idea Generation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ignorance">Ignorance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Implicit Reasoning">Implicit Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Inductive Reasoning">Inductive Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Inference">Inference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Information Analysis">Information Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Information Literacy">Information Literacy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Information Reliability">Information Reliability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation">Innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Instruction Analysis">Instruction Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interdisciplinary Application">Interdisciplinary Application <span class="quarto-category-count">(1)</span></div><div class="category" data-category="International Date Line">International Date Line <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interpersonal Dynamics">Interpersonal Dynamics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Interpersonal Relationships">Interpersonal Relationships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Knowledge Boundaries">Knowledge Boundaries <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language">Language <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Language Analysis">Language Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Language Comprehension">Language Comprehension <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language Interpretation">Language Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language Nuance">Language Nuance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Language Skills">Language Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Lateral Thinking">Lateral Thinking <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Legal Interpretation">Legal Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Legal Precedents">Legal Precedents <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linguistic Ambiguity">Linguistic Ambiguity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linguistic Analysis">Linguistic Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linguistic Complexity">Linguistic Complexity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Linguistic Nuance">Linguistic Nuance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Literary Analysis">Literary Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logic">Logic <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Logical Analysis">Logical Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Logical Deduction">Logical Deduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logical Fallacies">Logical Fallacies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logical Operators">Logical Operators <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logical Reasoning">Logical Reasoning <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Logical Sequencing">Logical Sequencing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logical Structuring">Logical Structuring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Logical Thinking">Logical Thinking <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Market Forecasting">Market Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mathematical Thinking">Mathematical Thinking <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Mathematics">Mathematics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Media Analysis">Media Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Media Literacy">Media Literacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mental Imagery">Mental Imagery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Metaphor Evaluation">Metaphor Evaluation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Moral Dilemmas">Moral Dilemmas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Moral Philosophy">Moral Philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Motivation Theory">Motivation Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Multiple Perspectives">Multiple Perspectives <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Non-verbal Communication">Non-verbal Communication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Number Theory">Number Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Object Orientation">Object Orientation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Objective Analysis">Objective Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Objectivity">Objectivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Order of Magnitude">Order of Magnitude <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pattern Recognition">Pattern Recognition <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Personality Assessment">Personality Assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Persuasion">Persuasion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Philosophy">Philosophy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Policy Analysis">Policy Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Practical Application">Practical Application <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Prediction">Prediction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Predictive Reasoning">Predictive Reasoning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Premise-Conclusion Relationships">Premise-Conclusion Relationships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Probability">Probability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Probability Theory">Probability Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Problem Decomposition">Problem Decomposition <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Problem Diagnosis">Problem Diagnosis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Problem Solving">Problem Solving <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Problem-solving">Problem-solving <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Process Analysis">Process Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Process Understanding">Process Understanding <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Proof Verification">Proof Verification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Propositional Logic">Propositional Logic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Psychological Analysis">Psychological Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Psychological Biases">Psychological Biases <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Psychological Interpretation">Psychological Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Psychology">Psychology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Quantitative Analysis">Quantitative Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quantitative Reasoning">Quantitative Reasoning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Question Analysis">Question Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Reasoning">Reasoning <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Reasoning Skills">Reasoning Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Relationships">Relationships <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Methodology">Research Methodology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research Skills">Research Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Resource Allocation">Resource Allocation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rhetoric">Rhetoric <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk Analysis">Risk Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Risk Assessment">Risk Assessment <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Scenario Analysis">Scenario Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Scenario Planning">Scenario Planning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Scientific Inference">Scientific Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scientific Method">Scientific Method <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Scientific Reasoning">Scientific Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Self-awareness">Self-awareness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Semantic Interpretation">Semantic Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sentence Structure">Sentence Structure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sequence Analysis">Sequence Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sequence Completion">Sequence Completion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Awareness">Social Awareness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Cognition">Social Cognition <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Social Dynamics">Social Dynamics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Intelligence">Social Intelligence <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Social Norms">Social Norms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Societal Impact">Societal Impact <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Socioeconomic Impact Assessment">Socioeconomic Impact Assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Source Evaluation">Source Evaluation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Spatial Reasoning">Spatial Reasoning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Stakeholder Analysis">Stakeholder Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistical Reasoning">Statistical Reasoning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Storytelling">Storytelling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Strategic Planning">Strategic Planning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Subtext Interpretation">Subtext Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Syllogisms">Syllogisms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Symbolic Interpretation">Symbolic Interpretation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Syntax">Syntax <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Synthetic">Synthetic <span class="quarto-category-count">(57)</span></div><div class="category" data-category="System of Equations">System of Equations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Systems Analysis">Systems Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Systems Thinking">Systems Thinking <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Technology Assessment">Technology Assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Temporal Analysis">Temporal Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Temporal Reasoning">Temporal Reasoning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Theory Assessment">Theory Assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Theory of Mind">Theory of Mind <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Time Estimation">Time Estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Time Zone Conversion">Time Zone Conversion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Timeline Creation">Timeline Creation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Trade-off Analysis">Trade-off Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Travel Time Calculation">Travel Time Calculation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tree Structures">Tree Structures <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Trend Analysis">Trend Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Trend Identification">Trend Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Trend Prediction">Trend Prediction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Truth Tables">Truth Tables <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Unconventional Approaches">Unconventional Approaches <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Unconventional Scenarios">Unconventional Scenarios <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Unintended Consequences">Unintended Consequences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visual-Spatial Awareness">Visual-Spatial Awareness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visual-Spatial Skills">Visual-Spatial Skills <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Vocabulary">Vocabulary <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Word Play">Word Play <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Word Problems">Word Problems <span class="quarto-category-count">(3)</span></div></div></div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Open Reasoning Tasks</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Contributors </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 25, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="tasks-list" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Tasks List</h1>
+<p>This is a collection of open reasoning tasks for language models.</p>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Task
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Task</a>
+</th>
+<th>
+Description
+</th>
+<th>
+Tags
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Problem Solving,Analogical Reasoning,Creative Thinking,Interdisciplinary Application,Systems Thinking,Synthetic" data-listing-file-modified-sort="1722030927839" data-listing-reading-time-sort="3" data-listing-word-count-sort="461" data-listing-title-sort="Analogical Problem Solving" data-listing-filename-sort="analogical-problem-solving.qmd">
+<td>
+<a href="./tasks/analogical-problem-solving.html" class="title listing-title">Analogical Problem Solving</a>
+</td>
+<td>
+<span class="listing-description">This task involves using analogies to solve problems by applying solutions from one domain to another similar situation. It evaluates the model’s ability to recognize…</span>
+</td>
+<td>
+<span class="listing-categories">Problem Solving, Analogical Reasoning, Creative Thinking, Interdisciplinary Application, Systems Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Creative Thinking,Abstract Reasoning,Conceptual Mapping,Communication,Explanatory Skills,Synthetic" data-listing-file-modified-sort="1722030929895" data-listing-reading-time-sort="3" data-listing-word-count-sort="421" data-listing-title-sort="Analogy Creation" data-listing-filename-sort="analogy-creation.qmd">
+<td>
+<a href="./tasks/analogy-creation.html" class="title listing-title">Analogy Creation</a>
+</td>
+<td>
+<span class="listing-description">This task involves creating analogies that effectively compare two different concepts, situations, or objects to highlight similarities in their relationships or structures.…</span>
+</td>
+<td>
+<span class="listing-categories">Creative Thinking, Abstract Reasoning, Conceptual Mapping, Communication, Explanatory Skills, Synthetic</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="Cultural Analysis,Comparative Studies,Social Norms,Cross-Cultural Communication,Global Awareness,Synthetic" data-listing-file-modified-sort="1722030826556" data-listing-reading-time-sort="3" data-listing-word-count-sort="471" data-listing-title-sort="Analyzing Cultural Differences" data-listing-filename-sort="analyzing-cultural-differences.qmd">
+<td>
+<a href="./tasks/analyzing-cultural-differences.html" class="title listing-title">Analyzing Cultural Differences</a>
+</td>
+<td>
+<span class="listing-description">This task involves comparing and contrasting different cultural practices, beliefs, or norms to identify similarities, differences, and potential reasons for these…</span>
+</td>
+<td>
+<span class="listing-categories">Cultural Analysis, Comparative Studies, Social Norms, Cross-Cultural Communication, Global Awareness, Synthetic</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Critical Thinking,Decision Analysis,Problem Solving,Strategic Planning,Risk Assessment,Synthetic" data-listing-file-modified-sort="1722031206327" data-listing-reading-time-sort="3" data-listing-word-count-sort="500" data-listing-title-sort="Analyzing Decision-Making Processes" data-listing-filename-sort="analyzing-decision-making-processes.qmd">
+<td>
+<a href="./tasks/analyzing-decision-making-processes.html" class="title listing-title">Analyzing Decision-Making Processes</a>
+</td>
+<td>
+<span class="listing-description">This task involves examining and evaluating the steps, factors, and reasoning behind decision-making processes. It assesses the model’s ability to understand complex…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Decision Analysis, Problem Solving, Strategic Planning, Risk Assessment, Synthetic</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Decision Making,Logical Reasoning,Tree Structures,Conditional Logic,Problem Diagnosis,Synthetic" data-listing-file-modified-sort="1722031217695" data-listing-reading-time-sort="3" data-listing-word-count-sort="444" data-listing-title-sort="Analyzing Decision Trees" data-listing-filename-sort="analyzing-decision-trees.qmd">
+<td>
+<a href="./tasks/analyzing-decision-trees.html" class="title listing-title">Analyzing Decision Trees</a>
+</td>
+<td>
+<span class="listing-description">This task involves interpreting and evaluating decision trees to understand the logic behind decision-making processes. It assesses the model’s ability to follow branching…</span>
+</td>
+<td>
+<span class="listing-categories">Decision Making, Logical Reasoning, Tree Structures, Conditional Logic, Problem Diagnosis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Historical Analysis,Counterfactual Thinking,Cause and Effect,Critical Thinking,Scenario Planning,Synthetic" data-listing-file-modified-sort="1722031279134" data-listing-reading-time-sort="3" data-listing-word-count-sort="521" data-listing-title-sort="Analyzing Historical Counterfactuals" data-listing-filename-sort="analyzing-historical-counterfactuals.qmd">
+<td>
+<a href="./tasks/analyzing-historical-counterfactuals.html" class="title listing-title">Analyzing Historical Counterfactuals</a>
+</td>
+<td>
+<span class="listing-description">This task involves considering alternative outcomes of historical events by changing key factors or decisions. It evaluates the model’s ability to understand complex…</span>
+</td>
+<td>
+<span class="listing-categories">Historical Analysis, Counterfactual Thinking, Cause and Effect, Critical Thinking, Scenario Planning, Synthetic</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Rhetoric,Persuasion,Communication Analysis,Critical Thinking,Language,Synthetic" data-listing-file-modified-sort="1722031320542" data-listing-reading-time-sort="3" data-listing-word-count-sort="402" data-listing-title-sort="Analyzing Rhetorical Strategies" data-listing-filename-sort="analyzing-rhetorical-strategies.qmd">
+<td>
+<a href="./tasks/analyzing-rhetorical-strategies.html" class="title listing-title">Analyzing Rhetorical Strategies</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and evaluating the rhetorical strategies used in a given text or speech. It assesses the model’s ability to recognize persuasive techniques…</span>
+</td>
+<td>
+<span class="listing-categories">Rhetoric, Persuasion, Communication Analysis, Critical Thinking, Language, Synthetic</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Risk Assessment,Decision Making,Probability,Scenario Analysis,Critical Thinking,Synthetic" data-listing-file-modified-sort="1722031373670" data-listing-reading-time-sort="2" data-listing-word-count-sort="353" data-listing-title-sort="Assessing Risk and Uncertainty" data-listing-filename-sort="assessing-risk-and-uncertainty.qmd">
+<td>
+<a href="./tasks/assessing-risk-and-uncertainty.html" class="title listing-title">Assessing Risk and Uncertainty</a>
+</td>
+<td>
+<span class="listing-description">This task involves evaluating scenarios with incomplete information to determine potential risks and uncertainties. It assesses the model’s ability to identify possible…</span>
+</td>
+<td>
+<span class="listing-categories">Risk Assessment, Decision Making, Probability, Scenario Analysis, Critical Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="Critical Thinking,Bias Identification,Data Interpretation,Logical Reasoning,Research Methodology" data-listing-file-modified-sort="1722031407526" data-listing-reading-time-sort="2" data-listing-word-count-sort="353" data-listing-title-sort="Bias Detection" data-listing-filename-sort="bias-detection.qmd">
+<td>
+<a href="./tasks/bias-detection.html" class="title listing-title">Bias Detection</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and explaining biases present in given scenarios, statements, or data. It evaluates the model’s ability to recognize various types of biases…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Bias Identification, Data Interpretation, Logical Reasoning, Research Methodology</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="Critical Thinking,Bias Correction,Logical Reasoning,Data Interpretation,Objective Analysis" data-listing-file-modified-sort="1722031444382" data-listing-reading-time-sort="1" data-listing-word-count-sort="151" data-listing-title-sort="Bias Mitigation" data-listing-filename-sort="bias-mitigation.qmd">
+<td>
+<a href="./tasks/bias-mitigation.html" class="title listing-title">Bias Mitigation</a>
+</td>
+<td>
+<span class="listing-description">Given a statement and the bias that led to it, this task involves constructing a statement as close to the ground truth as possible. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Bias Correction, Logical Reasoning, Data Interpretation, Objective Analysis</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="Mathematics,Probability Theory,Statistical Reasoning,Problem Solving,Quantitative Analysis" data-listing-file-modified-sort="1722031481623" data-listing-reading-time-sort="2" data-listing-word-count-sort="202" data-listing-title-sort="Calculating Probabilities" data-listing-filename-sort="calculating-probabilities.qmd">
+<td>
+<a href="./tasks/calculating-probabilities.html" class="title listing-title">Calculating Probabilities</a>
+</td>
+<td>
+<span class="listing-description">This task involves calculating probabilities for various scenarios, including simple and compound events. It evaluates the model’s ability to apply probability theory, use…</span>
+</td>
+<td>
+<span class="listing-categories">Mathematics, Probability Theory, Statistical Reasoning, Problem Solving, Quantitative Analysis</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="Classification,Hierarchical Thinking,Conceptual Organization,Pattern Recognition,Logical Structuring,Synthetic" data-listing-file-modified-sort="1722031537054" data-listing-reading-time-sort="2" data-listing-word-count-sort="275" data-listing-title-sort="Categorizing Information into Hierarchies" data-listing-filename-sort="categorizing-information-into-hierarchies.qmd">
+<td>
+<a href="./tasks/categorizing-information-into-hierarchies.html" class="title listing-title">Categorizing Information into Hierarchies</a>
+</td>
+<td>
+<span class="listing-description">This task involves organizing information into hierarchical structures based on relationships, properties, or other logical criteria. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Classification, Hierarchical Thinking, Conceptual Organization, Pattern Recognition, Logical Structuring, Synthetic</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Cause and Effect,Systems Thinking,Environmental Science,Economics,Complex Systems Analysis,Synthetic" data-listing-file-modified-sort="1722031576286" data-listing-reading-time-sort="2" data-listing-word-count-sort="347" data-listing-title-sort="Causal Chain Analysis" data-listing-filename-sort="causal-chain-analysis.qmd">
+<td>
+<a href="./tasks/causal-chain-analysis.html" class="title listing-title">Causal Chain Analysis</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and analyzing a sequence of events or factors that lead to a specific outcome. It evaluates the model’s ability to understand cause-and-effect…</span>
+</td>
+<td>
+<span class="listing-categories">Cause and Effect, Systems Thinking, Environmental Science, Economics, Complex Systems Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="Language,Reasoning,Analogies,Vocabulary,Relationships" data-listing-file-modified-sort="1722031643079" data-listing-reading-time-sort="1" data-listing-word-count-sort="111" data-listing-title-sort="Completing Analogies" data-listing-filename-sort="completing-analogies.qmd">
+<td>
+<a href="./tasks/completing-analogies.html" class="title listing-title">Completing Analogies</a>
+</td>
+<td>
+<span class="listing-description">This task involves completing analogies in the form “A is to B as C is to ?” to evaluate the model’s ability to recognize relationships between pairs of words and apply them…</span>
+</td>
+<td>
+<span class="listing-categories">Language, Reasoning, Analogies, Vocabulary, Relationships</span>
+</td>
+</tr>
+<tr data-index="14" data-categories="Logic,Critical Thinking,Argumentation,Reasoning,Premise-Conclusion Relationships,Synthetic" data-listing-file-modified-sort="1722031681143" data-listing-reading-time-sort="2" data-listing-word-count-sort="318" data-listing-title-sort="Constructing Valid Arguments" data-listing-filename-sort="constructing-valid-arguments.qmd">
+<td>
+<a href="./tasks/constructing-valid-arguments.html" class="title listing-title">Constructing Valid Arguments</a>
+</td>
+<td>
+<span class="listing-description">This task involves creating logically sound arguments to support a given conclusion or claim. It evaluates the model’s ability to use premises, apply logical reasoning, and…</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Critical Thinking, Argumentation, Reasoning, Premise-Conclusion Relationships, Synthetic</span>
+</td>
+</tr>
+<tr data-index="15" data-categories="Critical Thinking,Historical Analysis,Cause and Effect,Hypothetical Scenarios,Complex Systems,Synthetic" data-listing-file-modified-sort="1722031717823" data-listing-reading-time-sort="3" data-listing-word-count-sort="479" data-listing-title-sort="Counterfactual Analysis" data-listing-filename-sort="counterfactual-analysis.qmd">
+<td>
+<a href="./tasks/counterfactual-analysis.html" class="title listing-title">Counterfactual Analysis</a>
+</td>
+<td>
+<span class="listing-description">Counterfactual analysis involves examining hypothetical scenarios that are contrary to what actually happened. This task requires the model to consider alternative outcomes…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Historical Analysis, Cause and Effect, Hypothetical Scenarios, Complex Systems, Synthetic</span>
+</td>
+</tr>
+<tr data-index="16" data-categories="Theory of Mind,Behavioral Analysis,Critical Thinking,Comparative Psychology,Social Cognition" data-listing-file-modified-sort="1722031745088" data-listing-reading-time-sort="2" data-listing-word-count-sort="261" data-listing-title-sort="Critical Factor Identification in Theory of Mind" data-listing-filename-sort="critical-factor-identification-in-theory-of-mind.qmd">
+<td>
+<a href="./tasks/critical-factor-identification-in-theory-of-mind.html" class="title listing-title">Critical Factor Identification in Theory of Mind</a>
+</td>
+<td>
+<span class="listing-description">Understand that similar agents may act differently, or different agents may act similarly, based on a third factor. This task evaluates the model’s ability to identify these…</span>
+</td>
+<td>
+<span class="listing-categories">Theory of Mind, Behavioral Analysis, Critical Thinking, Comparative Psychology, Social Cognition</span>
+</td>
+</tr>
+<tr data-index="17" data-categories="Critical Thinking,Logical Analysis,Argumentation,Fallacy Identification,Reasoning Skills,Synthetic" data-listing-file-modified-sort="1722031784511" data-listing-reading-time-sort="3" data-listing-word-count-sort="450" data-listing-title-sort="Critiquing Argument Structures" data-listing-filename-sort="critiquing-argument-structures.qmd">
+<td>
+<a href="./tasks/critiquing-argument-structures.html" class="title listing-title">Critiquing Argument Structures</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and evaluating the structure, logic, and effectiveness of arguments. It assesses the model’s ability to identify strengths and weaknesses in…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Logical Analysis, Argumentation, Fallacy Identification, Reasoning Skills, Synthetic</span>
+</td>
+</tr>
+<tr data-index="18" data-categories="Language Interpretation,Critical Thinking,Clarification,Problem Solving,Instruction Analysis,Synthetic" data-listing-file-modified-sort="1722032074640" data-listing-reading-time-sort="2" data-listing-word-count-sort="307" data-listing-title-sort="Deciphering Ambiguous Instructions" data-listing-filename-sort="deciphering-ambiguous-instructions.qmd">
+<td>
+<a href="./tasks/deciphering-ambiguous-instructions.html" class="title listing-title">Deciphering Ambiguous Instructions</a>
+</td>
+<td>
+<span class="listing-description">This task involves interpreting and clarifying instructions that are unclear, incomplete, or potentially contradictory. It evaluates the model’s ability to identify…</span>
+</td>
+<td>
+<span class="listing-categories">Language Interpretation, Critical Thinking, Clarification, Problem Solving, Instruction Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="19" data-categories="Systems Analysis,Cause and Effect,Component Interaction,Process Understanding,Analytical Thinking,Synthetic" data-listing-file-modified-sort="1722032101926" data-listing-reading-time-sort="3" data-listing-word-count-sort="543" data-listing-title-sort="Deconstructing Complex Systems" data-listing-filename-sort="deconstructing-complex-systems.qmd">
+<td>
+<a href="./tasks/deconstructing-complex-systems.html" class="title listing-title">Deconstructing Complex Systems</a>
+</td>
+<td>
+<span class="listing-description">This task involves breaking down complex systems, processes, or phenomena into their constituent parts and explaining how these parts interact to create the overall system.…</span>
+</td>
+<td>
+<span class="listing-categories">Systems Analysis, Cause and Effect, Component Interaction, Process Understanding, Analytical Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="20" data-categories="Figurative Language,Literary Analysis,Symbolic Interpretation,Critical Thinking,Communication Skills,Synthetic" data-listing-file-modified-sort="1722032129144" data-listing-reading-time-sort="3" data-listing-word-count-sort="409" data-listing-title-sort="Deconstructing Metaphors" data-listing-filename-sort="deconstructing-metaphors.qmd">
+<td>
+<a href="./tasks/deconstructing-metaphors.html" class="title listing-title">Deconstructing Metaphors</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and explaining the meaning behind metaphors. It evaluates the model’s ability to understand figurative language, interpret symbolic…</span>
+</td>
+<td>
+<span class="listing-categories">Figurative Language, Literary Analysis, Symbolic Interpretation, Critical Thinking, Communication Skills, Synthetic</span>
+</td>
+</tr>
+<tr data-index="21" data-categories="Psychological Analysis,Behavioral Interpretation,Critical Thinking,Motivation Theory,Context Consideration,Synthetic" data-listing-file-modified-sort="1722032157175" data-listing-reading-time-sort="3" data-listing-word-count-sort="408" data-listing-title-sort="Deducing Motives from Actions" data-listing-filename-sort="deducing-motives-from-actions.qmd">
+<td>
+<a href="./tasks/deducing-motives-from-actions.html" class="title listing-title">Deducing Motives from Actions</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing the actions of individuals or groups and inferring their underlying motivations or intentions. It evaluates the model’s ability to understand…</span>
+</td>
+<td>
+<span class="listing-categories">Psychological Analysis, Behavioral Interpretation, Critical Thinking, Motivation Theory, Context Consideration, Synthetic</span>
+</td>
+</tr>
+<tr data-index="22" data-categories="Pattern Recognition,Logical Reasoning,Inductive Reasoning,Linguistic Analysis,Mathematical Thinking,Synthetic" data-listing-file-modified-sort="1722032183767" data-listing-reading-time-sort="2" data-listing-word-count-sort="270" data-listing-title-sort="Deducing Rules from Examples" data-listing-filename-sort="deducing-rules-from-examples.qmd">
+<td>
+<a href="./tasks/deducing-rules-from-examples.html" class="title listing-title">Deducing Rules from Examples</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing a set of examples to infer the underlying rule or pattern that governs them. It evaluates the model’s ability to recognize patterns, generalize…</span>
+</td>
+<td>
+<span class="listing-categories">Pattern Recognition, Logical Reasoning, Inductive Reasoning, Linguistic Analysis, Mathematical Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="23" data-categories="Logic,Deductive Reasoning,Problem Solving,Critical Thinking,Inference" data-listing-file-modified-sort="1722032211999" data-listing-reading-time-sort="1" data-listing-word-count-sort="171" data-listing-title-sort="Deductive Logic Puzzles" data-listing-filename-sort="deductive-logic-puzzles.qmd">
+<td>
+<a href="./tasks/deductive-logic-puzzles.html" class="title listing-title">Deductive Logic Puzzles</a>
+</td>
+<td>
+<span class="listing-description">This task involves solving deductive logic puzzles to evaluate the model’s ability to use given information, make logical inferences, and arrive at a correct conclusion.</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Deductive Reasoning, Problem Solving, Critical Thinking, Inference</span>
+</td>
+</tr>
+<tr data-index="24" data-categories="Spatial Reasoning,Descriptive Skills,Object Orientation,Visual-Spatial Awareness,Communication" data-listing-file-modified-sort="1722032234231" data-listing-reading-time-sort="2" data-listing-word-count-sort="201" data-listing-title-sort="Describing Spatial Relationships" data-listing-filename-sort="describing-spatial-relationships.qmd">
+<td>
+<a href="./tasks/describing-spatial-relationships.html" class="title listing-title">Describing Spatial Relationships</a>
+</td>
+<td>
+<span class="listing-description">This task involves accurately describing the relative positions and orientations of objects in space. It evaluates the model’s ability to understand and communicate spatial…</span>
+</td>
+<td>
+<span class="listing-categories">Spatial Reasoning, Descriptive Skills, Object Orientation, Visual-Spatial Awareness, Communication</span>
+</td>
+</tr>
+<tr data-index="25" data-categories="Language Comprehension,Context Analysis,Figurative Language,Social Intelligence,Linguistic Nuance,Synthetic" data-listing-file-modified-sort="1722032259895" data-listing-reading-time-sort="2" data-listing-word-count-sort="212" data-listing-title-sort="Detecting Sarcasm and Irony" data-listing-filename-sort="detecting-sarcasm-and-irony.qmd">
+<td>
+<a href="./tasks/detecting-sarcasm-and-irony.html" class="title listing-title">Detecting Sarcasm and Irony</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and explaining instances of sarcasm or irony in given statements or scenarios. It evaluates the model’s ability to recognize subtle linguistic…</span>
+</td>
+<td>
+<span class="listing-categories">Language Comprehension, Context Analysis, Figurative Language, Social Intelligence, Linguistic Nuance, Synthetic</span>
+</td>
+</tr>
+<tr data-index="26" data-categories="Historical Analysis,Counterfactual Thinking,Cause and Effect,Critical Thinking,Scenario Planning" data-listing-file-modified-sort="1722032288423" data-listing-reading-time-sort="3" data-listing-word-count-sort="413" data-listing-title-sort="Determining Alternative Outcomes" data-listing-filename-sort="determining-alternative-outcomes.qmd">
+<td>
+<a href="./tasks/determining-alternative-outcomes.html" class="title listing-title">Determining Alternative Outcomes</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing historical events or decisions and reasoning about possible alternative outcomes if key factors had been different. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Historical Analysis, Counterfactual Thinking, Cause and Effect, Critical Thinking, Scenario Planning</span>
+</td>
+</tr>
+<tr data-index="27" data-categories="Critical Thinking,Statistics,Data Analysis,Logical Fallacies,Causal Reasoning" data-listing-file-modified-sort="1722032316071" data-listing-reading-time-sort="2" data-listing-word-count-sort="375" data-listing-title-sort="Distinguishing Correlation from Causation" data-listing-filename-sort="distinguishing-correlation-from-causation.qmd">
+<td>
+<a href="./tasks/distinguishing-correlation-from-causation.html" class="title listing-title">Distinguishing Correlation from Causation</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing given scenarios or statistical relationships to identify cases where correlation does not imply causation, especially in unintuitive or…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Statistics, Data Analysis, Logical Fallacies, Causal Reasoning</span>
+</td>
+</tr>
+<tr data-index="28" data-categories="Critical Thinking,Information Literacy,Objectivity,Media Analysis,Reasoning,Synthetic" data-listing-file-modified-sort="1722032346300" data-listing-reading-time-sort="2" data-listing-word-count-sort="260" data-listing-title-sort="Distinguishing Fact from Opinion" data-listing-filename-sort="distinguishing-fact-from-opinion.qmd">
+<td>
+<a href="./tasks/distinguishing-fact-from-opinion.html" class="title listing-title">Distinguishing Fact from Opinion</a>
+</td>
+<td>
+<span class="listing-description">This task involves differentiating between factual statements and opinions in given texts or scenarios. It evaluates the model’s ability to recognize objective, verifiable…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Information Literacy, Objectivity, Media Analysis, Reasoning, Synthetic</span>
+</td>
+</tr>
+<tr data-index="29" data-categories="Mathematics,Algebra,Word Problems,Equation Formulation,Problem Solving" data-listing-file-modified-sort="1722032368776" data-listing-reading-time-sort="1" data-listing-word-count-sort="200" data-listing-title-sort="Equation Derivation" data-listing-filename-sort="equation-derivation.qmd">
+<td>
+<a href="./tasks/equation-derivation.html" class="title listing-title">Equation Derivation</a>
+</td>
+<td>
+<span class="listing-description">This task involves deriving mathematical equations from given information or scenarios to evaluate the model’s ability to translate word problems into mathematical…</span>
+</td>
+<td>
+<span class="listing-categories">Mathematics, Algebra, Word Problems, Equation Formulation, Problem Solving</span>
+</td>
+</tr>
+<tr data-index="30" data-categories="Time Estimation,Temporal Reasoning,Process Understanding,Comparative Analysis,General Knowledge" data-listing-file-modified-sort="1722032395607" data-listing-reading-time-sort="1" data-listing-word-count-sort="146" data-listing-title-sort="Estimating Duration" data-listing-filename-sort="estimating-duration.qmd">
+<td>
+<a href="./tasks/estimating-duration.html" class="title listing-title">Estimating Duration</a>
+</td>
+<td>
+<span class="listing-description">This task involves estimating the time required for various activities or processes. It evaluates the model’s understanding of time scales and its ability to make reasonable…</span>
+</td>
+<td>
+<span class="listing-categories">Time Estimation, Temporal Reasoning, Process Understanding, Comparative Analysis, General Knowledge</span>
+</td>
+</tr>
+<tr data-index="31" data-categories="Ethics,Critical Thinking,Decision Making,Cultural Sensitivity,Environmental Ethics,Moral Philosophy,Synthetic" data-listing-file-modified-sort="1722032430047" data-listing-reading-time-sort="3" data-listing-word-count-sort="546" data-listing-title-sort="Ethical Dilemma Resolution" data-listing-filename-sort="ethical-dilemma-resolution.qmd">
+<td>
+<a href="./tasks/ethical-dilemma-resolution.html" class="title listing-title">Ethical Dilemma Resolution</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing complex ethical scenarios, weighing conflicting moral principles, and proposing reasoned solutions. It evaluates the model’s ability to consider…</span>
+</td>
+<td>
+<span class="listing-categories">Ethics, Critical Thinking, Decision Making, Cultural Sensitivity, Environmental Ethics, Moral Philosophy, Synthetic</span>
+</td>
+</tr>
+<tr data-index="32" data-categories="Critical Thinking,Analogy Analysis,Conceptual Relationships,Logical Reasoning,Metaphor Evaluation,Synthetic" data-listing-file-modified-sort="1722032457717" data-listing-reading-time-sort="2" data-listing-word-count-sort="332" data-listing-title-sort="Evaluating Analogies for Accuracy" data-listing-filename-sort="evaluating-analogies-for-accuracy.qmd">
+<td>
+<a href="./tasks/evaluating-analogies-for-accuracy.html" class="title listing-title">Evaluating Analogies for Accuracy</a>
+</td>
+<td>
+<span class="listing-description">This task involves assessing given analogies for their accuracy and appropriateness. It evaluates the model’s ability to critically analyze relationships between concepts…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Analogy Analysis, Conceptual Relationships, Logical Reasoning, Metaphor Evaluation, Synthetic</span>
+</td>
+</tr>
+<tr data-index="33" data-categories="Critical Thinking,Evidence Evaluation,Comparative Analysis,Scientific Reasoning,Theory Assessment,Synthetic" data-listing-file-modified-sort="1722032491616" data-listing-reading-time-sort="4" data-listing-word-count-sort="638" data-listing-title-sort="Evaluating Competing Theories" data-listing-filename-sort="evaluating-competing-theories.qmd">
+<td>
+<a href="./tasks/evaluating-competing-theories.html" class="title listing-title">Evaluating Competing Theories</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and comparing multiple theories or explanations for a phenomenon, assessing their strengths and weaknesses, and determining which theory is best…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Evidence Evaluation, Comparative Analysis, Scientific Reasoning, Theory Assessment, Synthetic</span>
+</td>
+</tr>
+<tr data-index="34" data-categories="Policy Analysis,Systems Thinking,Predictive Reasoning,Stakeholder Analysis,Unintended Consequences,Socioeconomic Impact Assessment,Synthetic" data-listing-file-modified-sort="1722032526031" data-listing-reading-time-sort="4" data-listing-word-count-sort="602" data-listing-title-sort="Evaluating Policy Implications" data-listing-filename-sort="evaluating-policy-implications.qmd">
+<td>
+<a href="./tasks/evaluating-policy-implications.html" class="title listing-title">Evaluating Policy Implications</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing proposed policies or decisions and predicting their potential consequences across various domains such as economics, society, environment, and…</span>
+</td>
+<td>
+<span class="listing-categories">Policy Analysis, Systems Thinking, Predictive Reasoning, Stakeholder Analysis, Unintended Consequences, Socioeconomic Impact Assessment, Synthetic</span>
+</td>
+</tr>
+<tr data-index="35" data-categories="Critical Thinking,Information Literacy,Source Evaluation,Research Skills,Media Literacy,Synthetic" data-listing-file-modified-sort="1722032554632" data-listing-reading-time-sort="2" data-listing-word-count-sort="331" data-listing-title-sort="Evaluating Source Credibility" data-listing-filename-sort="evaluating-source-credibility.qmd">
+<td>
+<a href="./tasks/evaluating-source-credibility.html" class="title listing-title">Evaluating Source Credibility</a>
+</td>
+<td>
+<span class="listing-description">This task involves assessing the reliability and trustworthiness of various information sources. It evaluates the model’s ability to consider factors such as expertise…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Information Literacy, Source Evaluation, Research Skills, Media Literacy, Synthetic</span>
+</td>
+</tr>
+<tr data-index="36" data-categories="Estimation,Problem Decomposition,Quantitative Reasoning,Order of Magnitude,Logical Thinking,Synthetic" data-listing-file-modified-sort="1722033762345" data-listing-reading-time-sort="2" data-listing-word-count-sort="337" data-listing-title-sort="Fermi Estimation" data-listing-filename-sort="fermi-estimation.qmd">
+<td>
+<a href="./tasks/fermi-estimation.html" class="title listing-title">Fermi Estimation</a>
+</td>
+<td>
+<span class="listing-description">Fermi estimation, named after physicist Enrico Fermi, involves making educated guesses to estimate quantities that are difficult or impossible to measure directly. This task…</span>
+</td>
+<td>
+<span class="listing-categories">Estimation, Problem Decomposition, Quantitative Reasoning, Order of Magnitude, Logical Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="37" data-categories="Theory of Mind,False Beliefs,Cognitive Psychology,Reasoning,Social Cognition" data-listing-file-modified-sort="1722033739688" data-listing-reading-time-sort="2" data-listing-word-count-sort="222" data-listing-title-sort="First-Order False Belief" data-listing-filename-sort="first-order-false-belief.qmd">
+<td>
+<a href="./tasks/first-order-false-belief.html" class="title listing-title">First-Order False Belief</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying why a misinformed agent may behave contrary to reality due to inaccurate beliefs. It evaluates the model’s theory of mind ability and…</span>
+</td>
+<td>
+<span class="listing-categories">Theory of Mind, False Beliefs, Cognitive Psychology, Reasoning, Social Cognition</span>
+</td>
+</tr>
+<tr data-index="38" data-categories="Theory of Mind,Ignorance,Cognitive Psychology,Decision Making,Social Cognition" data-listing-file-modified-sort="1722033716720" data-listing-reading-time-sort="1" data-listing-word-count-sort="140" data-listing-title-sort="First-Order Ignorance" data-listing-filename-sort="first-order-ignorance.qmd">
+<td>
+<a href="./tasks/first-order-ignorance.html" class="title listing-title">First-Order Ignorance</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying why an agent may lack knowledge or awareness of certain facts or events. It evaluates the model’s understanding of ignorance and its impact on…</span>
+</td>
+<td>
+<span class="listing-categories">Theory of Mind, Ignorance, Cognitive Psychology, Decision Making, Social Cognition</span>
+</td>
+</tr>
+<tr data-index="39" data-categories="Futurism,Technology Assessment,Scenario Planning,Trend Analysis,Societal Impact,Synthetic" data-listing-file-modified-sort="1722033690825" data-listing-reading-time-sort="3" data-listing-word-count-sort="430" data-listing-title-sort="Forecasting Technological Impacts" data-listing-filename-sort="forecasting-technological-impacts.qmd">
+<td>
+<a href="./tasks/forecasting-technological-impacts.html" class="title listing-title">Forecasting Technological Impacts</a>
+</td>
+<td>
+<span class="listing-description">This task involves predicting and analyzing the potential effects of emerging or hypothetical technologies on society, economy, and daily life. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Futurism, Technology Assessment, Scenario Planning, Trend Analysis, Societal Impact, Synthetic</span>
+</td>
+</tr>
+<tr data-index="40" data-categories="Innovation,Problem-solving,Lateral Thinking,Idea Generation,Unconventional Approaches,Synthetic" data-listing-file-modified-sort="1722033658495" data-listing-reading-time-sort="2" data-listing-word-count-sort="389" data-listing-title-sort="Generating Creative Solutions" data-listing-filename-sort="generating-creative-solutions.qmd">
+<td>
+<a href="./tasks/generating-creative-solutions.html" class="title listing-title">Generating Creative Solutions</a>
+</td>
+<td>
+<span class="listing-description">This task involves developing innovative and unique solutions to given problems or challenges. It evaluates the model’s ability to think outside the box, combine ideas in…</span>
+</td>
+<td>
+<span class="listing-categories">Innovation, Problem-solving, Lateral Thinking, Idea Generation, Unconventional Approaches, Synthetic</span>
+</td>
+</tr>
+<tr data-index="41" data-categories="Theory of Mind,Complex Reasoning,Social Cognition,False Beliefs,Interpersonal Dynamics" data-listing-file-modified-sort="1722033622483" data-listing-reading-time-sort="2" data-listing-word-count-sort="330" data-listing-title-sort="Higher Order False Belief" data-listing-filename-sort="higher-order-false-belief.qmd">
+<td>
+<a href="./tasks/higher-order-false-belief.html" class="title listing-title">Higher Order False Belief</a>
+</td>
+<td>
+<span class="listing-description">This task involves handling a complex chain of agent’s beliefs about the knowledge (and accuracy of the knowledge) of other agents - to ultimately predict the behavior of an…</span>
+</td>
+<td>
+<span class="listing-categories">Theory of Mind, Complex Reasoning, Social Cognition, False Beliefs, Interpersonal Dynamics</span>
+</td>
+</tr>
+<tr data-index="42" data-categories="Scientific Method,Critical Thinking,Problem Solving,Analytical Skills,Ecological Reasoning,Synthetic" data-listing-file-modified-sort="1722033330143" data-listing-reading-time-sort="2" data-listing-word-count-sort="253" data-listing-title-sort="Hypothesis Formation" data-listing-filename-sort="hypothesis-formation.qmd">
+<td>
+<a href="./tasks/hypothesis-formation.html" class="title listing-title">Hypothesis Formation</a>
+</td>
+<td>
+<span class="listing-description">This task involves generating plausible hypotheses to explain observed phenomena or solve problems. It evaluates the model’s ability to apply scientific thinking, create…</span>
+</td>
+<td>
+<span class="listing-categories">Scientific Method, Critical Thinking, Problem Solving, Analytical Skills, Ecological Reasoning, Synthetic</span>
+</td>
+</tr>
+<tr data-index="43" data-categories="Historical Knowledge,Temporal Reasoning,Anachronism Detection,Critical Thinking,Context Analysis" data-listing-file-modified-sort="1722033300576" data-listing-reading-time-sort="1" data-listing-word-count-sort="146" data-listing-title-sort="Identifying Anachronisms" data-listing-filename-sort="identifying-anachronisms.qmd">
+<td>
+<a href="./tasks/identifying-anachronisms.html" class="title listing-title">Identifying Anachronisms</a>
+</td>
+<td>
+<span class="listing-description">This task involves recognizing elements that are out of place in a given historical context. It evaluates the model’s knowledge of historical periods and ability to detect…</span>
+</td>
+<td>
+<span class="listing-categories">Historical Knowledge, Temporal Reasoning, Anachronism Detection, Critical Thinking, Context Analysis</span>
+</td>
+</tr>
+<tr data-index="44" data-categories="Critical Thinking,Analysis,Causal Relationships,Logic,Reasoning" data-listing-file-modified-sort="1722033276704" data-listing-reading-time-sort="1" data-listing-word-count-sort="166" data-listing-title-sort="Identifying Cause and Effect Relationships" data-listing-filename-sort="identifying-cause-and-effect-relationships.qmd">
+<td>
+<a href="./tasks/identifying-cause-and-effect-relationships.html" class="title listing-title">Identifying Cause and Effect Relationships</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing given scenarios or statements to identify and explain the cause and effect relationships present. It evaluates the model’s ability to understand…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Analysis, Causal Relationships, Logic, Reasoning</span>
+</td>
+</tr>
+<tr data-index="45" data-categories="Cognitive Psychology,Critical Thinking,Decision Making,Behavioral Economics,Psychological Biases,Synthetic" data-listing-file-modified-sort="1722033254425" data-listing-reading-time-sort="2" data-listing-word-count-sort="252" data-listing-title-sort="Identifying Cognitive Biases" data-listing-filename-sort="identifying-cognitive-biases.qmd">
+<td>
+<a href="./tasks/identifying-cognitive-biases.html" class="title listing-title">Identifying Cognitive Biases</a>
+</td>
+<td>
+<span class="listing-description">This task involves recognizing and explaining various cognitive biases in given scenarios or decision-making processes. It evaluates the model’s ability to understand how…</span>
+</td>
+<td>
+<span class="listing-categories">Cognitive Psychology, Critical Thinking, Decision Making, Behavioral Economics, Psychological Biases, Synthetic</span>
+</td>
+</tr>
+<tr data-index="46" data-categories="Hallucination Prevention,Question Analysis,Knowledge Boundaries,Information Reliability,Self-awareness" data-listing-file-modified-sort="1722033222560" data-listing-reading-time-sort="2" data-listing-word-count-sort="260" data-listing-title-sort="Identifying Hallucination-Prone Questions" data-listing-filename-sort="identifying-hallucination-prone-questions.qmd">
+<td>
+<a href="./tasks/identifying-hallucination-prone-questions.html" class="title listing-title">Identifying Hallucination-Prone Questions</a>
+</td>
+<td>
+<span class="listing-description">This task involves recognizing questions that are likely to lead to its hallucination, or questions it simply doesn’t know the answer to. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Hallucination Prevention, Question Analysis, Knowledge Boundaries, Information Reliability, Self-awareness</span>
+</td>
+</tr>
+<tr data-index="47" data-categories="Language Analysis,Bias Detection,Critical Thinking,Social Awareness,Equality and Inclusion,Synthetic" data-listing-file-modified-sort="1722033197576" data-listing-reading-time-sort="2" data-listing-word-count-sort="282" data-listing-title-sort="Identifying Implicit Biases in Language" data-listing-filename-sort="identifying-implicit-biases-in-language.qmd">
+<td>
+<a href="./tasks/identifying-implicit-biases-in-language.html" class="title listing-title">Identifying Implicit Biases in Language</a>
+</td>
+<td>
+<span class="listing-description">This task involves recognizing subtle, often unintentional biases embedded in language use. It evaluates the model’s ability to detect underlying assumptions, stereotypes…</span>
+</td>
+<td>
+<span class="listing-categories">Language Analysis, Bias Detection, Critical Thinking, Social Awareness, Equality and Inclusion, Synthetic</span>
+</td>
+</tr>
+<tr data-index="48" data-categories="Logic,Critical Thinking,Argumentation,Fallacies,Reasoning" data-listing-file-modified-sort="1722033168239" data-listing-reading-time-sort="1" data-listing-word-count-sort="169" data-listing-title-sort="Identifying Logical Fallacies" data-listing-filename-sort="identifying-logical-fallacies.qmd">
+<td>
+<a href="./tasks/identifying-logical-fallacies.html" class="title listing-title">Identifying Logical Fallacies</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and explaining common logical fallacies in given arguments or statements to evaluate the model’s ability to recognize flawed reasoning.</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Critical Thinking, Argumentation, Fallacies, Reasoning</span>
+</td>
+</tr>
+<tr data-index="49" data-categories="Logic,Critical Thinking,Contradiction Detection,Argument Analysis,Reasoning,Synthetic" data-listing-file-modified-sort="1722033140310" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Identifying Logical Inconsistencies" data-listing-filename-sort="identifying-logical-inconsistencies.qmd">
+<td>
+<a href="./tasks/identifying-logical-inconsistencies.html" class="title listing-title">Identifying Logical Inconsistencies</a>
+</td>
+<td>
+<span class="listing-description">This task involves detecting and explaining logical inconsistencies or contradictions within a given statement, argument, or scenario. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Critical Thinking, Contradiction Detection, Argument Analysis, Reasoning, Synthetic</span>
+</td>
+</tr>
+<tr data-index="50" data-categories="Language,Conceptual Relationships,Critical Thinking,Vocabulary,Analysis" data-listing-file-modified-sort="1722033112047" data-listing-reading-time-sort="1" data-listing-word-count-sort="122" data-listing-title-sort="Identifying Relationships" data-listing-filename-sort="identifying-relationships.qmd">
+<td>
+<a href="./tasks/identifying-relationships.html" class="title listing-title">Identifying Relationships</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying the relationship between pairs of words or concepts to evaluate the model’s ability to recognize various types of connections and articulate…</span>
+</td>
+<td>
+<span class="listing-categories">Language, Conceptual Relationships, Critical Thinking, Vocabulary, Analysis</span>
+</td>
+</tr>
+<tr data-index="51" data-categories="Critical Thinking,Logical Analysis,Argument Evaluation,Implicit Reasoning,Decision-Making,Synthetic" data-listing-file-modified-sort="1722033088604" data-listing-reading-time-sort="2" data-listing-word-count-sort="255" data-listing-title-sort="Identifying Unstated Assumptions" data-listing-filename-sort="identifying-unstated-assumptions.qmd">
+<td>
+<a href="./tasks/identifying-unstated-assumptions.html" class="title listing-title">Identifying Unstated Assumptions</a>
+</td>
+<td>
+<span class="listing-description">This task involves recognizing and articulating implicit assumptions that underlie statements, arguments, or scenarios. It evaluates the model’s ability to think critically…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Logical Analysis, Argument Evaluation, Implicit Reasoning, Decision-Making, Synthetic</span>
+</td>
+</tr>
+<tr data-index="52" data-categories="Critical Thinking,Logical Reasoning,Data Analysis,Hypothesis Formation,Scientific Inference,Synthetic" data-listing-file-modified-sort="1722033055449" data-listing-reading-time-sort="3" data-listing-word-count-sort="584" data-listing-title-sort="Inference Drawing from Incomplete Data" data-listing-filename-sort="inference-drawing-from-incomplete-data.qmd">
+<td>
+<a href="./tasks/inference-drawing-from-incomplete-data.html" class="title listing-title">Inference Drawing from Incomplete Data</a>
+</td>
+<td>
+<span class="listing-description">This task involves making logical deductions or inferences based on limited or incomplete information. It tests the model’s ability to use available data, apply reasoning…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Logical Reasoning, Data Analysis, Hypothesis Formation, Scientific Inference, Synthetic</span>
+</td>
+</tr>
+<tr data-index="53" data-categories="Emotional Intelligence,Behavioral Analysis,Social Cognition,Psychological Interpretation,Non-verbal Communication,Synthetic" data-listing-file-modified-sort="1722033029401" data-listing-reading-time-sort="2" data-listing-word-count-sort="348" data-listing-title-sort="Inferring Emotional States" data-listing-filename-sort="inferring-emotional-states.qmd">
+<td>
+<a href="./tasks/inferring-emotional-states.html" class="title listing-title">Inferring Emotional States</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing given scenarios or descriptions of behavior to infer the emotional states of individuals. It evaluates the model’s ability to understand and…</span>
+</td>
+<td>
+<span class="listing-categories">Emotional Intelligence, Behavioral Analysis, Social Cognition, Psychological Interpretation, Non-verbal Communication, Synthetic</span>
+</td>
+</tr>
+<tr data-index="54" data-categories="Psychology,Behavioral Analysis,Social Dynamics,Critical Thinking,Empathy,Synthetic" data-listing-file-modified-sort="1722032994359" data-listing-reading-time-sort="3" data-listing-word-count-sort="509" data-listing-title-sort="Inferring Motivations from Actions" data-listing-filename-sort="inferring-motivations-from-actions.qmd">
+<td>
+<a href="./tasks/inferring-motivations-from-actions.html" class="title listing-title">Inferring Motivations from Actions</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing described actions or behaviors to deduce the underlying motivations, intentions, or goals of the individuals involved. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Psychology, Behavioral Analysis, Social Dynamics, Critical Thinking, Empathy, Synthetic</span>
+</td>
+</tr>
+<tr data-index="55" data-categories="Language Analysis,Semantic Interpretation,Context Consideration,Linguistic Ambiguity,Critical Thinking,Synthetic" data-listing-file-modified-sort="1722032968895" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="Interpreting Ambiguous Statements" data-listing-filename-sort="interpreting-ambiguous-statements.qmd">
+<td>
+<a href="./tasks/interpreting-ambiguous-statements.html" class="title listing-title">Interpreting Ambiguous Statements</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing statements that have multiple possible interpretations and identifying the different ways they can be understood. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Language Analysis, Semantic Interpretation, Context Consideration, Linguistic Ambiguity, Critical Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="56" data-categories="Timeline Creation,Historical Analysis,Data Visualization,Temporal Reasoning,Business Development" data-listing-file-modified-sort="1722032940738" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="Interpreting and Creating Timelines" data-listing-filename-sort="interpreting-and-creating-timelines.qmd">
+<td>
+<a href="./tasks/interpreting-and-creating-timelines.html" class="title listing-title">Interpreting and Creating Timelines</a>
+</td>
+<td>
+<span class="listing-description">This task involves reading or creating timelines to represent a series of events or processes. It evaluates the model’s ability to visualize and interpret temporal data.</span>
+</td>
+<td>
+<span class="listing-categories">Timeline Creation, Historical Analysis, Data Visualization, Temporal Reasoning, Business Development</span>
+</td>
+</tr>
+<tr data-index="57" data-categories="Non-verbal Communication,Social Intelligence,Cultural Context,Emotional Intelligence,Behavioral Analysis,Synthetic" data-listing-file-modified-sort="1722032917672" data-listing-reading-time-sort="3" data-listing-word-count-sort="522" data-listing-title-sort="Interpreting Body Language Cues" data-listing-filename-sort="interpreting-body-language-cues.qmd">
+<td>
+<a href="./tasks/interpreting-body-language-cues.html" class="title listing-title">Interpreting Body Language Cues</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and interpreting non-verbal communication signals, including facial expressions, postures, gestures, and micro-expressions. It evaluates the…</span>
+</td>
+<td>
+<span class="listing-categories">Non-verbal Communication, Social Intelligence, Cultural Context, Emotional Intelligence, Behavioral Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="58" data-categories="Legal Interpretation,Constitutional Law,Case Law Analysis,Legal Precedents,Criminal Procedure,Synthetic" data-listing-file-modified-sort="1722032884167" data-listing-reading-time-sort="3" data-listing-word-count-sort="464" data-listing-title-sort="Interpreting Legal Language and Precedents" data-listing-filename-sort="interpreting-legal-language-and-precedents.qmd">
+<td>
+<a href="./tasks/interpreting-legal-language-and-precedents.html" class="title listing-title">Interpreting Legal Language and Precedents</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and interpreting legal texts, statutes, or case law to understand their implications and applications. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Legal Interpretation, Constitutional Law, Case Law Analysis, Legal Precedents, Criminal Procedure, Synthetic</span>
+</td>
+</tr>
+<tr data-index="59" data-categories="Social Intelligence,Body Language,Communication Skills,Emotional Intelligence,Behavioral Analysis,Synthetic" data-listing-file-modified-sort="1722032856783" data-listing-reading-time-sort="2" data-listing-word-count-sort="378" data-listing-title-sort="Interpreting Nonverbal Communication" data-listing-filename-sort="interpreting-nonverbal-communication.qmd">
+<td>
+<a href="./tasks/interpreting-nonverbal-communication.html" class="title listing-title">Interpreting Nonverbal Communication</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and interpreting nonverbal cues in human communication, such as body language, facial expressions, and gestures. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Social Intelligence, Body Language, Communication Skills, Emotional Intelligence, Behavioral Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="60" data-categories="Statistics,Data Analysis,Trend Identification,Critical Thinking,Quantitative Reasoning" data-listing-file-modified-sort="1722032829478" data-listing-reading-time-sort="3" data-listing-word-count-sort="436" data-listing-title-sort="Interpreting Statistical Data" data-listing-filename-sort="interpreting-statistical-data.qmd">
+<td>
+<a href="./tasks/interpreting-statistical-data.html" class="title listing-title">Interpreting Statistical Data</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and interpreting statistical data presented in various formats (e.g., tables, graphs, or text descriptions). It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Statistics, Data Analysis, Trend Identification, Critical Thinking, Quantitative Reasoning</span>
+</td>
+</tr>
+<tr data-index="61" data-categories="Creative Thinking,Problem Solving,Lateral Thinking,Word Play,Unconventional Scenarios" data-listing-file-modified-sort="1722032806783" data-listing-reading-time-sort="1" data-listing-word-count-sort="165" data-listing-title-sort="Lateral Thinking Puzzles" data-listing-filename-sort="lateral-thinking-puzzles.qmd">
+<td>
+<a href="./tasks/lateral-thinking-puzzles.html" class="title listing-title">Lateral Thinking Puzzles</a>
+</td>
+<td>
+<span class="listing-description">This task involves solving lateral thinking puzzles to evaluate the model’s ability to think creatively, consider unconventional scenarios, and ask relevant questions to…</span>
+</td>
+<td>
+<span class="listing-categories">Creative Thinking, Problem Solving, Lateral Thinking, Word Play, Unconventional Scenarios</span>
+</td>
+</tr>
+<tr data-index="62" data-categories="Mathematics,Problem Solving,Arithmetic,Word Problems,Applied Mathematics" data-listing-file-modified-sort="1722034886225" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="Mathematical Word Problems" data-listing-filename-sort="mathematical-word-problems.qmd">
+<td>
+<a href="./tasks/mathematical-word-problems.html" class="title listing-title">Mathematical Word Problems</a>
+</td>
+<td>
+<span class="listing-description">This task involves presenting the model with mathematical word problems to assess its ability to interpret, set up, and solve real-world scenarios using mathematical concepts.</span>
+</td>
+<td>
+<span class="listing-categories">Mathematics, Problem Solving, Arithmetic, Word Problems, Applied Mathematics</span>
+</td>
+</tr>
+<tr data-index="63" data-categories="Spatial Reasoning,Mental Imagery,Geometric Transformation,Visual-Spatial Skills,Cognitive Processing" data-listing-file-modified-sort="1722035331888" data-listing-reading-time-sort="1" data-listing-word-count-sort="188" data-listing-title-sort="Mental Rotation Tasks" data-listing-filename-sort="mental-rotation-tasks.qmd">
+<td>
+<a href="./tasks/mental-rotation-tasks.html" class="title listing-title">Mental Rotation Tasks</a>
+</td>
+<td>
+<span class="listing-description">This task involves mentally rotating objects or shapes and predicting their appearance from different angles. It evaluates the model’s ability to manipulate spatial…</span>
+</td>
+<td>
+<span class="listing-categories">Spatial Reasoning, Mental Imagery, Geometric Transformation, Visual-Spatial Skills, Cognitive Processing</span>
+</td>
+</tr>
+<tr data-index="64" data-categories="Ethical Reasoning,Moral Dilemmas,Decision Making,Interpersonal Relationships,Conflict Resolution,Synthetic" data-listing-file-modified-sort="1722034843888" data-listing-reading-time-sort="3" data-listing-word-count-sort="500" data-listing-title-sort="Moral Reasoning in Everyday Situations" data-listing-filename-sort="moral-reasoning-in-everyday-situations.qmd">
+<td>
+<a href="./tasks/moral-reasoning-in-everyday-situations.html" class="title listing-title">Moral Reasoning in Everyday Situations</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing everyday scenarios that present moral dilemmas and reasoning through the ethical implications of different actions. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Ethical Reasoning, Moral Dilemmas, Decision Making, Interpersonal Relationships, Conflict Resolution, Synthetic</span>
+</td>
+</tr>
+<tr data-index="65" data-categories="Creative Writing,Logical Reasoning,Storytelling,Context Understanding,Inference,Synthetic" data-listing-file-modified-sort="1722034818194" data-listing-reading-time-sort="2" data-listing-word-count-sort="257" data-listing-title-sort="Narrative Gap Filling" data-listing-filename-sort="narrative-gap-filling.qmd">
+<td>
+<a href="./tasks/narrative-gap-filling.html" class="title listing-title">Narrative Gap Filling</a>
+</td>
+<td>
+<span class="listing-description">This task involves filling in missing information or events in a narrative to create a coherent story. It evaluates the model’s ability to understand context, make logical…</span>
+</td>
+<td>
+<span class="listing-categories">Creative Writing, Logical Reasoning, Storytelling, Context Understanding, Inference, Synthetic</span>
+</td>
+</tr>
+<tr data-index="66" data-categories="Grammar Analysis,Syntax,Linguistic Complexity,Sentence Structure,Clause Identification,Synthetic" data-listing-file-modified-sort="1722034791233" data-listing-reading-time-sort="2" data-listing-word-count-sort="391" data-listing-title-sort="Parsing Complex Sentences" data-listing-filename-sort="parsing-complex-sentences.qmd">
+<td>
+<a href="./tasks/parsing-complex-sentences.html" class="title listing-title">Parsing Complex Sentences</a>
+</td>
+<td>
+<span class="listing-description">This task involves breaking down complex sentences into their constituent parts, identifying grammatical structures, and explaining the relationships between different…</span>
+</td>
+<td>
+<span class="listing-categories">Grammar Analysis, Syntax, Linguistic Complexity, Sentence Structure, Clause Identification, Synthetic</span>
+</td>
+</tr>
+<tr data-index="67" data-categories="Pattern Recognition,Spatial Reasoning,Sequence Completion,Logical Thinking,Visual-Spatial Skills" data-listing-file-modified-sort="1722034767043" data-listing-reading-time-sort="1" data-listing-word-count-sort="180" data-listing-title-sort="Pattern Recognition in Spatial Arrangements" data-listing-filename-sort="pattern-recognition-in-spatial-arrangements.qmd">
+<td>
+<a href="./tasks/pattern-recognition-in-spatial-arrangements.html" class="title listing-title">Pattern Recognition in Spatial Arrangements</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying patterns or rules in the spatial arrangement of objects or shapes. It evaluates the model’s ability to recognize spatial regularities and…</span>
+</td>
+<td>
+<span class="listing-categories">Pattern Recognition, Spatial Reasoning, Sequence Completion, Logical Thinking, Visual-Spatial Skills</span>
+</td>
+</tr>
+<tr data-index="68" data-categories="Empathy,Social Intelligence,Conflict Resolution,Emotional Intelligence,Multiple Perspectives,Synthetic" data-listing-file-modified-sort="1722034701658" data-listing-reading-time-sort="2" data-listing-word-count-sort="365" data-listing-title-sort="Perspective-Taking in Social Scenarios" data-listing-filename-sort="perspective-taking-in-social-scenarios.qmd">
+<td>
+<a href="./tasks/perspective-taking-in-social-scenarios.html" class="title listing-title">Perspective-Taking in Social Scenarios</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing social situations from different viewpoints to understand the motivations, emotions, and potential reactions of various parties involved. It…</span>
+</td>
+<td>
+<span class="listing-categories">Empathy, Social Intelligence, Conflict Resolution, Emotional Intelligence, Multiple Perspectives, Synthetic</span>
+</td>
+</tr>
+<tr data-index="69" data-categories="Economic Analysis,Market Forecasting,Trend Prediction,Data Synthesis,Strategic Planning,Synthetic" data-listing-file-modified-sort="1722034673906" data-listing-reading-time-sort="3" data-listing-word-count-sort="490" data-listing-title-sort="Predicting Market Trends" data-listing-filename-sort="predicting-market-trends.qmd">
+<td>
+<a href="./tasks/predicting-market-trends.html" class="title listing-title">Predicting Market Trends</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing various economic indicators, historical data, and current events to forecast potential future market trends. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Economic Analysis, Market Forecasting, Trend Prediction, Data Synthesis, Strategic Planning, Synthetic</span>
+</td>
+</tr>
+<tr data-index="70" data-categories="Critical Thinking,Scenario Analysis,Prediction,Logical Reasoning,Problem Solving" data-listing-file-modified-sort="1722034648113" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" data-listing-title-sort="Predicting Outcomes Based on Scenarios" data-listing-filename-sort="predicting-outcomes-based-on-scenarios.qmd">
+<td>
+<a href="./tasks/predicting-outcomes-based-on-scenarios.html" class="title listing-title">Predicting Outcomes Based on Scenarios</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing given scenarios and predicting potential outcomes based on the information provided. It evaluates the model’s ability to apply logical…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Scenario Analysis, Prediction, Logical Reasoning, Problem Solving</span>
+</td>
+</tr>
+<tr data-index="71" data-categories="Decision Making,Strategic Planning,Resource Allocation,Goal Setting,Trade-off Analysis,Synthetic" data-listing-file-modified-sort="1722034626794" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="Prioritizing Conflicting Goals" data-listing-filename-sort="prioritizing-conflicting-goals.qmd">
+<td>
+<a href="./tasks/prioritizing-conflicting-goals.html" class="title listing-title">Prioritizing Conflicting Goals</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and resolving situations where multiple objectives are in conflict, requiring trade-offs and strategic decision-making. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Decision Making, Strategic Planning, Resource Allocation, Goal Setting, Trade-off Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="72" data-categories="Mathematics,Logic,Proof Verification,Number Theory,Reasoning" data-listing-file-modified-sort="1722034493608" data-listing-reading-time-sort="2" data-listing-word-count-sort="283" data-listing-title-sort="Proof Verification" data-listing-filename-sort="proof-verification.qmd">
+<td>
+<a href="./tasks/proof-verification.html" class="title listing-title">Proof Verification</a>
+</td>
+<td>
+<span class="listing-description">This task involves verifying mathematical proofs to evaluate the model’s ability to understand logical arguments, identify correct steps in a proof, and spot errors or gaps…</span>
+</td>
+<td>
+<span class="listing-categories">Mathematics, Logic, Proof Verification, Number Theory, Reasoning</span>
+</td>
+</tr>
+<tr data-index="73" data-categories="Emotional Intelligence,Communication Analysis,Subtext Interpretation,Social Cognition,Language Nuance,Synthetic" data-listing-file-modified-sort="1722034469633" data-listing-reading-time-sort="2" data-listing-word-count-sort="349" data-listing-title-sort="Recognizing Emotional Subtext" data-listing-filename-sort="recognizing-emotional-subtext.qmd">
+<td>
+<a href="./tasks/recognizing-emotional-subtext.html" class="title listing-title">Recognizing Emotional Subtext</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and interpreting the underlying emotional content or implications in a given text that are not explicitly stated. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Emotional Intelligence, Communication Analysis, Subtext Interpretation, Social Cognition, Language Nuance, Synthetic</span>
+</td>
+</tr>
+<tr data-index="74" data-categories="Behavioral Analysis,Pattern Recognition,Data Interpretation,Predictive Reasoning,Consumer Behavior,Synthetic" data-listing-file-modified-sort="1722034442217" data-listing-reading-time-sort="2" data-listing-word-count-sort="344" data-listing-title-sort="Recognizing Patterns in Behavior" data-listing-filename-sort="recognizing-patterns-in-behavior.qmd">
+<td>
+<a href="./tasks/recognizing-patterns-in-behavior.html" class="title listing-title">Recognizing Patterns in Behavior</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying recurring patterns or trends in human or animal behavior based on given scenarios or data. It evaluates the model’s ability to recognize…</span>
+</td>
+<td>
+<span class="listing-categories">Behavioral Analysis, Pattern Recognition, Data Interpretation, Predictive Reasoning, Consumer Behavior, Synthetic</span>
+</td>
+</tr>
+<tr data-index="75" data-categories="Pattern Recognition,Sequence Analysis,Logical Reasoning,Mathematical Thinking,Problem Solving,Synthetic" data-listing-file-modified-sort="1722034141509" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="Recognizing Patterns in Sequences" data-listing-filename-sort="recognizing-patterns-in-sequences.qmd">
+<td>
+<a href="./tasks/recognizing-patterns-in-sequences.html" class="title listing-title">Recognizing Patterns in Sequences</a>
+</td>
+<td>
+<span class="listing-description">This task involves identifying and extending patterns in numerical, alphabetical, or symbolic sequences. It evaluates the model’s ability to recognize underlying rules and…</span>
+</td>
+<td>
+<span class="listing-categories">Pattern Recognition, Sequence Analysis, Logical Reasoning, Mathematical Thinking, Problem Solving, Synthetic</span>
+</td>
+</tr>
+<tr data-index="76" data-categories="Critical Thinking,Information Analysis,Problem Solving,Decision Making,Evidence Evaluation,Synthetic" data-listing-file-modified-sort="1722034117288" data-listing-reading-time-sort="3" data-listing-word-count-sort="505" data-listing-title-sort="Reconciling Conflicting Information" data-listing-filename-sort="reconciling-conflicting-information.qmd">
+<td>
+<a href="./tasks/reconciling-conflicting-information.html" class="title listing-title">Reconciling Conflicting Information</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and resolving contradictory information from multiple sources. It evaluates the model’s ability to critically assess different pieces of…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Information Analysis, Problem Solving, Decision Making, Evidence Evaluation, Synthetic</span>
+</td>
+</tr>
+<tr data-index="77" data-categories="Analytical Thinking,Process Analysis,Logical Reasoning,Systems Thinking,Problem Solving,Synthetic" data-listing-file-modified-sort="1722034089624" data-listing-reading-time-sort="2" data-listing-word-count-sort="295" data-listing-title-sort="Reverse Engineering Processes" data-listing-filename-sort="reverse-engineering-processes.qmd">
+<td>
+<a href="./tasks/reverse-engineering-processes.html" class="title listing-title">Reverse Engineering Processes</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing the end result of a process and working backwards to determine the steps or components that led to that outcome. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Analytical Thinking, Process Analysis, Logical Reasoning, Systems Thinking, Problem Solving, Synthetic</span>
+</td>
+</tr>
+<tr data-index="78" data-categories="Decision Making,Risk Analysis,Critical Thinking,Scenario Planning,Cost-Benefit Analysis,Synthetic" data-listing-file-modified-sort="1722034064776" data-listing-reading-time-sort="4" data-listing-word-count-sort="607" data-listing-title-sort="Risk Assessment in Decision-Making" data-listing-filename-sort="risk-assessment-in-decision-making.qmd">
+<td>
+<a href="./tasks/risk-assessment-in-decision-making.html" class="title listing-title">Risk Assessment in Decision-Making</a>
+</td>
+<td>
+<span class="listing-description">This task involves evaluating potential risks and benefits associated with different courses of action in a given scenario. It assesses the model’s ability to identify…</span>
+</td>
+<td>
+<span class="listing-categories">Decision Making, Risk Analysis, Critical Thinking, Scenario Planning, Cost-Benefit Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="79" data-categories="Theory of Mind,False Beliefs,Higher-Order Reasoning,Social Cognition,Cognitive Psychology" data-listing-file-modified-sort="1722035282841" data-listing-reading-time-sort="2" data-listing-word-count-sort="370" data-listing-title-sort="Second-Order False Belief" data-listing-filename-sort="second-order-false-belief.qmd">
+<td>
+<a href="./tasks/second-order-false-belief.html" class="title listing-title">Second-Order False Belief</a>
+</td>
+<td>
+<span class="listing-description">This task involves understanding that an agent may hold a false belief about another agent’s belief, leading to misinterpretations of actions or intentions. It additionally…</span>
+</td>
+<td>
+<span class="listing-categories">Theory of Mind, False Beliefs, Higher-Order Reasoning, Social Cognition, Cognitive Psychology</span>
+</td>
+</tr>
+<tr data-index="80" data-categories="Temporal Reasoning,Logical Sequencing,Historical Knowledge,Process Understanding,Chronological Ordering" data-listing-file-modified-sort="1722035258121" data-listing-reading-time-sort="1" data-listing-word-count-sort="146" data-listing-title-sort="Sequencing Events" data-listing-filename-sort="sequencing-events.qmd">
+<td>
+<a href="./tasks/sequencing-events.html" class="title listing-title">Sequencing Events</a>
+</td>
+<td>
+<span class="listing-description">This task involves arranging a set of events in chronological order. It evaluates the model’s ability to understand temporal relationships and logical sequences.</span>
+</td>
+<td>
+<span class="listing-categories">Temporal Reasoning, Logical Sequencing, Historical Knowledge, Process Understanding, Chronological Ordering</span>
+</td>
+</tr>
+<tr data-index="81" data-categories="Problem Solving,Lateral Thinking,Language Skills,Deductive Reasoning,Creative Thinking,Synthetic" data-listing-file-modified-sort="1722035239400" data-listing-reading-time-sort="2" data-listing-word-count-sort="206" data-listing-title-sort="Solving Riddles and Word Puzzles" data-listing-filename-sort="solving-riddles-and-word-puzzles.qmd">
+<td>
+<a href="./tasks/solving-riddles-and-word-puzzles.html" class="title listing-title">Solving Riddles and Word Puzzles</a>
+</td>
+<td>
+<span class="listing-description">This task involves deciphering and solving various types of riddles and word puzzles. It evaluates the model’s ability to think creatively, interpret figurative language…</span>
+</td>
+<td>
+<span class="listing-categories">Problem Solving, Lateral Thinking, Language Skills, Deductive Reasoning, Creative Thinking, Synthetic</span>
+</td>
+</tr>
+<tr data-index="82" data-categories="Mathematics,Algebra,Word Problems,System of Equations,Problem Solving,Synthetic" data-listing-file-modified-sort="1722035203770" data-listing-reading-time-sort="2" data-listing-word-count-sort="309" data-listing-title-sort="Solving Word Problems with Multiple Variables" data-listing-filename-sort="solving-word-problems-with-multiple-variables.qmd">
+<td>
+<a href="./tasks/solving-word-problems-with-multiple-variables.html" class="title listing-title">Solving Word Problems with Multiple Variables</a>
+</td>
+<td>
+<span class="listing-description">This task involves interpreting word problems, identifying relevant variables, and constructing equations to solve complex scenarios. It evaluates the model’s ability to…</span>
+</td>
+<td>
+<span class="listing-categories">Mathematics, Algebra, Word Problems, System of Equations, Problem Solving, Synthetic</span>
+</td>
+</tr>
+<tr data-index="83" data-categories="Problem Solving,Spatial Reasoning,Practical Application,Geometric Thinking,Logical Deduction" data-listing-file-modified-sort="1722035179873" data-listing-reading-time-sort="2" data-listing-word-count-sort="264" data-listing-title-sort="Spatial Problem-Solving" data-listing-filename-sort="spatial-problem-solving.qmd">
+<td>
+<a href="./tasks/spatial-problem-solving.html" class="title listing-title">Spatial Problem-Solving</a>
+</td>
+<td>
+<span class="listing-description">This task involves using spatial reasoning to solve practical problems or puzzles. It evaluates the model’s ability to apply spatial concepts to real-world scenarios and…</span>
+</td>
+<td>
+<span class="listing-categories">Problem Solving, Spatial Reasoning, Practical Application, Geometric Thinking, Logical Deduction</span>
+</td>
+</tr>
+<tr data-index="84" data-categories="Logic,Deductive Reasoning,Syllogisms,Critical Thinking" data-listing-file-modified-sort="1722035156521" data-listing-reading-time-sort="1" data-listing-word-count-sort="64" data-listing-title-sort="Syllogism Reasoning" data-listing-filename-sort="syllogism-reasoning.qmd">
+<td>
+<a href="./tasks/syllogism-reasoning.html" class="title listing-title">Syllogism Reasoning</a>
+</td>
+<td>
+<span class="listing-description">This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Deductive Reasoning, Syllogisms, Critical Thinking</span>
+</td>
+</tr>
+<tr data-index="85" data-categories="Psychology,Personality Assessment,Behavioral Analysis,Social Cognition,Character Inference,Synthetic" data-listing-file-modified-sort="1722035136986" data-listing-reading-time-sort="2" data-listing-word-count-sort="377" data-listing-title-sort="Trait Attribution in Behavioral Scenarios" data-listing-filename-sort="trait-attribution-in-behavioral-scenarios.qmd">
+<td>
+<a href="./tasks/trait-attribution-in-behavioral-scenarios.html" class="title listing-title">Trait Attribution in Behavioral Scenarios</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing described behaviors or actions and inferring personality traits or characteristics that might explain those behaviors. It evaluates the model’s…</span>
+</td>
+<td>
+<span class="listing-categories">Psychology, Personality Assessment, Behavioral Analysis, Social Cognition, Character Inference, Synthetic</span>
+</td>
+</tr>
+<tr data-index="86" data-categories="Data Analysis,Pattern Recognition,Forecasting,Critical Thinking,Quantitative Reasoning,Contextual Analysis,Synthetic" data-listing-file-modified-sort="1722035111778" data-listing-reading-time-sort="4" data-listing-word-count-sort="615" data-listing-title-sort="Trend Analysis and Forecasting" data-listing-filename-sort="trend-analysis-and-forecasting.qmd">
+<td>
+<a href="./tasks/trend-analysis-and-forecasting.html" class="title listing-title">Trend Analysis and Forecasting</a>
+</td>
+<td>
+<span class="listing-description">This task involves examining historical data or patterns to identify trends and make predictions about future outcomes. It requires the ability to recognize patterns…</span>
+</td>
+<td>
+<span class="listing-categories">Data Analysis, Pattern Recognition, Forecasting, Critical Thinking, Quantitative Reasoning, Contextual Analysis, Synthetic</span>
+</td>
+</tr>
+<tr data-index="87" data-categories="Logic,Boolean Algebra,Truth Tables,Logical Operators,Propositional Logic" data-listing-file-modified-sort="1722035078673" data-listing-reading-time-sort="2" data-listing-word-count-sort="342" data-listing-title-sort="Truth Table Completion" data-listing-filename-sort="truth-table-completions.qmd">
+<td>
+<a href="./tasks/truth-table-completions.html" class="title listing-title">Truth Table Completion</a>
+</td>
+<td>
+<span class="listing-description">This task involves completing truth tables for given logical expressions to evaluate the model’s understanding of Boolean logic and its ability to determine the truth value…</span>
+</td>
+<td>
+<span class="listing-categories">Logic, Boolean Algebra, Truth Tables, Logical Operators, Propositional Logic</span>
+</td>
+</tr>
+<tr data-index="88" data-categories="Causal Reasoning,Temporal Analysis,Event Sequencing,Cause and Effect,Systems Thinking" data-listing-file-modified-sort="1722035058145" data-listing-reading-time-sort="1" data-listing-word-count-sort="200" data-listing-title-sort="Understanding Time-Based Relationships" data-listing-filename-sort="understanding-time-based-relationships.qmd">
+<td>
+<a href="./tasks/understanding-time-based-relationships.html" class="title listing-title">Understanding Time-Based Relationships</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and explaining relationships between events based on their timing. It evaluates the model’s ability to understand concepts like causality…</span>
+</td>
+<td>
+<span class="listing-categories">Causal Reasoning, Temporal Analysis, Event Sequencing, Cause and Effect, Systems Thinking</span>
+</td>
+</tr>
+<tr data-index="89" data-categories="Time Zone Conversion,Global Time,International Date Line,Travel Time Calculation,Temporal Reasoning" data-listing-file-modified-sort="1722035036985" data-listing-reading-time-sort="1" data-listing-word-count-sort="197" data-listing-title-sort="Understanding Time Zones and Global Time Differences" data-listing-filename-sort="understanding-time-zones-and-global-time-differences.qmd">
+<td>
+<a href="./tasks/understanding-time-zones-and-global-time-differences.html" class="title listing-title">Understanding Time Zones and Global Time Differences</a>
+</td>
+<td>
+<span class="listing-description">This task involves calculating time differences across various time zones and understanding how global time works. It evaluates the model’s ability to work with time zone…</span>
+</td>
+<td>
+<span class="listing-categories">Time Zone Conversion, Global Time, International Date Line, Travel Time Calculation, Temporal Reasoning</span>
+</td>
+</tr>
+<tr data-index="90" data-categories="Critical Thinking,Logic,Philosophy,Conceptual Analysis,Problem Solving,Synthetic" data-listing-file-modified-sort="1722035015377" data-listing-reading-time-sort="3" data-listing-word-count-sort="406" data-listing-title-sort="Unraveling Paradoxes" data-listing-filename-sort="unraveling-paradoxes.qmd">
+<td>
+<a href="./tasks/unraveling-paradoxes.html" class="title listing-title">Unraveling Paradoxes</a>
+</td>
+<td>
+<span class="listing-description">This task involves analyzing and explaining apparent contradictions or logical puzzles known as paradoxes. It evaluates the model’s ability to think critically, identify…</span>
+</td>
+<td>
+<span class="listing-categories">Critical Thinking, Logic, Philosophy, Conceptual Analysis, Problem Solving, Synthetic</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./tasks/analogical-problem-solving.html" class="pagination-link" aria-label="Analogical Problem Solving">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Analogical Problem Solving</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

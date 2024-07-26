@@ -1,0 +1,115 @@
+project:
+  type: book
+
+book:
+  title: "Open Reasoning Tasks"
+  author: "Contributors"
+  date: "7/27/2024"
+  chapters:
+    - index.qmd
+
+    - part: Tasks
+      chapters:
+        - tasks/analogical-problem-solving.qmd
+        - tasks/analogy-creation.qmd
+        - tasks/analyzing-cultural-differences.qmd
+        - tasks/analyzing-decision-making-processes.qmd
+        - tasks/analyzing-decision-trees.qmd
+        - tasks/analyzing-historical-counterfactuals.qmd
+        - tasks/analyzing-rhetorical-strategies.qmd
+        - tasks/assessing-risk-and-uncertainty.qmd
+        - tasks/bias-detection.qmd
+        - tasks/bias-mitigation.qmd
+        - tasks/calculating-probabilities.qmd
+        - tasks/categorizing-information-into-hierarchies.qmd
+        - tasks/causal-chain-analysis.qmd
+        - tasks/completing-analogies.qmd
+        - tasks/constructing-valid-arguments.qmd
+        - tasks/counterfactual-analysis.qmd
+        - tasks/critical-factor-identification-in-theory-of-mind.qmd
+        - tasks/critiquing-argument-structures.qmd
+        - tasks/deciphering-ambiguous-instructions.qmd
+        - tasks/deconstructing-complex-systems.qmd
+        - tasks/deconstructing-metaphors.qmd
+        - tasks/deducing-motives-from-actions.qmd
+        - tasks/deducing-rules-from-examples.qmd
+        - tasks/deductive-logic-puzzles.qmd
+        - tasks/describing-spatial-relationships.qmd
+        - tasks/detecting-sarcasm-and-irony.qmd
+        - tasks/determining-alternative-outcomes.qmd
+        - tasks/distinguishing-correlation-from-causation.qmd
+        - tasks/distinguishing-fact-from-opinion.qmd
+        - tasks/equation-derivation.qmd
+        - tasks/estimating-duration.qmd
+        - tasks/ethical-dilemma-resolution.qmd
+        - tasks/evaluating-analogies-for-accuracy.qmd
+        - tasks/evaluating-competing-theories.qmd
+        - tasks/evaluating-policy-implications.qmd
+        - tasks/evaluating-source-credibility.qmd
+        - tasks/fermi-estimation.qmd
+        - tasks/first-order-false-belief.qmd
+        - tasks/first-order-ignorance.qmd
+        - tasks/forecasting-technological-impacts.qmd
+        - tasks/generating-creative-solutions.qmd
+        - tasks/higher-order-false-belief.qmd
+        - tasks/hypothesis-formation.qmd
+        - tasks/identifying-anachronisms.qmd
+        - tasks/identifying-cause-and-effect-relationships.qmd
+        - tasks/identifying-cognitive-biases.qmd
+        - tasks/identifying-hallucination-prone-questions.qmd
+        - tasks/identifying-implicit-biases-in-language.qmd
+        - tasks/identifying-logical-fallacies.qmd
+        - tasks/identifying-logical-inconsistencies.qmd
+        - tasks/identifying-relationships.qmd
+        - tasks/identifying-unstated-assumptions.qmd
+        - tasks/inference-drawing-from-incomplete-data.qmd
+        - tasks/inferring-emotional-states.qmd
+        - tasks/inferring-motivations-from-actions.qmd
+        - tasks/interpreting-ambiguous-statements.qmd
+        - tasks/interpreting-and-creating-timelines.qmd
+        - tasks/interpreting-body-language-cues.qmd
+        - tasks/interpreting-legal-language-and-precedents.qmd
+        - tasks/interpreting-nonverbal-communication.qmd
+        - tasks/interpreting-statistical-data.qmd
+        - tasks/lateral-thinking-puzzles.qmd
+        - tasks/mathematical-word-problems.qmd
+        - tasks/mental-rotation-tasks.qmd
+        - tasks/moral-reasoning-in-everyday-situations.qmd
+        - tasks/narrative-gap-filling.qmd
+        - tasks/parsing-complex-sentences.qmd
+        - tasks/pattern-recognition-in-spatial-arrangements.qmd
+        - tasks/perspective-taking-in-social-scenarios.qmd
+        - tasks/predicting-market-trends.qmd
+        - tasks/predicting-outcomes-based-on-scenarios.qmd
+        - tasks/prioritizing-conflicting-goals.qmd
+        - tasks/proof-verification.qmd
+        - tasks/recognizing-emotional-subtext.qmd
+        - tasks/recognizing-patterns-in-behavior.qmd
+        - tasks/recognizing-patterns-in-sequences.qmd
+        - tasks/reconciling-conflicting-information.qmd
+        - tasks/reverse-engineering-processes.qmd
+        - tasks/risk-assessment-in-decision-making.qmd
+        - tasks/second-order-false-belief.qmd
+        - tasks/sequencing-events.qmd
+        - tasks/solving-riddles-and-word-puzzles.qmd
+        - tasks/solving-word-problems-with-multiple-variables.qmd
+        - tasks/spatial-problem-solving.qmd
+        - tasks/syllogism-reasoning.qmd
+        - tasks/trait-attribution-in-behavioral-scenarios.qmd
+        - tasks/trend-analysis-and-forecasting.qmd
+        - tasks/truth-table-completions.qmd
+        - tasks/understanding-time-based-relationships.qmd
+        - tasks/understanding-time-zones-and-global-time-differences.qmd
+        - tasks/unraveling-paradoxes.qmd
+
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
