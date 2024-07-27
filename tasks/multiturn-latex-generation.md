@@ -241,7 +241,9 @@ Please tailor the resume specifically for an actress.
 
 Diagram: 
 
-![image](https://gist.github.com/user-attachments/assets/a30c5323-8473-486f-b5f3-fd2ca8339244)
+![image](https://github.com/user-attachments/assets/54129f34-c17b-47a6-aa3f-f251032d0ace)
+
+
 
 Input: In this resume I'd need to make the following edits:
 1. Change my email from sofia.rodriguez@email.com to sofia.rodriguez@mtcschool.edu
@@ -439,7 +441,8 @@ Does it sound good to you?
   
 Diagram: 
   
-![image](https://gist.github.com/user-attachments/assets/51278ae0-482d-42a4-b5e9-77bc4742b728)
+![image](https://github.com/user-attachments/assets/17f7e441-068b-4bef-b068-e9eed80d26a0)
+
 
 
 Example 2:
@@ -561,7 +564,8 @@ In a shocking turn of events, the verb "delve" has become the most sought-after 
 ```
 Diagram (Optional):
 
-![image](https://gist.github.com/user-attachments/assets/47f786c8-6eff-4ca7-9db9-058959356e41)
+![image](https://github.com/user-attachments/assets/fcd4dfb3-31d6-4470-b0a7-6f65ed128bdf)
+
 
 ## Tags:
 - LaTeX Generation
