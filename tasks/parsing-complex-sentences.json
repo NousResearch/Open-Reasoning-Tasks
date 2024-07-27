@@ -1,0 +1,29 @@
+{
+  "name": "Parsing Complex Sentences",
+  "description": "This task involves breaking down complex sentences into their constituent parts, identifying grammatical structures, and explaining the relationships between different clauses and phrases. It evaluates the model's understanding of syntax, grammar, and linguistic complexity.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Parse the following sentence and identify its main clause, subordinate clause(s), and any notable phrases:\n\n\"While the sun was setting, casting long shadows across the field, the children, who had been playing all afternoon, reluctantly headed home for dinner.\"",
+        "output": "Main clause: \n- \"the children... reluctantly headed home for dinner\"\n\nSubordinate clauses:\n1. \"While the sun was setting\" (adverbial clause of time)\n2. \"who had been playing all afternoon\" (relative clause modifying \"children\")\n\nNotable phrases:\n1. \"casting long shadows across the field\" (participial phrase modifying \"sun\")\n2. \"for dinner\" (prepositional phrase indicating purpose)\n\nThe main action of the sentence is the children heading home. The first subordinate clause sets the time, while the participial phrase provides additional context about the setting. The relative clause gives background information about the children's activities."
+      }
+    ],
+    [
+      {
+        "input": "Analyze the structure of this sentence and explain how its parts relate to each other:\n\n\"The old man, his wrinkled face a map of countless journeys, sat silently on the park bench, watching as pigeons pecked at crumbs near his feet.\"",
+        "output": "Structure breakdown:\n\n1. Main clause: \"The old man sat silently on the park bench\"\n   - Subject: \"The old man\"\n   - Verb: \"sat\"\n   - Adverb: \"silently\"\n   - Prepositional phrase: \"on the park bench\"\n\n2. Appositive phrase: \"his wrinkled face a map of countless journeys\"\n   - This phrase provides additional description of the old man\n\n3. Participial phrase: \"watching as pigeons pecked at crumbs near his feet\"\n   - This phrase describes what the old man was doing while sitting\n\nRelationships:\n- The appositive phrase interrupts the main clause to provide a vivid description of the old man's appearance. It's set off by commas and directly relates to \"The old man\".\n- The participial phrase at the end modifies the main verb \"sat\", describing the old man's action while sitting.\n- The prepositional phrase \"near his feet\" within the participial phrase provides spatial context for the pigeons' action.\n\nThis sentence structure allows for a rich, layered description of the scene, combining the old man's physical appearance, his current action, and the environment around him into a single, complex sentence."
+      }
+    ]
+  ],
+  "tags": [
+    "Grammar Analysis",
+    "Syntax",
+    "Linguistic Complexity",
+    "Sentence Structure",
+    "Clause Identification",
+    "Synthetic"
+  ]
+}

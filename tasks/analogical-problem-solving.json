@@ -1,0 +1,29 @@
+{
+  "name": "Analogical Problem Solving",
+  "description": "This task involves using analogies to solve problems by applying solutions from one domain to another similar situation. It evaluates the model's ability to recognize structural similarities between different scenarios and transfer problem-solving strategies across contexts.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "In biology, scientists use the structure of the human eye to understand how cameras work. How might this analogy be used to solve a problem with a malfunctioning camera?",
+        "output": "To solve a problem with a malfunctioning camera using the human eye analogy:\n\n1. Identify the corresponding parts: \n   - Camera lens = Eye lens\n   - Camera aperture = Pupil\n   - Image sensor = Retina\n   - Camera focus = Eye muscles adjusting lens shape\n\n2. Diagnose the issue:\n   If the camera is producing blurry images, consider how the eye solves focus problems. The eye adjusts focus by changing the shape of the lens using muscles.\n\n3. Apply the solution:\n   Check if the camera's autofocus system (analogous to eye muscles) is working correctly. The problem might be with the mechanism that adjusts the lens position or shape.\n\n4. Test the solution:\n   After adjusting or repairing the autofocus system, test the camera to see if the blurriness issue is resolved.\n\nThis approach demonstrates how understanding the structure and function of the eye can guide troubleshooting and problem-solving for a camera system."
+      }
+    ],
+    [
+      {
+        "input": "City planners often use the analogy of a living organism to understand urban development. How might this analogy be used to address traffic congestion in a growing city?",
+        "output": "Using the living organism analogy to address traffic congestion:\n\n1. Identify corresponding elements:\n   - Roads = Circulatory system\n   - Vehicles = Blood cells\n   - Traffic lights/intersections = Valves\n   - Public transportation = Lymphatic system\n\n2. Analyze the problem:\n   Traffic congestion is like a blockage in blood vessels, impeding the flow of \"blood cells\" (vehicles) through the city's \"circulatory system\" (road network).\n\n3. Apply organic solutions:\n   a) Increase capacity: Just as organisms grow new blood vessels, plan new roads or widen existing ones.\n   b) Improve flow regulation: Optimize traffic light timing (like heart valves) to ensure smoother flow.\n   c) Alternative pathways: Develop public transportation (lymphatic system) to reduce pressure on main roads.\n   d) Distributed functionality: Encourage mixed-use zoning to reduce the need for long-distance travel, similar to how organs are distributed throughout a body.\n\n4. Implement and monitor:\n   Gradually implement these solutions and monitor their effectiveness, adjusting as needed, similar to how living organisms adapt to changing conditions.\n\nThis approach demonstrates how viewing a city as a living organism can provide insights into managing complex urban issues like traffic congestion."
+      }
+    ]
+  ],
+  "tags": [
+    "Problem Solving",
+    "Analogical Reasoning",
+    "Creative Thinking",
+    "Interdisciplinary Application",
+    "Systems Thinking",
+    "Synthetic"
+  ]
+}

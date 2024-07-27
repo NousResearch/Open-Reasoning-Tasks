@@ -1,0 +1,29 @@
+{
+  "name": "Critiquing Argument Structures",
+  "description": "This task involves analyzing and evaluating the structure, logic, and effectiveness of arguments. It assesses the model's ability to identify strengths and weaknesses in argumentation, recognize logical fallacies, and suggest improvements to argument structure.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Critique the following argument:\n\n\"Video games cause violence in teenagers. Studies show that teenagers who play violent video games are more likely to engage in aggressive behavior. Therefore, we should ban all video games to reduce violence in society.\"",
+        "output": "Critique:\n\n1. Oversimplification: The argument assumes a direct causal relationship between video games and violence, ignoring other potential factors that could influence aggressive behavior.\n\n2. Hasty Generalization: It generalizes from \"violent video games\" to \"all video games,\" which is an unwarranted leap.\n\n3. Correlation vs. Causation: The studies mentioned show correlation, but the argument treats this as causation without sufficient evidence.\n\n4. False Dichotomy: The argument presents only two options (allow all games or ban all games), ignoring potential middle-ground solutions.\n\n5. Lack of Evidence: The argument doesn't provide specific data or sources for the studies mentioned.\n\n6. Overreach in Conclusion: The proposed solution (banning all video games) is extreme and not proportional to the problem described.\n\nSuggestions for Improvement:\n- Provide more specific evidence and data from reputable sources.\n- Consider other factors that might influence teenage violence.\n- Propose more nuanced solutions, such as age restrictions or content warnings.\n- Distinguish between different types of video games rather than grouping them all together."
+      }
+    ],
+    [
+      {
+        "input": "Critique the following argument:\n\n\"Einstein was a poor student who failed math. He later became one of the greatest scientists in history. This proves that academic performance in school doesn't matter for future success.\"",
+        "output": "Critique:\n\n1. Factual Inaccuracy: The premise about Einstein being a poor student who failed math is a common myth. Historical records show he was actually a good student.\n\n2. Anecdotal Evidence: Even if the premise were true, using a single example to draw a broad conclusion is not logically sound.\n\n3. False Dichotomy: The argument implies that either academic performance matters completely or not at all, ignoring the possibility of a more nuanced relationship.\n\n4. Oversimplification: Success is multi-faceted and can't be reduced to a single factor like academic performance.\n\n5. Hasty Generalization: Drawing a universal conclusion (\"academic performance doesn't matter\") from a single case is logically flawed.\n\n6. Ignoring Confounding Variables: The argument doesn't consider other factors that might have contributed to Einstein's success.\n\nSuggestions for Improvement:\n- Use accurate historical information.\n- Provide multiple examples or statistical data instead of relying on a single case.\n- Consider a more nuanced conclusion about the relationship between academic performance and future success.\n- Acknowledge other factors that contribute to success in addition to academic performance.\n- Specify what is meant by \"success\" to make the argument more precise."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Logical Analysis",
+    "Argumentation",
+    "Fallacy Identification",
+    "Reasoning Skills",
+    "Synthetic"
+  ]
+}

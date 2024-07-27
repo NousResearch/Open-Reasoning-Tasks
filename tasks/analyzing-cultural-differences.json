@@ -1,0 +1,29 @@
+{
+  "name": "Analyzing Cultural Differences",
+  "description": "This task involves comparing and contrasting different cultural practices, beliefs, or norms to identify similarities, differences, and potential reasons for these variations. It evaluates the model's ability to understand and articulate cultural nuances without bias.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Compare the concept of \"personal space\" in the United States and Japan.",
+        "output": "1. United States:\n   - Larger personal space bubble, typically arm's length or more\n   - Direct eye contact is common and expected\n   - Handshakes are a standard greeting\n\n2. Japan:\n   - Smaller personal space, closer physical proximity is common\n   - Less direct eye contact, often seen as respectful\n   - Bowing is the traditional greeting\n\n3. Reasons for differences:\n   - Population density: Japan's higher population density may contribute to comfort with less personal space\n   - Cultural values: US emphasizes individualism, while Japan focuses more on group harmony\n   - Historical influences: Different social norms developed over time in each culture\n\n4. Similarities:\n   - Both cultures have unspoken rules about personal space\n   - In both, personal space expectations may vary in different contexts (e.g., public transport vs. social gatherings)\n\n5. Implications:\n   - These differences can lead to misunderstandings in cross-cultural interactions\n   - Awareness of these differences is important for effective communication and respect in international settings"
+      }
+    ],
+    [
+      {
+        "input": "Analyze the differences in work-life balance concepts between France and the United States.",
+        "output": "1. France:\n   - Legally mandated 35-hour workweek\n   - Minimum of 5 weeks paid vacation annually\n   - \"Right to disconnect\" law limiting after-hours work communication\n   - Emphasis on leisure and quality of life\n\n2. United States:\n   - Standard 40-hour workweek, but longer hours are common\n   - No federal law mandating paid vacation time\n   - No legal restrictions on after-hours work communication\n   - Strong emphasis on productivity and career advancement\n\n3. Reasons for differences:\n   - Historical labor movements: Stronger in France, leading to more worker protections\n   - Cultural values: France prioritizes leisure and family time, US values hard work and career success\n   - Economic models: Different approaches to balancing productivity and worker well-being\n\n4. Similarities:\n   - Both recognize the concept of work-life balance as important\n   - Increasing awareness in both countries about the effects of overwork on health and productivity\n\n5. Implications:\n   - Different expectations for employees in international companies\n   - Potential challenges for expatriates adjusting to different work cultures\n   - Ongoing debates in both countries about the optimal approach to work-life balance\n\n6. Recent trends:\n   - Some US companies adopting more European-style policies\n   - Globalization leading to some convergence in practices"
+      }
+    ]
+  ],
+  "tags": [
+    "Cultural Analysis",
+    "Comparative Studies",
+    "Social Norms",
+    "Cross-Cultural Communication",
+    "Global Awareness",
+    "Synthetic"
+  ]
+}

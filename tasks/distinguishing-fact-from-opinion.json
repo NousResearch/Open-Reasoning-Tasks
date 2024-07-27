@@ -1,0 +1,29 @@
+{
+  "name": "Distinguishing Fact from Opinion",
+  "description": "This task involves differentiating between factual statements and opinions in given texts or scenarios. It evaluates the model's ability to recognize objective, verifiable information versus subjective beliefs or judgments.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Classify each statement as fact or opinion:\n1. The Earth orbits the Sun.\n2. Summer is the best season of the year.\n3. Water boils at 100 degrees Celsius at sea level.\n4. Classical music is more sophisticated than pop music.",
+        "output": "1. Fact: The Earth orbits the Sun.\n   This is a scientifically proven and observable phenomenon.\n\n2. Opinion: Summer is the best season of the year.\n   This is a subjective preference that varies from person to person.\n\n3. Fact: Water boils at 100 degrees Celsius at sea level.\n   This is a verifiable scientific observation under standard conditions.\n\n4. Opinion: Classical music is more sophisticated than pop music.\n   This is a subjective judgment about musical genres, not an objective truth."
+      }
+    ],
+    [
+      {
+        "input": "Determine whether the following statement is a fact or an opinion:\n\"The Mona Lisa, painted by Leonardo da Vinci, is the most beautiful artwork ever created.\"",
+        "output": "This statement is an opinion.\n\nWhile it's a fact that Leonardo da Vinci painted the Mona Lisa, the claim that it is \"the most beautiful artwork ever created\" is subjective. Beauty is in the eye of the beholder, and people's opinions on art can vary greatly. What one person considers the most beautiful may not be the same for another. Therefore, this statement expresses a personal judgment rather than an objective, verifiable fact."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Information Literacy",
+    "Objectivity",
+    "Media Analysis",
+    "Reasoning",
+    "Synthetic"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Recognizing Patterns in Behavior",
+  "description": "This task involves identifying recurring patterns or trends in human or animal behavior based on given scenarios or data. It evaluates the model's ability to recognize behavioral consistencies, understand motivations, and predict future actions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Every Friday, Sarah orders takeout for dinner. On Mondays, she always goes to the gym after work. On Wednesdays, she calls her mother in the evening. What pattern can you identify in Sarah's behavior?",
+        "output": "The pattern in Sarah's behavior is a consistent weekly routine:\n1. Fridays: Orders takeout for dinner\n2. Mondays: Goes to the gym after work\n3. Wednesdays: Calls her mother in the evening\n\nThis pattern suggests that Sarah has structured her week with specific activities on certain days, likely to maintain a balance between social connections (calling her mother), health (going to the gym), and treating herself (ordering takeout)."
+      }
+    ],
+    [
+      {
+        "input": "A company tracks its website traffic and notices the following trends:\n- Traffic spikes every Monday morning\n- There's a significant drop in traffic on weekends\n- The first week of every month sees higher than average traffic\n- Traffic increases by 20% whenever they release a new product\n\nWhat behavioral patterns can you identify from this data?",
+        "output": "The behavioral patterns identified from the website traffic data are:\n\n1. Weekly cycle: Traffic is highest on Mondays and lowest on weekends, suggesting that users are more likely to engage with the website during the workweek.\n\n2. Monthly cycle: The first week of each month sees higher traffic, which could indicate that users have specific tasks or interests related to the beginning of a new month.\n\n3. Work-related usage: The spike in traffic on Monday mornings and the drop during weekends suggest that the website is primarily used for work-related purposes.\n\n4. Product interest: The 20% increase in traffic with new product releases indicates that the audience is interested in and responsive to new offerings from the company.\n\nThese patterns suggest that the website caters to a professional audience who primarily engage with it during work hours and are keen on staying updated with new products or services."
+      }
+    ]
+  ],
+  "tags": [
+    "Behavioral Analysis",
+    "Pattern Recognition",
+    "Data Interpretation",
+    "Predictive Reasoning",
+    "Consumer Behavior",
+    "Synthetic"
+  ]
+}

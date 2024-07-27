@@ -1,0 +1,28 @@
+{
+  "name": "First-Order Ignorance",
+  "description": "This task involves identifying why an agent may lack knowledge or awareness of certain facts or events. It evaluates the model's understanding of ignorance and its impact on decision-making.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A cat hides behind a tree, preparing to ambush an approaching squirrel. Why isn't the squirrel scared?",
+        "output": "The squirrel isn't scared because it is unaware of the cat's presence behind the tree. The squirrel lacks knowledge of the cat's intentions or actions, so it doesn't perceive any threat."
+      }
+    ],
+    [
+      {
+        "input": "Mary's friends plan a surprise party for her. Why isn't Mary excited for the party?",
+        "output": "Mary isn't excited for the party because she is ignorant of it, as it is a surprise. Since she doesn't know about the party, she doesn't anticipate or feel excitement for the event."
+      }
+    ]
+  ],
+  "tags": [
+    "Theory of Mind",
+    "Ignorance",
+    "Cognitive Psychology",
+    "Decision Making",
+    "Social Cognition"
+  ]
+}

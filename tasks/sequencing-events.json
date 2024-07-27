@@ -1,0 +1,28 @@
+{
+  "name": "Sequencing Events",
+  "description": "This task involves arranging a set of events in chronological order. It evaluates the model's ability to understand temporal relationships and logical sequences.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Arrange these events in the correct chronological order:\r\nA) World War II ends\r\nB) The first human lands on the moon\r\nC) The American Revolution begins\r\nD) The Berlin Wall falls",
+        "output": "The correct chronological order is:\r\n1. C) The American Revolution begins (1775)\r\n2. A) World War II ends (1945)\r\n3. B) The first human lands on the moon (1969)\r\n4. D) The Berlin Wall falls (1989)"
+      }
+    ],
+    [
+      {
+        "input": "Put these steps of making a sandwich in the correct order:\r\nA) Add toppings\r\nB) Cut the sandwich\r\nC) Spread condiments on bread\r\nD) Place bread slices on a plate",
+        "output": "The correct order is:\r\n1. D) Place bread slices on a plate\r\n2. C) Spread condiments on bread\r\n3. A) Add toppings\r\n4. B) Cut the sandwich"
+      }
+    ]
+  ],
+  "tags": [
+    "Temporal Reasoning",
+    "Logical Sequencing",
+    "Historical Knowledge",
+    "Process Understanding",
+    "Chronological Ordering"
+  ]
+}

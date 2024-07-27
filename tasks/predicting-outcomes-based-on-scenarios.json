@@ -1,0 +1,28 @@
+{
+  "name": "Predicting Outcomes Based on Scenarios",
+  "description": "This task involves analyzing given scenarios and predicting potential outcomes based on the information provided. It evaluates the model's ability to apply logical reasoning, consider various factors, and make informed predictions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Scenario: A city implements a new policy requiring all businesses to use renewable energy sources within the next five years. Predict two potential outcomes of this policy.",
+        "output": "1. Reduced carbon emissions: As businesses switch to renewable energy sources, the city's overall carbon footprint is likely to decrease significantly.\r\n2. Economic impact on businesses: Some businesses may face initial financial challenges due to the costs of transitioning to renewable energy sources. However, in the long term, they might benefit from reduced energy costs."
+      }
+    ],
+    [
+      {
+        "input": "Scenario: A social media platform introduces a new algorithm that prioritizes posts from close friends and family over those from businesses and celebrities. Predict two potential outcomes of this change.",
+        "output": "1. Increased user engagement: Users may spend more time on the platform as they see more relevant and personal content from their close connections.\r\n2. Reduced reach for businesses and influencers: Companies and public figures may see a decrease in their organic reach, potentially leading to increased spending on paid advertising to maintain visibility."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Scenario Analysis",
+    "Prediction",
+    "Logical Reasoning",
+    "Problem Solving"
+  ]
+}

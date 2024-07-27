@@ -1,0 +1,50 @@
+# Identifying Cause and Effect Relationships
+
+## Description:
+This task involves analyzing given scenarios or statements to identify and explain the cause and effect relationships present. It evaluates the model's ability to understand causal links and distinguish between causes and their consequences.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+"Due to heavy rainfall, the river overflowed its banks, causing widespread flooding in the nearby town." Identify the cause and effect in this statement.
+```
+
+Output:
+
+```
+Cause: Heavy rainfall
+Effect: Widespread flooding in the nearby town
+Explanation: The heavy rainfall led to the river overflowing, which in turn resulted in the flooding. This demonstrates a chain of cause and effect.
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+"The company's profits increased after they launched a new marketing campaign." Identify the cause and effect in this statement.
+```
+
+Output:
+
+```
+Cause: Launching a new marketing campaign
+Effect: Increase in company's profits
+Explanation: The new marketing campaign is presented as the cause that led to the effect of increased profits. However, it's important to note that in real-world scenarios, there might be multiple factors contributing to such outcomes.
+```
+
+## Tags:
+- Critical Thinking
+- Analysis
+- Causal Relationships
+- Logic
+- Reasoning

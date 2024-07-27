@@ -1,0 +1,28 @@
+{
+  "name": "Mathematical Word Problems",
+  "description": "This task involves presenting the model with mathematical word problems to assess its ability to interpret, set up, and solve real-world scenarios using mathematical concepts.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Sarah has 24 cookies. She wants to distribute them equally among 6 friends. How many cookies will each friend receive?",
+        "output": "Each friend will receive 4 cookies.\r\nCalculation:\r\n24 cookies ÷ 6 friends = 4 cookies per friend"
+      }
+    ],
+    [
+      {
+        "input": "A train travels at a speed of 60 miles per hour. How far will it travel in 2.5 hours?",
+        "output": "The train will travel 150 miles.\r\nCalculation:\r\nDistance = Speed × Time\r\nDistance = 60 miles/hour × 2.5 hours = 150 miles"
+      }
+    ]
+  ],
+  "tags": [
+    "Mathematics",
+    "Problem Solving",
+    "Arithmetic",
+    "Word Problems",
+    "Applied Mathematics"
+  ]
+}

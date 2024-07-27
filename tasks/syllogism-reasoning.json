@@ -1,0 +1,27 @@
+{
+  "name": "Syllogism Reasoning",
+  "description": "This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "All men are mortal. Socrates is a man. What can we conclude?",
+        "output": "Socrates is mortal."
+      }
+    ],
+    [
+      {
+        "input": "All fruits have seeds. An apple is a fruit. What can we conclude?",
+        "output": "An apple has seeds."
+      }
+    ]
+  ],
+  "tags": [
+    "Logic",
+    "Deductive Reasoning",
+    "Syllogisms",
+    "Critical Thinking"
+  ]
+}

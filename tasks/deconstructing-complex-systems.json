@@ -1,0 +1,29 @@
+{
+  "name": "Deconstructing Complex Systems",
+  "description": "This task involves breaking down complex systems, processes, or phenomena into their constituent parts and explaining how these parts interact to create the overall system. It evaluates the model's ability to analyze intricate structures and understand cause-and-effect relationships within complex systems.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Deconstruct the process of photosynthesis in plants, explaining the key components and their interactions.",
+        "output": "Photosynthesis can be deconstructed into the following key components and interactions:\n\n1. Light absorption:\n   - Chlorophyll pigments in chloroplasts capture light energy\n   - Different pigments absorb different wavelengths of light\n\n2. Light-dependent reactions:\n   - Occurs in thylakoid membranes\n   - Water molecules are split, releasing oxygen and hydrogen ions\n   - Electrons from water are energized and passed through electron transport chain\n   - ATP is produced through chemiosmosis\n   - NADPH is produced from NADP+\n\n3. Light-independent reactions (Calvin cycle):\n   - Occurs in the stroma of chloroplasts\n   - CO2 is fixed using the enzyme RuBisCO\n   - ATP and NADPH from light-dependent reactions are used to produce glucose\n   - RuBP is regenerated to continue the cycle\n\n4. Interactions:\n   - Light energy drives the light-dependent reactions\n   - Products of light-dependent reactions (ATP and NADPH) fuel the Calvin cycle\n   - CO2 from the atmosphere is used in the Calvin cycle\n   - Glucose produced is used for plant growth or stored as starch\n\nThis process demonstrates how plants convert light energy into chemical energy stored in glucose, linking the abiotic (light, water, CO2) and biotic (plant) components of an ecosystem."
+      }
+    ],
+    [
+      {
+        "input": "Deconstruct the components and interactions in a basic computer system.",
+        "output": "A basic computer system can be deconstructed into the following components and interactions:\n\n1. Hardware:\n   a. Central Processing Unit (CPU):\n      - Control Unit: manages and coordinates system operations\n      - Arithmetic Logic Unit (ALU): performs calculations and logical operations\n   b. Memory:\n      - Random Access Memory (RAM): temporary, volatile storage\n      - Read-Only Memory (ROM): permanent, non-volatile storage\n   c. Storage devices (e.g., hard drive, SSD): long-term data storage\n   d. Input devices (e.g., keyboard, mouse): user interaction\n   e. Output devices (e.g., monitor, printer): display results\n   f. Motherboard: connects all components\n\n2. Software:\n   a. Operating System: manages hardware and provides user interface\n   b. Applications: perform specific tasks for users\n   c. Drivers: allow OS to communicate with hardware devices\n\n3. Data:\n   - Binary information processed by the system\n\n4. Interactions:\n   - Input devices send data to the CPU through the motherboard\n   - CPU processes data using instructions from RAM\n   - CPU sends results to output devices or storage\n   - OS coordinates resource allocation and task scheduling\n   - Applications interact with OS to access hardware resources\n   - Data flows between components via buses on the motherboard\n\nThis deconstruction shows how hardware, software, and data components interact to create a functional computer system, with the CPU acting as the central coordinator for all processes."
+      }
+    ]
+  ],
+  "tags": [
+    "Systems Analysis",
+    "Cause and Effect",
+    "Component Interaction",
+    "Process Understanding",
+    "Analytical Thinking",
+    "Synthetic"
+  ]
+}

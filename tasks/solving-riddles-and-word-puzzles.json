@@ -1,0 +1,29 @@
+{
+  "name": "Solving Riddles and Word Puzzles",
+  "description": "This task involves deciphering and solving various types of riddles and word puzzles. It evaluates the model's ability to think creatively, interpret figurative language, and make logical deductions based on given clues.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "output": "The answer is: An echo.\n\nExplanation:\n- \"I speak without a mouth\": An echo produces sound without having a physical mouth.\n- \"I hear without ears\": An echo seems to 'hear' the original sound and repeat it.\n- \"I have no body\": An echo is intangible.\n- \"I come alive with wind\": Sound waves, which are essentially moving air (wind), create echoes."
+      }
+    ],
+    [
+      {
+        "input": "What 8 letter word can have a letter taken away and it still makes a word. Take another letter away and it still makes a word. Keep on doing that until you have one letter left. What is the word?",
+        "output": "The answer is: Starting\n\nExplanation:\nStarting (8 letters)\nStaring (7 letters)\nString (6 letters)\nSting (5 letters)\nSing (4 letters)\nSin (3 letters)\nIn (2 letters)\nI (1 letter)\n\nEach step removes one letter while still forming a valid English word, until we're left with the single letter 'I'."
+      }
+    ]
+  ],
+  "tags": [
+    "Problem Solving",
+    "Lateral Thinking",
+    "Language Skills",
+    "Deductive Reasoning",
+    "Creative Thinking",
+    "Synthetic"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Ethical Dilemma Resolution",
+  "description": "This task involves analyzing complex ethical scenarios, weighing conflicting moral principles, and proposing reasoned solutions. It evaluates the model's ability to consider multiple perspectives, apply ethical frameworks, and articulate nuanced judgments in morally ambiguous situations.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A geneticist discovers a way to eliminate a debilitating genetic disorder in embryos. However, the process also inadvertently enhances intelligence. Using this technique could prevent suffering but might create societal inequalities. Should the geneticist publish and promote this discovery?",
+        "output": "This ethical dilemma involves several conflicting principles:\n\n1. Beneficence: The technique could prevent suffering from genetic disorders.\n2. Non-maleficence: It might create societal inequalities and unforeseen consequences.\n3. Autonomy: Parents' right to make informed choices about their children's genetics.\n4. Justice: Potential for widening gaps between those who can and cannot access the technology.\n5. Scientific progress: The value of advancing genetic research.\n\nProposed resolution:\n\nThe geneticist should publish the discovery but with careful framing and recommendations:\n\n1. Transparency: Fully disclose all known effects, including intelligence enhancement.\n2. Regulatory framework: Advocate for strict regulations on the technique's use, limiting it to preventing severe genetic disorders.\n3. Ethical guidelines: Propose guidelines for genetic counseling to help parents make informed decisions.\n4. Research priorities: Emphasize the need for further research on long-term societal impacts.\n5. Access considerations: Recommend policies to ensure equitable access to the technology.\n6. Ongoing monitoring: Suggest establishing a body to monitor and assess the technology's impact over time.\n\nThis approach balances the potential benefits of preventing genetic disorders with the need to mitigate risks of societal inequality. It also respects scientific progress and parental autonomy while emphasizing the importance of careful implementation and ongoing ethical consideration."
+      }
+    ],
+    [
+      {
+        "input": "A small village relies on hunting endangered animals for sustenance and cultural practices. Conservation efforts aim to protect these animals. How can this conflict be ethically resolved?",
+        "output": "This ethical dilemma involves several competing interests and principles:\n\n1. Environmental conservation: Protecting endangered species and biodiversity.\n2. Cultural preservation: Respecting the village's traditions and way of life.\n3. Human welfare: Ensuring the village has access to food and resources.\n4. Sustainability: Balancing current needs with long-term ecological health.\n5. Global vs. local interests: Weighing broader conservation goals against local community needs.\n\nProposed resolution:\n\nA multi-faceted approach that seeks to balance these competing interests:\n\n1. Community engagement: Involve the villagers in conservation efforts, incorporating their knowledge and perspectives.\n2. Alternative livelihoods: Develop sustainable economic opportunities that reduce reliance on hunting endangered species (e.g., ecotourism, sustainable agriculture).\n3. Cultural adaptation: Work with community leaders to modify cultural practices in ways that preserve their essence while reducing impact on endangered species.\n4. Education programs: Implement conservation education to foster understanding of ecological importance.\n5. Controlled hunting: Establish strictly regulated quotas for hunting that allow limited cultural practices while ensuring species survival.\n6. Habitat protection: Create protected areas that benefit both wildlife and the local community.\n7. Food security programs: Implement initiatives to ensure the village has access to nutritious alternatives.\n8. Compensation schemes: Develop programs that compensate the community for conservation efforts and any economic losses.\n9. Regular reassessment: Continuously monitor and adjust the approach based on ecological and social outcomes.\n\nThis resolution aims to respect the village's needs and cultural heritage while working towards long-term conservation goals. It recognizes that sustainable solutions require balancing multiple ethical considerations and stakeholder interests, and that gradual, collaborative change is often more effective than abrupt impositions."
+      }
+    ]
+  ],
+  "tags": [
+    "Ethics",
+    "Critical Thinking",
+    "Decision Making",
+    "Cultural Sensitivity",
+    "Environmental Ethics",
+    "Moral Philosophy",
+    "Synthetic"
+  ]
+}
