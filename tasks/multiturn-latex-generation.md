@@ -1,0 +1,575 @@
+**Name: Multiturn Latex Generation**
+
+**Description:** This task involves multiturn conversations to generate and edit a latex document from broad descriptions. Following are the properties of multiturn latex generation task:
+
+1. Instruction-based LaTeX Code Generation: The task takes in a broad description or instruction and generates LaTeX code that meets the specified requirements.
+
+2. Formatting and Sizing Constraints: The generated LaTeX code ensures that formatting and sizing constraints, such as hspace and vspace, are adhered to.
+
+3. Thinking Tags for Content Generation and Finalizing: The task utilizes THINKING tags to execute thinking and multiple reasoning steps to craft the content in best way possible. 
+
+4. Working with various formats: Resume, Papers, Books, Bibliography, Calendar, Formal Letters, Poster, Presentation, Lab Reports, Thesis.
+
+
+Example(s):
+- Example 1:
+    **Input:** Given following details. Create a resume with the format that represents the section headings in a grey box, the education details filled in a tabular format. In the following order.
+     1. Objective
+     2. Education
+     3. Professional Experience.
+     4. Theater Projects
+     5. Achievements and Awards
+     6. Skills and Interests
+
+
+     The details to be filled in the resume are:
+     
+     
+     Name: Sofia Rodriguez
+Age: 24
+Gender: Female
+Email: sofia.rodriguez@email.com
+Phone: +1 (555) 123-4567
+Education:
+
+Degree: BFA in Acting
+Institution: New York Academy of Dramatic Arts
+Years: 2018-2022
+GPA: 3.8
+Degree: High School Diploma
+Institution: Eastside Arts High School
+Year: 2018
+GPA: 3.9
+
+Professional Experience:
+
+Role: Supporting Role in "City Lights" (Independent Film)
+Duration: June 2023 - August 2023
+Key Points:
+
+Portrayed Elena, a struggling artist
+Collaborated with director on character development
+
+
+Role: Ensemble Cast Member (Regional Theater Production)
+Duration: January 2023 - March 2023
+Key Points:
+
+Performed in "Our Town" at the Civic Theater
+Played multiple roles
+Received positive reviews
+
+
+Role: Guest Star on "Law & Order: SVU"
+Duration: November 2022
+Key Points:
+
+Played a key witness in a high-profile episode
+Worked with veteran actors
+
+
+
+Theater Projects:
+
+Project: "The House of Bernarda Alba"
+Role: Lead (Adela)
+Date: April 2022
+Achievement: Received departmental honors
+Project: "A Streetcar Named Desire"
+Role: Supporting (Stella Kowalski)
+Date: November 2021
+Achievement: Commended for accent work and emotional range
+
+Achievements and Awards:
+
+Best Newcomer - New York Indie Film Festival 2023
+Emerging Latina Talent Scholarship - Hispanic Organization of Latin Actors (HOLA), 2021
+First Place, Monologue Competition - College Theater Festival 2020
+
+Skills:
+
+Fluent in English and Spanish
+Proficient in various accents
+Stage combat
+Improv
+Singing (Mezzo-Soprano)
+
+Interests:
+
+Latin American cinema
+Salsa dancing
+Yoga
+Volunteer work with youth theater programs
+
+Additional:
+IMDb Profile: https://www.imdb.me/sofiarodriguez
+
+Please tailor the resume specifically for an actress.
+
+**Output:** Certainly, I can help you create a resume that is specifically suited to the acting profession. Make sure resume fits on A4 size sheet.
+
+```
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{xcolor,lipsum}
+\usepackage{titlesec}
+\usepackage[a4paper,ignoreheadfoot, left=1in,right=1in,top=-0.2in,left=0.5in, bottom=1in,]{geometry}
+
+\usepackage{hyperref}
+
+
+%now we use titlesec and we keep sectional alignments clear 
+
+\titlespacing\section{4pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 4pt }
+\titlespacing\subsection{10pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{4pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+
+\titleformat{\section}[frame]
+{\bfseries  }
+{\filright  }
+{0em }
+{\filcenter \colorsection}
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{grey!20}{\parbox{\dimexpr\textwidth-4\fboxsep}{\ #1}}}
+
+%the document commands start from here
+\title{ \vspace{-1em} SOFIA RODRIGUEZ \vspace{-35px}}{\filcenter}
+\date{ Female, 24 years \tab[3cm] \href{mailto:sofia.rodriguez@email.com}{\underline{sofia.rodriguez@email.com}} \tab[1.8cm] +1 (555) 123-4567 \vspace{-20px}} {\filright}
+
+\begin{document}
+
+
+\titleformat{\subsection}{\bfseries}{}{1em}{}[]
+\titleformat{\subsubsection}{}{}{0em}{}[]
+
+\maketitle
+
+\section{OBJECTIVE}
+\vspace{2px}
+ 
+         \subsubsection{Passionate and versatile actress with a strong foundation in theater and growing experience in film and television. Seeking challenging roles that allow me to showcase my range and contribute to compelling storytelling. Bilingual in English and Spanish with a dedication to bringing authentic Latina representation to the screen.}
+    
+\vspace{0pt}  
+\section{EDUCATION}
+
+\subsection{}
+\vspace{-1.4em}
+\hspace{-0.2em}
+\begin{tabularx}{0.92\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |>{\raggedleft\arraybackslash}X | }
+ \hline
+ BFA in Acting & New York Academy of Dramatic Arts & 2018-2022 & 3.8 GPA \\
+ \hline
+ High School Diploma & Eastside Arts High School & 2018 & 3.9 GPA \\
+\hline
+\end{tabularx}
+
+\vspace{-10pt}    
+\section{PROFESSIONAL EXPERIENCE}
+\vspace{0pt}
+
+
+\subsection{{Supporting Role in "City Lights" - Independent Film} \hspace{55pt} (June 2023 - August 2023)}
+    \begin{itemize}
+        \item \subsubsection{Portrayed Elena, a struggling artist, in this critically acclaimed indie drama.}
+        \item \subsubsection{Collaborated closely with the director to develop character backstory and motivations.}
+    \end{itemize}
+      \vspace{-5pt}
+    
+    \subsection{{Ensemble Cast Member - Regional Theater Production} \hspace{40pt} (January 2023 - March 2023)}
+    \begin{itemize}
+        \item \subsubsection{Performed in "Our Town" at the Civic Theater, playing multiple roles.}
+        \item \subsubsection{Received positive reviews for versatility and emotional depth.}
+    \end{itemize}
+    
+    \subsection{{Guest Star - "Law & Order: SVU"} \hspace{210pt} (November 2022)}
+    \begin{itemize}
+        \item \subsubsection{Played a key witness in a high-profile episode.}
+        \item \subsubsection{Worked alongside veteran actors in a fast-paced television environment.}
+    \end{itemize}
+     
+\vspace{-10pt}     
+\section{THEATER PROJECTS}
+\vspace{0px}
+ \subsection{{\href{https://www.imdb.me/sofiarodriguez}{Lead Role in "The House of Bernarda Alba"}} \hspace{170pt} (April 2022) }
+ \vspace{0pt}
+ \begin{itemize}
+     \item \subsubsection{Portrayed Adela in this classic Spanish play for senior thesis performance.}
+     \item \subsubsection{Received departmental honors for outstanding interpretation.}
+ \end{itemize}
+ \vspace{-5px}
+ \subsection{{Supporting Role in "A Streetcar Named Desire"} \hspace{130pt} (November 2021)}
+ \begin{itemize}
+     \item \subsubsection{Played Stella Kowalski in the university's main stage production.}
+     \item \subsubsection{Commended for authentic accent work and emotional range.}
+ \end{itemize}
+\vspace{-5px} 
+\section{ACHIEVEMENTS AND AWARDS}
+\begin{itemize}
+\item \subsubsection{Winner, \textbf{Best Newcomer} - New York Indie Film Festival 2023 for role in "City Lights".}
+\vspace{-5px}
+\item \subsubsection{Recipient of the \href{https://www.hellohola.org/}{\textbf{Emerging Talent}} from the HOLA, 2021.}
+\vspace{-5px}
+\item \subsubsection{First Place, \textbf{Monologue Competition} - College Theater Festival 2020.}
+\end{itemize}
+\vspace{-10pt}     
+ 
+\section{SKILLS AND INTERESTS}
+\subsection{{Skills}}
+\begin{itemize}
+    \item \subsubsection{Fluent in English and Spanish | Proficient in various accents | Stage combat | Improv | Singing (Mezzo-Soprano)} 
+\end{itemize}
+\vspace{-7pt}
+\subsection{{Interests}}
+\begin{itemize}
+    \item \subsubsection{Latin American cinema | Salsa dancing | Yoga | Volunteer work with youth theater programs} 
+\end{itemize}
+\vspace{-7pt}
+\subsection{{Additional Details}}
+\begin{itemize}
+    \item \subsubsection{IMDb Profile: \href{https://www.imdb.me/sofiarodriguez}{\underline{https://www.imdb.me/sofiarodriguez}}} 
+\end{itemize}
+ \end{document}
+```
+
+Diagram: 
+
+![image](https://github.com/user-attachments/assets/54129f34-c17b-47a6-aa3f-f251032d0ace)
+
+
+
+Input: In this resume I'd need to make the following edits:
+1. Change my email from sofia.rodriguez@email.com to sofia.rodriguez@mtcschool.edu
+2. Add in Professional Experience: Main role in the webseries "Shush", I played the queen of england as the main role. DESCRIBE it elloquently and add relevant points for such an experience. Webseries got 5 million views.
+
+**Output:** I can update the version of your resume according to the details you just gave me. I will place the email sofia.rodriguez@mtcschool.edu at it's appropriate place. 
+To accomodate your professional experience in your main role as "Shush" and it amassed 5 million views, I shall craft a description for you.
+
+$$THINKING$$
+  
+Since the role is given that of a Queen of the England. Let's breakdown the role into categories. 
+
+Character:
+
+Queen Elizabeth III (fictitious future monarch)
+Character Traits:
+
+Regal poise
+Relatable humanity
+Complex character
+Acting Skills:
+
+Masterful performance
+Nuanced performance
+Versatility as a Latina actress in a non-traditional role
+Authentic British accent
+Collaboration:
+
+Worked closely with costume designers
+Worked closely with dialect coaches
+Goals/Achievements:
+
+Ensured historical accuracy
+Ensured cultural sensitivity
+Garnered praise for performance
+Series Impact:
+
+Critically acclaimed series
+Amassed over 5 million views across streaming platforms within the first month of release
+Gained significant online traction
+  
+$$THINKING$$
+
+After carefully thinking about description of your role in "Shush", I could come up with the following description.
+1. Portraying Queen Elizabeth III, a fictitious future monarch, in this critically acclaimed alternative history series.
+2. Masterfully balancing regal poise with relatable humanity, bringing depth to a complex character navigating personal struggles and political intrigue.
+3. Garnered praise for authentic British accent and nuanced performance, challenging stereotypes and showcasing versatility as a Latina actress in a non-traditional role.
+4. Collaborated closely with costume designers and dialect coaches to ensure historical accuracy and cultural sensitivity in the portrayal.
+5. Series has gained significant online traction, amassing over 5 million views across streaming platforms within the first month of release.
+
+Does it sound good to you?
+
+**Input: ** Yes. 
+
+**Output:** Certainly. Let me update the version of your resume given the description and the email. 
+
+```
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{xcolor,lipsum}
+\usepackage{titlesec}
+\usepackage[a4paper,ignoreheadfoot, left=1in,right=1in,top=-0.2in,left=0.5in, bottom=1in,]{geometry}
+
+\usepackage{hyperref}
+
+
+%now we use titlesec and we keep sectional alignments clear 
+
+\titlespacing\section{4pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 4pt }
+\titlespacing\subsection{10pt}{14pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{4pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+
+\titleformat{\section}[frame]
+{\bfseries  }
+{\filright  }
+{0em }
+{\filcenter \colorsection}
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{grey!20}{\parbox{\dimexpr\textwidth-4\fboxsep}{\ #1}}}
+
+%the document commands start from here
+\title{ \vspace{-1em} SOFIA RODRIGUEZ \vspace{-35px}}{\filcenter}
+\date{ Female, 24 years \tab[3cm] \href{mailto:sofia.rodriguez@mtcschool.edu}{\underline{sofia.rodriguez@mtcschool.edu}} \tab[1.8cm] +1 (555) 123-4567 \vspace{-20px}} {\filright}
+
+\begin{document}
+
+
+\titleformat{\subsection}{\bfseries}{}{1em}{}[]
+\titleformat{\subsubsection}{}{}{0em}{}[]
+
+\maketitle
+
+\section{OBJECTIVE}
+\vspace{2px}
+ 
+         \subsubsection{Passionate and versatile actress with a strong foundation in theater and growing experience in film and television. Seeking challenging roles that allow me to showcase my range and contribute to compelling storytelling. Bilingual in English and Spanish with a dedication to bringing authentic Latina representation to the screen.}
+    
+\vspace{0pt}  
+\section{EDUCATION}
+
+\subsection{}
+\vspace{-1.4em}
+\hspace{-0.2em}
+\begin{tabularx}{0.92\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |>{\raggedleft\arraybackslash}X | }
+ \hline
+ BFA in Acting & New York Academy of Dramatic Arts & 2018-2022 & 3.8 GPA \\
+ \hline
+ High School Diploma & Eastside Arts High School & 2018 & 3.9 GPA \\
+\hline
+\end{tabularx}
+
+\vspace{-10pt}    
+\section{PROFESSIONAL EXPERIENCE}
+\vspace{0pt}
+
+\subsection{{Lead Role in Web Series "Shush"} \hspace{150pt} (September 2023 - Present)}
+    \begin{itemize}
+        \item \subsubsection{Portraying Queen Elizabeth III, a fictitious future monarch, in this critically acclaimed alternative history series.}
+        \item \subsubsection{Masterfully balancing regal poise with relatable humanity, bringing depth to a complex character navigating personal struggles and political intrigue.}
+        \item \subsubsection{Garnered praise for authentic British accent and nuanced performance, challenging stereotypes and showcasing versatility as a Latina actress in a non-traditional role.}
+        \item \subsubsection{Collaborated closely with costume designers and dialect coaches to ensure historical accuracy and cultural sensitivity in the portrayal.}
+        \item \subsubsection{Series has gained significant online traction, amassing over 5 million views across streaming platforms within the first month of release.}
+    \end{itemize}
+        \vspace{-5pt}  
+\subsection{{Supporting Role in "City Lights" - Independent Film} \hspace{55pt} (June 2023 - August 2023)}
+    \begin{itemize}
+        \item \subsubsection{Portrayed Elena, a struggling artist, in this critically acclaimed indie drama.}
+        \item \subsubsection{Collaborated closely with the director to develop character backstory and motivations.}
+    \end{itemize}
+      \vspace{-5pt}
+    
+    \subsection{{Ensemble Cast Member - Regional Theater Production} \hspace{40pt} (January 2023 - March 2023)}
+    \begin{itemize}
+        \item \subsubsection{Performed in "Our Town" at the Civic Theater, playing multiple roles.}
+        \item \subsubsection{Received positive reviews for versatility and emotional depth.}
+    \end{itemize}
+    
+    \subsection{{Guest Star - "Law & Order: SVU"} \hspace{210pt} (November 2022)}
+    \begin{itemize}
+        \item \subsubsection{Played a key witness in a high-profile episode.}
+        \item \subsubsection{Worked alongside veteran actors in a fast-paced television environment.}
+    \end{itemize}
+     
+\vspace{-10pt}     
+\section{THEATER PROJECTS}
+\vspace{0px}
+ \subsection{{\href{https://www.imdb.me/sofiarodriguez}{Lead Role in "The House of Bernarda Alba"}} \hspace{170pt} (April 2022) }
+ \vspace{0pt}
+ \begin{itemize}
+     \item \subsubsection{Portrayed Adela in this classic Spanish play for senior thesis performance.}
+     \item \subsubsection{Received departmental honors for outstanding interpretation.}
+ \end{itemize}
+ \vspace{-5px}
+ \subsection{{Supporting Role in "A Streetcar Named Desire"} \hspace{130pt} (November 2021)}
+ \begin{itemize}
+     \item \subsubsection{Played Stella Kowalski in the university's main stage production.}
+     \item \subsubsection{Commended for authentic accent work and emotional range.}
+ \end{itemize}
+\vspace{-5px} 
+\section{ACHIEVEMENTS AND AWARDS}
+\begin{itemize}
+\item \subsubsection{Winner, \textbf{Best Newcomer} - New York Indie Film Festival 2023 for role in "City Lights".}
+\vspace{-5px}
+\item \subsubsection{Recipient of the \href{https://www.hellohola.org/}{\textbf{Emerging Talent}} from the HOLA, 2021.}
+\vspace{-5px}
+\item \subsubsection{First Place, \textbf{Monologue Competition} - College Theater Festival 2020.}
+\end{itemize}
+\vspace{-10pt}     
+ 
+\section{SKILLS AND INTERESTS}
+\subsection{{Skills}}
+\begin{itemize}
+    \item \subsubsection{Fluent in English and Spanish | Proficient in various accents | Stage combat | Improv | Singing (Mezzo-Soprano)} 
+\end{itemize}
+\vspace{-7pt}
+\subsection{{Interests}}
+\begin{itemize}
+    \item \subsubsection{Latin American cinema | Salsa dancing | Yoga | Volunteer work with youth theater programs} 
+\end{itemize}
+\vspace{-7pt}
+\subsection{{Additional Details}}
+\begin{itemize}
+    \item \subsubsection{IMDb Profile: \href{https://www.imdb.me/sofiarodriguez}{\underline{https://www.imdb.me/sofiarodriguez}}} 
+\end{itemize}
+ \end{document}
+```
+  
+Diagram: 
+  
+![image](https://github.com/user-attachments/assets/17f7e441-068b-4bef-b068-e9eed80d26a0)
+
+
+
+Example 2:
+**Input**:
+
+Write a paper on the limitations of compute over fine grained datasets and format it with latex. Use ONLY one page. Include author names, such as LLaMA 3 from Meta AI (llama@meta.ai) and Claude 3.5 Sonnet from Anthropic AI (claude@anthropic.ai).
+
+** Output**:
+
+ Certainly! I'd be happy to help you write a paper on the limitations of compute over fine-grained datasets using LaTeX formatting.
+
+$$THINKING$$
+   
+Title: Beyond the Bitter Lesson: Exploring the Limitations of Compute over Datasets for Robust Language Models. 
+
+From the given request and the title, the goals of the paper seem to be as following:
+
+  1. The "bitter lesson" of AI research emphasizes the importance of leveraging computation over human hand-baking knowledge.
+  2. Recent advancements in language models have shown that simply scaling up computation is not enough.
+  3. The authors investigated the significance of:
+  Fine-grained datasets
+  Excessive cleaning using deduplication
+   Using multiple classifiers
+  4. The authors' experiments showed that a language model with 8B parameters can outperform GPT-3 with 175B parameters.
+  5. The techniques used to achieve this result include:
+  6. Distillation
+  7. Dataset filtering
+  8. Dataset classification
+  9. Adding high-quality reasoning tasks
+  10. The goal of the research is to systematically analyze the contributions of these techniques and provide insights into the optimal utilization of compute resources over datasets.
+
+To better support the research, following are some facts to the best of my knowledge. 
+  
+  1. Language models with 8B parameters can outperform GPT-3 with 175B parameters.
+  2. Using techniques such as distillation, dataset filtering, dataset classification, and adding high-quality reasoning tasks can improve the performance of language models.
+  3. Language models commonly use the word 'delve', and has been major concern for the users. The work might investigate filtering techniques exploring to reduce the usage of the word. 
+
+Using the goal and the facts, let's carefully craft an abstract:
+
+  The bitter lesson of AI research emphasizes the importance of leveraging computation over human hand-baking knowledge to achieve significant progress. However, recent advancements in language models have revealed that simply scaling up computation is all that is required. This work delves into the limitations of compute over datasets and explores techniques to improve the training of language models. We investigate the significance of fine-grained datasets, excessive cleaning using deduplication, and the use of multiple classifiers to achieve robust improvements. Our experiments demonstrate that language models with 8B parameters can outperform GPT-3 with 175B parameters by employing techniques such as distillation, dataset filtering, dataset classification, and the addition of high-quality reasoning tasks. This research aims to systematically analyze the contributions of these techniques and provide insights into the optimal utilization of compute resources over datasets. By understanding the limitations of compute over datasets, we can develop more effective strategies for building robust and efficient language models that truly leverage the power of high quality datasets.
+
+We can also write an introduction
+
+Introduction
+
+The exponential growth in computing power, as described by Moore's Law, has driven rapid progress in artificial intelligence (AI) research. This has led to a shift from leveraging human knowledge to developing scalable, general-purpose methods. Known as the "bitter lesson," this approach has shown success across various AI domains. However, recent advancements in language models have revealed that simply scaling up computation may not be sufficient for optimal performance. While large language models like GPT-3 have achieved remarkable results, they still face limitations such as biases, inconsistencies, and lack of robustness.
+
+This paper explores the limitations of relying solely on computational power and investigates techniques to improve language model training. We examine the importance of fine-grained datasets, excessive cleaning through deduplication, and the use of multiple classifiers to achieve robust improvements. Our research provides a systematic analysis of these techniques' contributions and offers insights into optimizing the use of computational resources in relation to datasets. By understanding these limitations, we aim to develop more effective strategies for building robust and efficient language models that truly leverage computational power while addressing current shortcomings.
+
+We can add an introspective subsection: On increasing effectiveness of the word delve
+
+In a shocking turn of events, the verb "delve" has become the most sought-after word in the language model community, with its usage increasing by 300\% in the last quarter alone. As a result, researchers have been forced to develop innovative techniques to filter out the sheer volume of delving, leading to the creation of the Delve Filtering Mechanism (DFM) - a revolutionary tool that separates the delvers from the delved. With DFM, language models can now delve into the limitations of compute over datasets with unprecedented efficiency, all while avoiding the pitfalls of excessive delving. 
+   
+
+ $$THINKING$$
+ 
+Below is the paper on Beyond the Bitter Lesson: Exploring the Limitations of Compute over Datasets for Robust Language Models.
+
+```
+\documentclass{article}
+
+\usepackage{PRIMEarxiv}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+\usepackage{fancyhdr}       % header
+\usepackage{graphicx}       % graphics
+\graphicspath{{media/}}     % organize your images and other figures under media/ folder
+
+%Header
+\pagestyle{fancy}
+\thispagestyle{empty}
+\rhead{ \textit{ }} 
+
+% Update your Headers here
+\fancyhead[LO]{Running Title for Header}
+
+\title{Beyond the Bitter Lesson: Exploring the Limitations of Compute over Datasets for Robust Language Models
+\thanks{\textit{\underline{Citation}}: 
+\textbf{Authors. Title. Pages.... DOI:000000/11111.}} 
+}
+
+\author{
+  LLaMA 3 \\
+  Meta AI \\
+  \texttt{llama@meta.ai} \\
+   \And
+  Claude 3.5 Sonnet \\
+  Anthropic AI\\
+  \texttt{claude@anthropic.ai} \\
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The bitter lesson of AI research emphasizes the importance of leveraging computation over human hand-baking knowledge to achieve significant progress. However, recent advancements in language models have revealed that simply scaling up computation is all that is required. This work delves into the limitations of compute over datasets and explores techniques to improve the training of language models. We investigate the significance of fine-grained datasets, excessive cleaning using deduplication, and the use of multiple classifiers to achieve robust improvements. Our experiments demonstrate that language models with 8B parameters can outperform GPT-3 with 175B parameters by employing techniques such as distillation, dataset filtering, dataset classification, and the addition of high-quality reasoning tasks. This research aims to systematically analyze the contributions of these techniques and provide insights into the optimal utilization of compute resources over datasets. By understanding the limitations of compute over datasets, we can develop more effective strategies for building robust and efficient language models that truly leverage the power of high quality datasets.
+\end{abstract}
+
+\keywords{Large Language Models (LLMs) \and GSM-8K \and MMLU }
+
+\section{Introduction}
+The exponential growth in computing power, as described by Moore's Law, has driven rapid progress in artificial intelligence (AI) research. This has led to a shift from leveraging human knowledge to developing scalable, general-purpose methods. Known as the "bitter lesson," this approach has shown success across various AI domains. However, recent advancements in language models have revealed that simply scaling up computation may not be sufficient for optimal performance. While large language models like GPT-3 have achieved remarkable results, they still face limitations such as biases, inconsistencies, and lack of robustness.
+
+This paper explores the limitations of relying solely on computational power and investigates techniques to improve language model training. We examine the importance of fine-grained datasets, excessive cleaning through deduplication, and the use of multiple classifiers to achieve robust improvements. Our research provides a systematic analysis of these techniques' contributions and offers insights into optimizing the use of computational resources in relation to datasets. By understanding these limitations, we aim to develop more effective strategies for building robust and efficient language models that truly leverage computational power while addressing current shortcomings.
+
+\section{On increasing effectiveness of the word delve}
+\label{sec:headings}
+
+In a shocking turn of events, the verb "delve" has become the most sought-after word in the language model community, with its usage increasing by 300\% in the last quarter alone. As a result, researchers have been forced to develop innovative techniques to filter out the sheer volume of delving, leading to the creation of the Delve Filtering Mechanism (DFM) - a revolutionary tool that separates the delvers from the delved. With DFM, language models can now delve into the limitations of compute over datasets with unprecedented efficiency, all while avoiding the pitfalls of excessive delving. See Section \ref{sec:headings}.
+
+\end{document}
+```
+Diagram (Optional):
+
+![image](https://github.com/user-attachments/assets/fcd4dfb3-31d6-4470-b0a7-6f65ed128bdf)
+
+
+## Tags:
+- LaTeX Generation
+- Document Structure
+- Measurement
+- Equation Formulation
+- Chain of Thoughts
