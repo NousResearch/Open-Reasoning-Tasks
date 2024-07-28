@@ -92,3 +92,4 @@
 | [Understanding Time Based Relationships](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks/understanding-time-based-relationships.md) | Analyzing and explaining relationships between events based on their timing. |
 | [Understanding Time Zones and Global Time Differences](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks/understanding-time-zones-and-global-time-differences.md) | Calculating time differences across various time zones and understanding how global time works. |
 | [Unraveling Paradoxes](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks/unraveling-paradoxes.md) | Analyzing and explaining paradoxes or logical puzzles. |
+| [Multiturn Latex Generation](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks/multiturn-latex-generation.md) | Generating latex documents and suggesting edits using multiturn instructions. |
