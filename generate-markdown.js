@@ -20,6 +20,11 @@ jsonFiles.forEach(file => {
         // Read and parse the JSON file
         const jsonContent = fs.readFileSync(jsonPath, 'utf8');
         const taskObject = JSON.parse(jsonContent);
+        if (taskObject.examples.length === 0) {
+            console.log(`Skipping ${file} because it has no examples`);
+            console.log('Something has gone wrong with the parsing')
+            return;
+        }
 
         // Convert the JSON object to a markdown string
         const taskString = jsonToTaskString(taskObject);
