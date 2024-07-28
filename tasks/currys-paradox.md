@@ -38,7 +38,6 @@ Therefore, $C$ does not express a proposition. It is meaning-deficient, lacking 
 So Curry's Paradox cannot logically compel someone to hire you. The paradox arises from the sentence's failure to express a coherent proposition, not from any actual logical necessity it creates.
 ```
 
-
 ### Example 2:
 
 Input:
