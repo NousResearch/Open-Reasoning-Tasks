@@ -1,0 +1,29 @@
+{
+  "name": "Truth Table Completion",
+  "description": "This task involves completing truth tables for given logical expressions to evaluate the model's understanding of Boolean logic and its ability to determine the truth value of complex statements.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Complete the truth table for the logical expression: (P AND Q) OR (NOT P)",
+        "output": "| P | Q | P AND Q | NOT P | (P AND Q) OR (NOT P) |\r\n||||-|-|\r\n| T | T |    T    |   F   |          T           |\r\n| T | F |    F    |   F   |          F           |\r\n| F | T |    F    |   T   |          T           |\r\n| F | F |    F    |   T   |          T           |\r\nExplanation: We evaluate each subexpression for all possible combinations of P and Q, then combine them according to the main expression."
+      }
+    ],
+    [
+      {
+        "input": "Complete the truth table for the logical expression: P XOR Q",
+        "output": "| P | Q | P XOR Q |\r\n||||\r\n| T | T |    F    |\r\n| T | F |    T    |\r\n| F | T |    T    |\r\n| F | F |    F    |\r\nExplanation: XOR (exclusive or) is true when P and Q have different truth values, and false when they have the same truth value."
+      }
+    ]
+  ],
+  "tags": [
+    "Logic",
+    "Boolean Algebra",
+    "Truth Tables",
+    "Logical Operators",
+    "Propositional Logic",
+    "--"
+  ]
+}

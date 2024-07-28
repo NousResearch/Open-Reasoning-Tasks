@@ -1,0 +1,29 @@
+{
+  "name": "Solving Word Problems with Multiple Variables",
+  "description": "This task involves interpreting word problems, identifying relevant variables, and constructing equations to solve complex scenarios. It evaluates the model's ability to translate real-world situations into mathematical expressions and solve systems of equations.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A farm has chickens and cows. If there are 50 heads and 140 legs in total, how many chickens and cows are there?",
+        "output": "Let's solve this step by step:\n\n1. Define variables:\n   x = number of chickens\n   y = number of cows\n\n2. Set up equations:\n   Equation 1 (heads): x + y = 50\n   Equation 2 (legs): 2x + 4y = 140\n\n3. Solve the system of equations:\n   From Equation 1: y = 50 - x\n   Substitute into Equation 2: 2x + 4(50 - x) = 140\n   Simplify: 2x + 200 - 4x = 140\n   -2x = -60\n   x = 30\n\n4. Find y:\n   y = 50 - 30 = 20\n\nTherefore, there are 30 chickens and 20 cows."
+      }
+    ],
+    [
+      {
+        "input": "A rectangle's length is 5 cm more than twice its width. If the perimeter of the rectangle is 70 cm, what are its dimensions?",
+        "output": "Let's solve this step-by-step:\n\n1. Define variables:\n   w = width of the rectangle\n   l = length of the rectangle\n\n2. Express length in terms of width:\n   l = 2w + 5\n\n3. Set up equation using perimeter formula:\n   2l + 2w = 70\n   2(2w + 5) + 2w = 70\n\n4. Solve for w:\n   4w + 10 + 2w = 70\n   6w = 60\n   w = 10 cm\n\n5. Calculate length:\n   l = 2(10) + 5 = 25 cm\n\nTherefore, the rectangle's dimensions are 10 cm wide and 25 cm long."
+      }
+    ]
+  ],
+  "tags": [
+    "Mathematics",
+    "Algebra",
+    "Word Problems",
+    "System of Equations",
+    "Problem Solving",
+    "Synthetic"
+  ]
+}

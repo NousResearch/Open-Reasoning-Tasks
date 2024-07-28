@@ -1,0 +1,29 @@
+{
+  "name": "Identifying Implicit Biases in Language",
+  "description": "This task involves recognizing subtle, often unintentional biases embedded in language use. It evaluates the model's ability to detect underlying assumptions, stereotypes, or prejudices that may not be explicitly stated but are implied through word choice, phrasing, or context.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Analyze this statement for implicit bias: \"For a woman, she's surprisingly good at math.\"",
+        "output": "This statement contains implicit gender bias. It suggests that:\n1. Women are generally not expected to be good at math.\n2. Being good at math is an exception for women rather than a norm.\n3. Mathematical ability is somehow tied to gender.\n\nThe phrase \"for a woman\" implies that the speaker holds a preconceived notion that women are typically not good at math. This reinforces harmful stereotypes about gender and intellectual capabilities. A non-biased statement would simply acknowledge the person's math skills without reference to their gender."
+      }
+    ],
+    [
+      {
+        "input": "Identify any implicit biases in this job advertisement: \"Looking for a young, energetic individual to join our dynamic team.\"",
+        "output": "This job advertisement contains implicit age bias. Here's the analysis:\n\n1. The use of \"young\" directly discriminates against older job seekers. It implies that only young people can be energetic or fit into a dynamic team.\n\n2. \"Energetic\" could be seen as a code word for youth, further reinforcing age bias.\n\n3. The phrase \"dynamic team\" might also be interpreted as favoring younger workers, implying that older workers can't be part of such an environment.\n\nThese word choices could discourage older applicants from applying, which is a form of age discrimination. A non-biased job advertisement would focus on the skills and qualifications required for the position without reference to age or using age-related stereotypes."
+      }
+    ]
+  ],
+  "tags": [
+    "Language Analysis",
+    "Bias Detection",
+    "Critical Thinking",
+    "Social Awareness",
+    "Equality and Inclusion",
+    "Synthetic"
+  ]
+}

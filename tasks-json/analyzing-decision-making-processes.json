@@ -1,0 +1,29 @@
+{
+  "name": "Analyzing Decision-Making Processes",
+  "description": "This task involves examining and evaluating the steps, factors, and reasoning behind decision-making processes. It assesses the model's ability to understand complex decision scenarios, identify key influencing factors, and critically analyze the logic and potential consequences of decisions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A company is deciding whether to launch a new product. They consider market demand, production costs, competition, and potential profits. Analyze their decision-making process and suggest any additional factors they should consider.",
+        "output": "Analysis of the decision-making process:\n1. Market demand: Understanding potential customer base and interest\n2. Production costs: Evaluating financial feasibility\n3. Competition: Assessing market saturation and uniqueness of the product\n4. Potential profits: Projecting financial outcomes\n\nThis process covers key business aspects. However, additional factors to consider:\n\n5. Brand alignment: How does the new product fit with the company's existing brand image?\n6. Regulatory environment: Are there any legal or compliance issues to address?\n7. Supply chain implications: Can current suppliers and logistics support the new product?\n8. Environmental impact: How sustainable is the product, and does it align with growing consumer concerns about the environment?\n9. Long-term strategy: How does this product fit into the company's long-term goals?\n10. Risk assessment: What are the potential risks (financial, reputational, operational) of launching this product?\n\nBy including these additional factors, the company can make a more comprehensive and informed decision about launching the new product."
+      }
+    ],
+    [
+      {
+        "input": "A student is deciding between two universities for their undergraduate degree. They're considering location, program reputation, and scholarship offers. Analyze this decision-making process and suggest how they might prioritize these factors.",
+        "output": "Analysis of the decision-making process:\n1. Location: Considering geographical preferences and potential lifestyle changes\n2. Program reputation: Evaluating the quality and recognition of the academic programs\n3. Scholarship offers: Assessing financial support and potential debt\n\nThis process covers important aspects of university selection. To prioritize these factors:\n\n1. Determine personal values and long-term goals:\n   - If career prospects are most important, program reputation might be the top priority.\n   - If financial stability is crucial, scholarship offers could be weighted more heavily.\n   - If personal growth and independence are key, location might be the deciding factor.\n\n2. Consider additional factors:\n   - Campus culture and student life\n   - Internship and job placement opportunities\n   - Faculty expertise and research opportunities\n   - Cost of living in the area\n   - Available support services (academic, mental health, career)\n\n3. Use a decision matrix:\n   - Assign weights to each factor based on personal importance (e.g., 1-10)\n   - Rate each university on these factors (e.g., 1-5)\n   - Multiply weights by ratings and sum for each university\n   - Compare total scores\n\n4. Seek input from others:\n   - Consult with family, current students, alumni, and academic advisors\n\n5. Visit campuses if possible:\n   - Personal experience can provide valuable insight\n\nBy systematically evaluating these factors and considering additional aspects, the student can make a more informed decision aligned with their personal goals and values."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Decision Analysis",
+    "Problem Solving",
+    "Strategic Planning",
+    "Risk Assessment",
+    "Synthetic"
+  ]
+}

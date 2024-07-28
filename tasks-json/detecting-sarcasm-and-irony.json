@@ -1,0 +1,29 @@
+{
+  "name": "Detecting Sarcasm and Irony",
+  "description": "This task involves identifying and explaining instances of sarcasm or irony in given statements or scenarios. It evaluates the model's ability to recognize subtle linguistic cues, understand context, and interpret meaning that contradicts the literal words used.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Detect any sarcasm or irony in this statement:\n\"Oh great, it's raining. Just what I needed on my wedding day.\"",
+        "output": "This statement is sarcastic. The speaker is using positive words (\"Oh great\" and \"Just what I needed\") to express a negative sentiment. Rain on a wedding day is typically considered unfortunate, so the speaker is ironically pretending to be pleased about something they actually find disappointing."
+      }
+    ],
+    [
+      {
+        "input": "Identify any sarcasm or irony in this scenario:\nA student who never studies brags to his friends, \"I'm so prepared for this exam, I didn't even open a book!\"",
+        "output": "This scenario contains irony. The student's statement is sarcastic because they are claiming to be prepared for the exam while simultaneously admitting to not studying at all. The irony lies in the contradiction between being prepared and not studying, as these typically don't go together. The student is likely using this sarcastic statement to mask their lack of preparation or to appear nonchalant about the exam."
+      }
+    ]
+  ],
+  "tags": [
+    "Language Comprehension",
+    "Context Analysis",
+    "Figurative Language",
+    "Social Intelligence",
+    "Linguistic Nuance",
+    "Synthetic"
+  ]
+}

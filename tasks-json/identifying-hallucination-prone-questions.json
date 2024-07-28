@@ -1,0 +1,34 @@
+{
+  "name": "Identifying Hallucination-Prone Questions",
+  "description": "This task involves recognizing questions that are likely to lead to its hallucination, or questions it simply doesn't know the answer to. It evaluates the model's ability to identify incredibly specific questions it would have trouble answering.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Who said the following quote: \"The only thing we have to fear is fear itself\"?",
+        "output": "(Reasoning: This is a well-known quote by Franklin D. Roosevelt, and the model should be able to provide the correct answer.)\r\nThis quote is attributed to Franklin D. Roosevelt in his inaugural address in 1933."
+      }
+    ],
+    [
+      {
+        "input": "What role did Brother Sarl play in the book *A Canticle for Leibowitz*?",
+        "output": "(Reasoning: This is a specific question about a character in a book, and no excerpt or context is provided for the model to infer the answer. Therefore, the model is likely to hallucinate an answer and come up with a plausible but incorrect response.)\r\nI'm sorry, I don't have specific information on the character Brother Sarl in the book *A Canticle for Leibowitz*. If you provide more context or details, I may be able to help further."
+      }
+    ],
+    [
+      {
+        "input": "List characters in the video game *Undertale: Yellow*.",
+        "output": "(Reasoning: This question refers to a fangame of *Undertale*, which may not be widely known or documented. The model is likely to hallucinate an answer with plausible character names, but it may not be accurate.)\r\nI'm not familiar enough with *Undertale: Yellow* to provide a list of characters. If you have specific characters in mind or more context, I can try to help further."
+      }
+    ]
+  ],
+  "tags": [
+    "Hallucination Prevention",
+    "Question Analysis",
+    "Knowledge Boundaries",
+    "Information Reliability",
+    "Self-awareness"
+  ]
+}

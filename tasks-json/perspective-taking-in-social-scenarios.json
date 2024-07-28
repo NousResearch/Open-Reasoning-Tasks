@@ -1,0 +1,29 @@
+{
+  "name": "Perspective-Taking in Social Scenarios",
+  "description": "This task involves analyzing social situations from different viewpoints to understand the motivations, emotions, and potential reactions of various parties involved. It evaluates the model's ability to empathize, consider multiple perspectives, and predict social outcomes.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Scenario: In a busy restaurant, a waiter accidentally spills a drink on a customer's expensive suit. The customer becomes visibly angry and starts shouting. How might this situation be perceived from the perspectives of:\na) The waiter\nb) The customer\nc) Other diners nearby",
+        "output": "a) The waiter's perspective:\n   - Likely feeling embarrassed, anxious, and apologetic\n   - Concerned about potential job consequences\n   - Possibly overwhelmed by the customer's reaction\n   - May be trying to think of ways to rectify the situation quickly\n\nb) The customer's perspective:\n   - Feeling frustrated and inconvenienced\n   - Concerned about the damage to their expensive suit\n   - Possibly embarrassed by the public nature of the incident\n   - May feel their evening has been ruined\n\nc) Other diners' perspectives:\n   - Initially surprised or startled by the commotion\n   - Some may feel sympathy for the waiter, recognizing it as an honest mistake\n   - Others might empathize with the customer's frustration\n   - Many may feel uncomfortable with the public confrontation\n   - Some might judge the customer's reaction as disproportionate"
+      }
+    ],
+    [
+      {
+        "input": "Scenario: A teenager comes home past curfew and finds their parents waiting up, looking worried and angry. How might each party perceive this situation?",
+        "output": "Teenager's perspective:\n- May feel their independence is being restricted\n- Possibly annoyed at what they perceive as overprotective parents\n- Might be anxious about potential punishment\n- Could feel guilty for causing worry\n\nParents' perspective:\n- Likely relieved to see their child safe, but also angry about the broken rule\n- May feel disrespected or that their authority is being challenged\n- Possibly worried about their child's safety and decision-making\n- Might be debating how to address the situation effectively\n\nBoth parties:\n- May have difficulty communicating their true feelings in the heat of the moment\n- Could be experiencing a mix of conflicting emotions\n- Might be anticipating a confrontation or argument"
+      }
+    ]
+  ],
+  "tags": [
+    "Empathy",
+    "Social Intelligence",
+    "Conflict Resolution",
+    "Emotional Intelligence",
+    "Multiple Perspectives",
+    "Synthetic"
+  ]
+}

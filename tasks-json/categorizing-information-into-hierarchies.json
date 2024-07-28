@@ -1,0 +1,29 @@
+{
+  "name": "Categorizing Information into Hierarchies",
+  "description": "This task involves organizing information into hierarchical structures based on relationships, properties, or other logical criteria. It evaluates the model's ability to recognize patterns, understand relationships between concepts, and create meaningful categorizations.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Categorize the following animals into a hierarchical structure:\nLion, Sparrow, Salmon, Eagle, Shark, Trout, Tiger, Robin, Tuna",
+        "output": "Animals\n├── Mammals\n│   ├── Felines\n│   │   ├── Lion\n│   │   └── Tiger\n├── Birds\n│   ├── Birds of Prey\n│   │   └── Eagle\n│   └── Songbirds\n│       ├── Sparrow\n│       └── Robin\n└── Fish\n    ├── Cartilaginous Fish\n    │   └── Shark\n    └── Bony Fish\n        ├── Salmon\n        └── Trout\n        └── Tuna"
+      }
+    ],
+    [
+      {
+        "input": "Create a hierarchical categorization for the following programming concepts:\nVariables, For Loop, If-Else Statement, Integer, String, While Loop, Boolean, Float, Switch Statement",
+        "output": "Programming Concepts\n├── Data Types\n│   ├── Primitive Types\n│   │   ├── Integer\n│   │   ├── Float\n│   │   └── Boolean\n│   └── Reference Types\n│       └── String\n├── Control Structures\n│   ├── Conditional Statements\n│   │   ├── If-Else Statement\n│   │   └── Switch Statement\n│   └── Loops\n│       ├── For Loop\n│       └── While Loop\n└── Variables"
+      }
+    ]
+  ],
+  "tags": [
+    "Classification",
+    "Hierarchical Thinking",
+    "Conceptual Organization",
+    "Pattern Recognition",
+    "Logical Structuring",
+    "Synthetic"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "open-reasoning-tasks",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "![image](https://github.com/user-attachments/assets/2527a05e-afbc-4145-9daa-96f0229600f6)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node generate-json.js && node generate-markdown.js"
+    },
+    "author": "",
+    "license": "ISC"
+}

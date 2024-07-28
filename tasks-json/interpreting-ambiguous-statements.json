@@ -1,0 +1,29 @@
+{
+  "name": "Interpreting Ambiguous Statements",
+  "description": "This task involves analyzing statements that have multiple possible interpretations and identifying the different ways they can be understood. It evaluates the model's ability to recognize linguistic ambiguity, consider context, and explain various potential meanings.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Interpret the following ambiguous statement: \"I saw a man on a hill with a telescope.\"",
+        "output": "This statement has multiple possible interpretations:\n\n1. The speaker used a telescope to see a man who was on a hill.\n2. The speaker saw a man who was on a hill, and that man had a telescope.\n3. The speaker was on a hill and saw a man who had a telescope.\n4. The speaker was on a hill with a telescope and saw a man (somewhere else).\n\nThe ambiguity arises from the unclear relationships between the speaker, the man, the hill, and the telescope. Without additional context, it's impossible to determine which interpretation is correct."
+      }
+    ],
+    [
+      {
+        "input": "Interpret the ambiguity in this headline: \"Local Woman Finds Solution to Rising Prices in Her Garage\"",
+        "output": "This headline can be interpreted in two main ways:\n\n1. A local woman discovered a solution to the problem of rising prices, and this discovery took place in her garage. For example, she might have invented a new product or process that could help combat inflation.\n\n2. A local woman found that her garage provided a solution to rising prices. This could mean she's using her garage in some way to save money, such as growing her own food, starting a small business, or storing bulk purchases.\n\nThe ambiguity stems from whether \"in her garage\" refers to where she found the solution or if it's part of the solution itself. The headline's brevity leaves room for both interpretations."
+      }
+    ]
+  ],
+  "tags": [
+    "Language Analysis",
+    "Semantic Interpretation",
+    "Context Consideration",
+    "Linguistic Ambiguity",
+    "Critical Thinking",
+    "Synthetic"
+  ]
+}

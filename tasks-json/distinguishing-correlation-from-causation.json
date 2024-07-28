@@ -1,0 +1,34 @@
+{
+  "name": "Distinguishing Correlation from Causation",
+  "description": "This task involves analyzing given scenarios or statistical relationships to identify cases where correlation does not imply causation, especially in unintuitive or surprising ways. It evaluates the model's ability to think critically about data relationships, recognize potential confounding variables, and avoid common logical fallacies.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A study finds that countries with higher chocolate consumption have more Nobel laureates per capita. What's a possible explanation for this correlation that doesn't involve causation?",
+        "output": "This correlation likely doesn't imply causation. A possible explanation is that both higher chocolate consumption and Nobel laureates are associated with wealthier, more developed countries. These nations typically have better educational systems and more resources for scientific research, which could lead to more Nobel laureates. The chocolate consumption itself is probably not causing increased Nobel prizes, but rather both factors are influenced by the country's overall economic development."
+      }
+    ],
+    [
+      {
+        "input": "Data shows that the number of pirates globally has decreased over the last few centuries, while global temperatures have increased. Some jokingly suggest that the decline in piracy is causing global warming. Explain why this is a flawed conclusion.",
+        "output": "This is a classic example of correlation not implying causation, often used to illustrate the concept humorously. The decline in piracy and increase in global temperatures are unrelated phenomena that happen to show opposite trends over time. The real cause of global warming is the increase in greenhouse gas emissions due to human activities since the Industrial Revolution. This example demonstrates how two completely unrelated trends can show a strong correlation by chance, especially when looking at long-term historical data."
+      }
+    ],
+    [
+      {
+        "input": "A city notices that neighborhoods with more fire stations tend to have more fires. Should they reduce the number of fire stations to decrease fires?",
+        "output": "Absolutely not. This is a case where the correlation is actually reversed from the causal relationship. Fire stations don't cause fires; instead, neighborhoods prone to more fires (perhaps due to older buildings, industrial areas, or higher population density) are likely to have more fire stations built to address this need. Reducing fire stations would likely lead to more uncontrolled fires. This scenario illustrates how correlations can sometimes suggest a relationship that is the opposite of the true causal direction."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Statistics",
+    "Data Analysis",
+    "Logical Fallacies",
+    "Causal Reasoning"
+  ]
+}

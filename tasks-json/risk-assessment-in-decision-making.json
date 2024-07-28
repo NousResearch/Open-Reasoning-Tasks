@@ -1,0 +1,29 @@
+{
+  "name": "Risk Assessment in Decision-Making",
+  "description": "This task involves evaluating potential risks and benefits associated with different courses of action in a given scenario. It assesses the model's ability to identify potential hazards, estimate their likelihood and impact, and make informed decisions based on this analysis.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A small tech startup is considering two growth strategies:\nA) Rapidly expand by taking on significant debt to hire more employees and increase marketing.\nB) Grow slowly using only current profits to fund expansion.\n\nAssess the risks and potential benefits of each strategy.",
+        "output": "Strategy A: Rapid expansion\n\nRisks:\n1. High debt burden could lead to financial instability if growth targets aren't met\n2. Rapid hiring might lead to decreased quality control and company culture issues\n3. Increased marketing spend may not translate to proportional revenue growth\n4. Higher pressure to succeed quickly could lead to rushed decisions\n\nBenefits:\n1. Potential for capturing larger market share quickly\n2. Ability to outpace competitors\n3. Attract high-quality talent with resources for competitive salaries\n4. Economies of scale could lead to higher profitability if successful\n\nStrategy B: Slow growth\n\nRisks:\n1. Slower growth might allow competitors to capture market share\n2. Limited resources could hinder ability to attract top talent\n3. Missed opportunities due to inability to quickly capitalize on market trends\n4. Lower visibility in the market due to limited marketing budget\n\nBenefits:\n1. Financial stability and lower stress on cash flow\n2. Ability to maintain quality control and company culture\n3. Time to refine products/services based on customer feedback\n4. Lower pressure allows for more considered decision-making\n\nOverall assessment:\nStrategy A offers higher potential rewards but comes with significantly higher risks. It's more suitable for a company with a proven product in a rapidly growing market. Strategy B is more conservative, offering stability but potentially limiting growth. It's better suited for companies in less volatile markets or those prioritizing long-term sustainability over rapid growth.\n\nThe best choice depends on factors like the company's current financial health, market conditions, competition, and risk tolerance of the founders and investors."
+      }
+    ],
+    [
+      {
+        "input": "A hiker is lost in the wilderness with limited supplies. They have two options:\nA) Stay put and wait for rescue\nB) Try to find their way back to civilization\n\nAssess the risks and potential benefits of each option.",
+        "output": "Option A: Stay put and wait for rescue\n\nRisks:\n1. Limited supplies may run out before rescue arrives\n2. Exposure to elements for an extended period\n3. Potential for psychological stress due to uncertainty\n4. Wildlife encounters without means to seek help\n\nBenefits:\n1. Easier for search parties to find a stationary target\n2. Conservation of energy and resources\n3. Reduced risk of further disorientation\n4. Ability to create signals for rescuers (e.g., fire, shelter)\n\nOption B: Try to find way back to civilization\n\nRisks:\n1. Further disorientation and getting more lost\n2. Physical exhaustion leading to impaired judgment\n3. Increased risk of injury while traversing unknown terrain\n4. Faster depletion of limited supplies due to exertion\n\nBenefits:\n1. Potential to find help or resources sooner\n2. Active problem-solving may boost morale\n3. Possibility of finding recognizable landmarks\n4. Increased chances of finding cell phone signal or other means of communication\n\nOverall assessment:\nThe best choice depends on several factors:\n1. The hiker's physical condition and survival skills\n2. Amount and type of supplies available\n3. Knowledge of the area and last known location\n4. Weather conditions and terrain\n5. Whether people know the hiker is missing and where they were headed\n\nGenerally, staying put (Option A) is often recommended by survival experts, especially if the hiker is certain that people know they're missing and where to look. However, if the hiker has a good reason to believe they can find their way out or if staying put poses immediate danger (e.g., severe weather approaching), Option B might be preferable.\n\nThe hiker should carefully weigh these factors before making a decision, prioritizing safety and conservation of resources."
+      }
+    ]
+  ],
+  "tags": [
+    "Decision Making",
+    "Risk Analysis",
+    "Critical Thinking",
+    "Scenario Planning",
+    "Cost-Benefit Analysis",
+    "Synthetic"
+  ]
+}

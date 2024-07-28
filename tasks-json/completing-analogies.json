@@ -1,0 +1,28 @@
+{
+  "name": "Completing Analogies",
+  "description": "This task involves completing analogies in the form \"A is to B as C is to ?\" to evaluate the model's ability to recognize relationships between pairs of words and apply them to new contexts.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Complete the analogy: Tree is to forest as brick is to ?",
+        "output": "Building\r\nExplanation: A tree is a component of a forest, just as a brick is a component of a building."
+      }
+    ],
+    [
+      {
+        "input": "Complete the analogy: Pen is to writer as brush is to ?",
+        "output": "Painter\r\nExplanation: A pen is the primary tool used by a writer, just as a brush is the primary tool used by a painter."
+      }
+    ]
+  ],
+  "tags": [
+    "Language",
+    "Reasoning",
+    "Analogies",
+    "Vocabulary",
+    "Relationships"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Estimating Duration",
+  "description": "This task involves estimating the time required for various activities or processes. It evaluates the model's understanding of time scales and its ability to make reasonable time estimates.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Estimate the time it typically takes for these events:\r\nA) Boiling an egg\r\nB) Flying from New York to London\r\nC) Growing a tomato plant from seed to fruit",
+        "output": "A) Boiling an egg: Approximately 7-10 minutes\r\nB) Flying from New York to London: About 7-8 hours\r\nC) Growing a tomato plant from seed to fruit: Roughly 60-80 days"
+      }
+    ],
+    [
+      {
+        "input": "Rank these processes from shortest to longest duration:\r\nA) Continental drift\r\nB) Human pregnancy\r\nC) Brewing a cup of coffee\r\nD) A solar eclipse",
+        "output": "From shortest to longest:\r\n1. C) Brewing a cup of coffee (minutes)\r\n2. D) A solar eclipse (minutes to hours)\r\n3. B) Human pregnancy (about 9 months)\r\n4. A) Continental drift (millions of years)"
+      }
+    ]
+  ],
+  "tags": [
+    "Time Estimation",
+    "Temporal Reasoning",
+    "Process Understanding",
+    "Comparative Analysis",
+    "General Knowledge"
+  ]
+}

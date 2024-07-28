@@ -1,0 +1,29 @@
+{
+  "name": "Fermi Estimation",
+  "description": "Fermi estimation, named after physicist Enrico Fermi, involves making educated guesses to estimate quantities that are difficult or impossible to measure directly. This task requires breaking down complex problems into smaller, more manageable parts, making reasonable assumptions, and using logical reasoning to arrive at an approximate answer.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Estimate the number of piano tuners in Chicago.",
+        "output": "Let's break this down step-by-step:\n\n1. Estimate Chicago's population: ~3 million\n2. Assume 1 in 20 households has a piano: 3,000,000 / 20 = 150,000 pianos\n3. Assume pianos need tuning once a year: 150,000 tunings/year\n4. Assume a piano tuner can tune 4 pianos a day, 5 days a week, 50 weeks a year:\n   4 * 5 * 50 = 1,000 tunings/year per tuner\n5. Number of full-time piano tuners needed: 150,000 / 1,000 = 150\n\nTherefore, we estimate there are approximately 150 piano tuners in Chicago.\n\nThis is likely an overestimate as some pianos may be tuned less frequently, and some tuners may work part-time. A reasonable range might be 100-200 piano tuners in Chicago."
+      }
+    ],
+    [
+      {
+        "input": "Estimate the weight of all the ants on Earth.",
+        "output": "Let's approach this step-by-step:\n\n1. Estimate the number of ants on Earth:\n   - Land surface area of Earth: ~150 million km²\n   - Assume 1 million ants per km² (very rough average)\n   - Total ants: 150 million * 1 million = 1.5 * 10^17 ants\n\n2. Estimate average weight of an ant:\n   - Ants range from tiny (0.00001g) to large (5g)\n   - Let's assume an average of 0.004g per ant\n\n3. Calculate total weight:\n   1.5 * 10^17 ants * 0.004g = 6 * 10^14 grams\n   = 600 billion kg\n   ≈ 600,000 metric tons\n\nTherefore, we estimate the total weight of all ants on Earth to be approximately 600,000 metric tons.\n\nThis is a very rough estimate and could easily be off by a factor of 10 in either direction due to the numerous assumptions made."
+      }
+    ]
+  ],
+  "tags": [
+    "Estimation",
+    "Problem Decomposition",
+    "Quantitative Reasoning",
+    "Order of Magnitude",
+    "Logical Thinking",
+    "Synthetic"
+  ]
+}

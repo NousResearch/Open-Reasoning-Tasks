@@ -1,0 +1,28 @@
+{
+  "name": "Proof Verification",
+  "description": "This task involves verifying mathematical proofs to evaluate the model's ability to understand logical arguments, identify correct steps in a proof, and spot errors or gaps in reasoning.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Verify the following proof that the square root of 2 is irrational:\r\n1. Assume √2 is rational.\r\n2. Then √2 = a/b, where a and b are integers with no common factors.\r\n3. Squaring both sides: 2 = a²/b²\r\n4. Multiply both sides by b²: 2b² = a²\r\n5. Therefore, a² is even, so a must be even.\r\n6. Let a = 2k for some integer k.\r\n7. Substituting: 2b² = (2k)² = 4k²\r\n8. Simplifying: b² = 2k²\r\n9. Therefore, b² is even, so b must be even.\r\n10. But this contradicts that a and b have no common factors.\r\n11. Therefore, our initial assumption must be false, and √2 is irrational.",
+        "output": "The proof is correct. It uses the method of contradiction and follows logical steps to show that assuming √2 is rational leads to a contradiction, thereby proving that √2 must be irrational."
+      }
+    ],
+    [
+      {
+        "input": "Verify the following proof that for any integer n, if n² is even, then n is even:\r\n1. Assume n is odd.\r\n2. Then n = 2k + 1 for some integer k.\r\n3. n² = (2k + 1)² = 4k² + 4k + 1 = 2(2k² + 2k) + 1\r\n4. Therefore, n² is odd.\r\n5. This contradicts the given that n² is even.\r\n6. So, our assumption must be false, and n must be even.",
+        "output": "The proof is correct. It uses proof by contradiction effectively. By assuming n is odd and showing that this leads to n² being odd (which contradicts the given information), the proof logically concludes that n must be even."
+      }
+    ]
+  ],
+  "tags": [
+    "Mathematics",
+    "Logic",
+    "Proof Verification",
+    "Number Theory",
+    "Reasoning"
+  ]
+}

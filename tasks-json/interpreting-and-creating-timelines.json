@@ -1,0 +1,28 @@
+{
+  "name": "Interpreting and Creating Timelines",
+  "description": "This task involves reading or creating timelines to represent a series of events or processes. It evaluates the model's ability to visualize and interpret temporal data.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Create a timeline of major events in the American Civil Rights Movement from 1954 to 1968.",
+        "output": "Here's a simplified timeline of major events in the American Civil Rights Movement:\r\n1954: Brown v. Board of Education decision\r\n1955: Montgomery Bus Boycott begins\r\n1957: Little Rock Nine integrate Central High School\r\n1960: Greensboro sit-ins begin\r\n1963: March on Washington; \"I Have a Dream\" speech\r\n1964: Civil Rights Act passed\r\n1965: Voting Rights Act passed; Selma to Montgomery marches\r\n1968: Martin Luther King Jr. assassinated"
+      }
+    ],
+    [
+      {
+        "input": "Interpret this timeline of a company's growth:\r\n2010: Company founded\r\n2012: First product launched\r\n2015: Reached 1 million customers\r\n2017: IPO\r\n2020: Expanded to international markets\r\nWhat can you infer about the company's development?",
+        "output": "This timeline suggests a rapidly growing company:\r\n1. It took 2 years from founding to launch their first product, indicating a development phase.\r\n2. Within 3 years of product launch, they reached a significant customer milestone, suggesting strong market acceptance.\r\n3. Just 2 years later, the company went public, indicating financial success and investor confidence.\r\n4. Three years post-IPO, they expanded internationally, showing continued growth and market expansion.\r\nOverall, this timeline depicts a successful startup that achieved significant milestones roughly every 2-3 years, culminating in international expansion within a decade of founding."
+      }
+    ]
+  ],
+  "tags": [
+    "Timeline Creation",
+    "Historical Analysis",
+    "Data Visualization",
+    "Temporal Reasoning",
+    "Business Development"
+  ]
+}
