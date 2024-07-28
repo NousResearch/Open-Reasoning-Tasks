@@ -22,7 +22,7 @@ git checkout -b add-new-task
 4. **Add Your Task**: To add a new task, you need to do two things:
 
    a. Add a new row to the `tasks.md` file in the root directory.
-   b. Create a new file in the `tasks-md/` directory for your task.
+   b. Create a new file in the `tasks/` directory for your task.
 
 5. **Update tasks.md**: Add a new row to the table in `tasks.md` using this format:
 
@@ -31,7 +31,7 @@ git checkout -b add-new-task
 ```
     Ensure the task name is in title case and the link uses lowercase with hyphens.
 
-6. **Create Task File**: In the `tasks-md/` directory, create a new file named `task-name.md` (use lowercase and hyphens). Use the template provided in [tasks/template.md](task-template.md).
+6. **Create Task File**: In the `tasks/` directory, create a new file named `task-name.md` (use lowercase and hyphens). Use the template provided in [tasks/template.md](task-template.md).
 
 8. **Build the Task**: Tasks are stored in JSON, but are contributed in markdown. Run `npm run build` to convert the markdown to JSON, and then convert it back. This will ensure that the markdown is correctly formatted, and that the structured data contained within the task has been logged correctly. If something about the markdown in your reconstructed file is off, you likely submitted the task incorrectly.
 

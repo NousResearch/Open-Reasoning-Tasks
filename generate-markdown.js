@@ -55,8 +55,8 @@ function jsonToTaskString(taskObject) {
 
     return taskString.trim();
 }
-const tasksJsonDir = './tasks';
-const tasksMdDir = './tasks-md';
+const tasksJsonDir = './tasks-json';
+const tasksMdDir = './tasks';
 
 // Ensure the output directory exists
 if (!fs.existsSync(tasksMdDir)) {

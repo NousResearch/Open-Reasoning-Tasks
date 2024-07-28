@@ -62,10 +62,10 @@ function parseTaskToJSON(taskString) {
 }
 
 // Go through all files in the tasks-md directory
-const tasksMdDir = './tasks-md';
+const tasksMdDir = './tasks';
 const markdownFiles = fs.readdirSync(tasksMdDir);
 
-const tasksDir = './tasks';
+const tasksDir = './tasks-json';
 const taskFiles = fs.readdirSync(tasksDir);
 
 // Find files that are in tasks-md but not in tasks
