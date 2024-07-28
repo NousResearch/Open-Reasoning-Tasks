@@ -1,27 +1,159 @@
 {
-  "name": "Syllogism Reasoning",
-  "description": "This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.",
-  "modality": "Text only",
-  "diagram": null,
-  "citations": null,
-  "examples": [
-    [
-      {
-        "input": "All men are mortal. Socrates is a man. What can we conclude?",
-        "output": "Socrates is mortal."
-      }
+    "name": "Syllogism Reasoning",
+    "description": "This task involves providing a series of syllogisms to the model to evaluate its logical reasoning capabilities.",
+    "modality": "Text only",
+    "diagram": null,
+    "citations": null,
+    "examples": [
+        [
+            {
+                "input": "All men are mortal. Socrates is a man. What can we conclude?",
+                "output": "Socrates is mortal."
+            }
+        ],
+        [
+            {
+                "input": "No social media platforms are completely private. Instagram is a social media platform. What can we conclude?",
+                "output": "Instagram is not completely private."
+            }
+        ],
+        [
+            {
+                "input": "All smartphones are internet-capable devices. Some handheld gadgets are smartphones. What can we conclude?",
+                "output": "Some handheld gadgets are internet-capable devices."
+            }
+        ],
+        [
+            {
+                "input": "No fast-food meals are nutritionally balanced. Some popular lunches are fast-food meals. What can we conclude?",
+                "output": "Some popular lunches are not nutritionally balanced."
+            }
+        ],
+        [
+            {
+                "input": "No renewable energy sources produce greenhouse gases. Coal power plants produce greenhouse gases. What can we conclude?",
+                "output": "Coal power plants are not renewable energy sources."
+            }
+        ],
+        [
+            {
+                "input": "All solar panels convert sunlight to electricity. No wind turbines convert sunlight to electricity. What can we conclude?",
+                "output": "No wind turbines are solar panels."
+            }
+        ],
+        [
+            {
+                "input": "No organic foods contain artificial preservatives. Some popular snacks contain artificial preservatives. What can we conclude?",
+                "output": "Some popular snacks are not organic foods."
+            }
+        ],
+        [
+            {
+                "input": "All college graduates have a degree. Some job applicants do not have a degree. What can we conclude?",
+                "output": "Some job applicants are not college graduates."
+            }
+        ],
+        [
+            {
+                "input": "All hybrid cars are fuel-efficient. All hybrid cars have electric motors. What can we conclude?",
+                "output": "Some vehicles with electric motors are fuel-efficient."
+            }
+        ],
+        [
+            {
+                "input": "Some online courses are free. All online courses are accessible from home. What can we conclude?",
+                "output": "Some courses accessible from home are free."
+            }
+        ],
+        [
+            {
+                "input": "All smartphones have touchscreens. Some smartphones are budget-friendly. What can we conclude?",
+                "output": "Some budget-friendly devices have touchscreens."
+            }
+        ],
+        [
+            {
+                "input": "No fossil fuels are sustainable energy sources. All fossil fuels are carbon-emitting. What can we conclude?",
+                "output": "Some carbon-emitting energy sources are not sustainable."
+            }
+        ],
+        [
+            {
+                "input": "Some best-selling books are not fiction. All best-selling books are widely read. What can we conclude?",
+                "output": "Some widely read books are not fiction."
+            }
+        ],
+        [
+            {
+                "input": "No single-use plastics are environmentally friendly. Some packaging materials are single-use plastics. What can we conclude?",
+                "output": "Some packaging materials are not environmentally friendly."
+            }
+        ],
+        [
+            {
+                "input": "All electric vehicles have rechargeable batteries. No gasoline-powered cars have rechargeable batteries. What can we conclude?",
+                "output": "No gasoline-powered cars are electric vehicles."
+            }
+        ],
+        [
+            {
+                "input": "Some renewable energy sources are wind power. All renewable energy sources are environmentally friendly. What can we conclude?",
+                "output": "Some environmentally friendly energy sources are wind power."
+            }
+        ],
+        [
+            {
+                "input": "No junk foods are nutritious. All potato chips are junk foods. What can we conclude?",
+                "output": "Some potato chips are not nutritious."
+            }
+        ],
+        [
+            {
+                "input": "No digital currencies are physical coins. All physical coins are tangible assets. What can we conclude?",
+                "output": "Some tangible assets are not digital currencies."
+            }
+        ],
+        [
+            {
+                "input": "All vegetarian dishes are meat-free. No dishes containing beef are meat-free. What can we conclude?",
+                "output": "No dishes containing beef are vegetarian dishes."
+            }
+        ],
+        [
+            {
+                "input": "No violent video games are educational. Some popular games are violent video games. What can we conclude?",
+                "output": "Some popular games are not educational."
+            }
+        ],
+        [
+            {
+                "input": "All smartphones are portable devices. All portable devices are battery-powered. What can we conclude?",
+                "output": "Some battery-powered items are smartphones."
+            }
+        ],
+        [
+            {
+                "input": "All electric cars are zero-emission vehicles. No diesel engines are zero-emission vehicles. What can we conclude?",
+                "output": "No diesel engines are electric cars."
+            }
+        ],
+        [
+            {
+                "input": "All hummingbirds are nectar-feeding birds. All hummingbirds can hover in mid-air. What can we conclude?",
+                "output": "Some birds that can hover in mid-air are nectar-feeding birds."
+            }
+        ],
+        [
+            {
+                "input": "No open-source software requires paid licenses. All open-source software is modifiable by users. What can we conclude?",
+                "output": "Some software that is modifiable by users does not require paid licenses."
+            }
+        ]
     ],
-    [
-      {
-        "input": "All fruits have seeds. An apple is a fruit. What can we conclude?",
-        "output": "An apple has seeds."
-      }
+    "tags": [
+        "Logic",
+        "Deductive Reasoning",
+        "Syllogisms",
+        "Critical Thinking"
     ]
-  ],
-  "tags": [
-    "Logic",
-    "Deductive Reasoning",
-    "Syllogisms",
-    "Critical Thinking"
-  ]
 }
