@@ -26,7 +26,7 @@ Output:
 
 Input:
 ```
-Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
+Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
 ```
 
 Output:
