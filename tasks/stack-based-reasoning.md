@@ -12,20 +12,6 @@ Text only
 
 Input:
 ```
-Which number is bigger, 0.11 or 0.2
-```
-
-Output:
-```
-0.2 is larger than 0.11
-```
-
----
-
-### Example 2: 
-
-Input:
-```
 Create step-by-step instructions for cooking a fried egg in a FORTH-style stack so that a cook can pop items off the stack and end up with a tasty meal. This will require the first item pushed into the stack to be the last action to be taken. use the PUSH keywork for each item.
 ```
 
