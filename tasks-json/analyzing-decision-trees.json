@@ -1,0 +1,29 @@
+{
+  "name": "Analyzing Decision Trees",
+  "description": "This task involves interpreting and evaluating decision trees to understand the logic behind decision-making processes. It assesses the model's ability to follow branching logic, identify decision points, and determine outcomes based on given conditions.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Analyze the following decision tree for buying a car:\n\nRoot: Budget?\n├─ >$30,000\n│  └─ New or Used?\n│     ├─ New\n│     │  └─ Luxury or Economy?\n│     │     ├─ Luxury: Buy BMW\n│     │     └─ Economy: Buy Toyota Camry\n│     └─ Used: Buy Certified Pre-owned\n└─ <=$30,000\n   └─ Fuel Efficiency Important?\n      ├─ Yes: Buy Honda Civic\n      └─ No: Buy Ford F-150\n\nWhat car would be recommended for someone with a $40,000 budget who wants a new, economical car?",
+        "output": "Based on the given decision tree, for someone with a $40,000 budget who wants a new, economical car, the recommended choice would be to buy a Toyota Camry.\n\nHere's the path through the decision tree:\n1. Budget? - >$30,000 (Budget is $40,000)\n2. New or Used? - New\n3. Luxury or Economy? - Economy\n4. Recommendation: Buy Toyota Camry\n\nThe decision tree leads to this conclusion by first considering the budget, then whether the buyer wants a new or used car, and finally whether they prefer a luxury or economy model."
+      }
+    ],
+    [
+      {
+        "input": "Analyze this simplified decision tree for diagnosing a computer problem:\n\nRoot: Computer turns on?\n├─ Yes\n│  └─ Screen displays?\n│     ├─ Yes: Software issue\n│     └─ No: Monitor problem\n└─ No\n   └─ Power light on?\n      ├─ Yes: Motherboard issue\n      └─ No: Power supply problem\n\nWhat would be the diagnosis if a computer turns on, but the screen doesn't display anything?",
+        "output": "Based on the given decision tree, if a computer turns on but the screen doesn't display anything, the diagnosis would be a Monitor problem.\n\nHere's the path through the decision tree:\n1. Computer turns on? - Yes\n2. Screen displays? - No\n3. Diagnosis: Monitor problem\n\nThe decision tree leads to this conclusion by first checking if the computer turns on, which it does. Then it checks if the screen displays anything, which it doesn't. This combination of conditions results in the diagnosis of a monitor problem.\n\nIt's worth noting that while this simplified decision tree provides a quick diagnosis, in reality, there could be other factors causing a lack of display even when the computer turns on, such as a graphics card issue or a loose cable connection."
+      }
+    ]
+  ],
+  "tags": [
+    "Decision Making",
+    "Logical Reasoning",
+    "Tree Structures",
+    "Conditional Logic",
+    "Problem Diagnosis",
+    "Synthetic"
+  ]
+}

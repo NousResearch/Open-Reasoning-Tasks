@@ -1,0 +1,29 @@
+{
+  "name": "Reverse Engineering Processes",
+  "description": "This task involves analyzing the end result of a process and working backwards to determine the steps or components that led to that outcome. It evaluates the model's ability to deconstruct complex systems, identify key elements, and infer logical sequences.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "You are given a slice of chocolate cake. Reverse engineer the process of making this cake, listing the main steps in order.",
+        "output": "Reverse engineered process for making a chocolate cake:\n\n1. Gather ingredients (flour, sugar, cocoa powder, eggs, milk, oil, baking powder, vanilla extract)\n2. Preheat the oven\n3. Mix dry ingredients in a bowl\n4. Mix wet ingredients in a separate bowl\n5. Combine wet and dry ingredients to form batter\n6. Grease and flour a cake pan\n7. Pour batter into the pan\n8. Bake in the preheated oven\n9. Allow cake to cool\n10. Prepare chocolate frosting\n11. Apply frosting to cooled cake\n12. Slice the cake\n\nNote: This is a simplified process and may vary depending on the specific recipe used."
+      }
+    ],
+    [
+      {
+        "input": "You receive an email newsletter. Reverse engineer the process of how this newsletter was created and sent to you.",
+        "output": "Reverse engineered process for creating and sending an email newsletter:\n\n1. Plan newsletter content and design\n2. Write and edit the content\n3. Design the layout using an email marketing platform or HTML\n4. Gather or create necessary images\n5. Input content and images into the design\n6. Set up links and call-to-action buttons\n7. Create a subject line and preview text\n8. Build or update the mailing list\n9. Set up tracking parameters for analytics\n10. Send a test email to check for errors\n11. Schedule or send the newsletter\n12. Email marketing platform processes and sends emails\n13. Email arrives in recipients' inboxes\n\nNote: The exact process may vary depending on the specific tools and strategies used by the sender."
+      }
+    ]
+  ],
+  "tags": [
+    "Analytical Thinking",
+    "Process Analysis",
+    "Logical Reasoning",
+    "Systems Thinking",
+    "Problem Solving",
+    "Synthetic"
+  ]
+}

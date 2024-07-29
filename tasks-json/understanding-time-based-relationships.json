@@ -1,0 +1,28 @@
+{
+  "name": "Understanding Time-Based Relationships",
+  "description": "This task involves analyzing and explaining relationships between events based on their timing. It evaluates the model's ability to understand concepts like causality, simultaneity, and temporal dependencies.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Explain the time-based relationship between these events:\r\nA) A tree falls in the forest\r\nB) A loud crash is heard\r\nC) Birds fly away from the area",
+        "output": "The time-based relationship is likely:\r\n1. A) A tree falls in the forest (initial event)\r\n2. B) A loud crash is heard (immediate consequence, almost simultaneous with A)\r\n3. C) Birds fly away from the area (slightly delayed reaction to A and B)\r\nThis sequence suggests a causal relationship where the falling tree causes the crash, which in turn startles the birds, causing them to fly away."
+      }
+    ],
+    [
+      {
+        "input": "Describe the time-based relationship between these economic events:\r\nA) Interest rates increase\r\nB) Housing prices decrease\r\nC) Mortgage applications decline",
+        "output": "The time-based relationship is:\r\n1. A) Interest rates increase (initial event)\r\n2. C) Mortgage applications decline (short-term consequence)\r\n3. B) Housing prices decrease (longer-term consequence)\r\nThis sequence shows a chain of events where the increase in interest rates makes mortgages more expensive, leading to fewer applications. Over time, this reduced demand can cause housing prices to decrease."
+      }
+    ]
+  ],
+  "tags": [
+    "Causal Reasoning",
+    "Temporal Analysis",
+    "Event Sequencing",
+    "Cause and Effect",
+    "Systems Thinking"
+  ]
+}

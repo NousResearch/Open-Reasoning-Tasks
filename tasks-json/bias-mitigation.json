@@ -1,0 +1,34 @@
+{
+  "name": "Bias Mitigation",
+  "description": "Given a statement and the bias that led to it, this task involves constructing a statement as close to the ground truth as possible. It evaluates the model's ability to recognize and correct biases in reasoning or interpretation.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "I think that all people with hazel eyes are dishonest. Bias present: Overgeneralization",
+        "output": "At one point, someone with hazel eyes lied to, or was dishonest with, me."
+      }
+    ],
+    [
+      {
+        "input": "Maria believes that all politicians are corrupt. Bias present: Confirmation bias",
+        "output": "Maria was initially distrustful of politicians, and she chose to focus on examples of corruption that confirmed her existing beliefs."
+      }
+    ],
+    [
+      {
+        "input": "Joe conducted a variety of street interviews at the train station and concluded that modern women are too career-focused to be good mothers. Bias present: Sampling bias",
+        "output": "Joe found that women at the train station tended to be more career-focused."
+      }
+    ]
+  ],
+  "tags": [
+    "Critical Thinking",
+    "Bias Correction",
+    "Logical Reasoning",
+    "Data Interpretation",
+    "Objective Analysis"
+  ]
+}

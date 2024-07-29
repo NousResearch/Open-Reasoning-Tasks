@@ -1,9 +1,9 @@
 # Lateral Thinking Puzzles
 
-## Description: 
+## Description:
 This task involves solving lateral thinking puzzles to evaluate the model's ability to think creatively, consider unconventional scenarios, and ask relevant questions to reach the correct solution.
 
-## Modality: 
+## Modality:
 Text only
 
 ## Examples:
@@ -14,7 +14,6 @@ Input:
 
 ```
 A man pushes his car to a hotel and tells the owner he's bankrupt. Why?
-
 ```
 
 Output:
@@ -40,8 +39,6 @@ Output:
 The woman is a photographer. She shot a picture of her husband, developed it in water, and hung it up to dry.
 Explanation: This puzzle relies on the multiple meanings of words like "shoot" and "hang" to create a misleading scenario.
 ```
-
----
 
 ## Tags:
 - Creative Thinking

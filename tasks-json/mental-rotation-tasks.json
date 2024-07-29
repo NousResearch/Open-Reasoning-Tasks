@@ -1,0 +1,28 @@
+{
+  "name": "Mental Rotation Tasks",
+  "description": "This task involves mentally rotating objects or shapes and predicting their appearance from different angles. It evaluates the model's ability to manipulate spatial information mentally.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Imagine a cube with different symbols on each face: a star, a circle, a triangle, a square, a heart, and a diamond. If the star is on top and the circle is facing you, what symbol would be on the bottom face?",
+        "output": "The diamond would be on the bottom face. In a cube, opposite faces are always 180 degrees apart. Since the star is on top, its opposite face (the bottom) would have the diamond."
+      }
+    ],
+    [
+      {
+        "input": "Picture the letter 'F' in your mind. If you rotate it 90 degrees clockwise, then flip it horizontally, what would it look like?",
+        "output": "After rotating 'F' 90 degrees clockwise, it would look like '⊥'. After flipping it horizontally, it would appear as '⊢'. The vertical line would be on the left, with the two horizontal lines extending to the right, the longer one at the top and the shorter one in the middle."
+      }
+    ]
+  ],
+  "tags": [
+    "Spatial Reasoning",
+    "Mental Imagery",
+    "Geometric Transformation",
+    "Visual-Spatial Skills",
+    "Cognitive Processing"
+  ]
+}

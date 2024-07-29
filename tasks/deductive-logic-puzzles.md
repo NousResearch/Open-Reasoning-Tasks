@@ -1,9 +1,9 @@
 # Deductive Logic Puzzles
 
-## Description: 
+## Description:
 This task involves solving deductive logic puzzles to evaluate the model's ability to use given information, make logical inferences, and arrive at a correct conclusion.
 
-## Modality: 
+## Modality:
 Text only
 
 ## Examples:
@@ -31,8 +31,7 @@ Input:
 
 ```
 Alice, Bob, and Charlie are standing in a line. Alice is not last. Bob is not first. Who is in the middle?
-```  
-
+```
 
 Output:
 
@@ -40,8 +39,6 @@ Output:
 Bob is in the middle.
 Explanation: If Alice is not last and Bob is not first, the only possible arrangement is: Charlie, Bob, Alice.
 ```
-
----
 
 ## Tags:
 - Logic

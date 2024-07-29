@@ -22,7 +22,7 @@ Output:
 Each friend will receive 4 cookies.
 Calculation:
 24 cookies ÷ 6 friends = 4 cookies per friend
-```  
+```
 
 ---
 

@@ -1,0 +1,35 @@
+{
+  "name": "Constructing Valid Arguments",
+  "description": "This task involves creating logically sound arguments to support a given conclusion or claim. It evaluates the model's ability to use premises, apply logical reasoning, and construct a coherent line of thought that leads to a valid conclusion.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Construct a valid argument to support the conclusion: \"All mammals are warm-blooded.\"",
+        "output": "Premise 1: All animals that can regulate their internal body temperature are warm-blooded.\nPremise 2: Mammals have the ability to regulate their internal body temperature.\nConclusion: Therefore, all mammals are warm-blooded.\n\nThis argument is valid because if both premises are true, the conclusion must necessarily follow. The first premise establishes the condition for being warm-blooded, and the second premise states that mammals meet this condition. Thus, the conclusion logically follows from these premises."
+      }
+    ],
+    [
+      {
+        "input": "Construct a valid argument to support the conclusion: \"Socrates is mortal.\"",
+        "output": "Premise 1: All humans are mortal.\nPremise 2: Socrates is a human.\nConclusion: Therefore, Socrates is mortal.\n\nThis argument is valid because it follows the logical structure of a syllogism. If we accept that all humans are mortal (Premise 1) and that Socrates is indeed a human (Premise 2), then it logically follows that Socrates must be mortal. The conclusion is a necessary consequence of the two premises."
+      }
+    ],
+    [
+      {
+        "input": "Construct a valid argument to support the conclusion: \"Eating a balanced diet is beneficial for health.\"",
+        "output": "Premise 1: A balanced diet provides all essential nutrients required for optimal bodily functions.\nPremise 2: Optimal bodily functions contribute to good health.\nPremise 3: Activities that contribute to good health are beneficial.\nConclusion: Therefore, eating a balanced diet is beneficial for health.\n\nThis argument is valid because it builds a logical chain from the properties of a balanced diet to its impact on health. The first premise establishes what a balanced diet provides, the second links this to health, and the third defines what makes something beneficial for health. The conclusion logically follows from these premises."
+      }
+    ]
+  ],
+  "tags": [
+    "Logic",
+    "Critical Thinking",
+    "Argumentation",
+    "Reasoning",
+    "Premise-Conclusion Relationships",
+    "Synthetic"
+  ]
+}

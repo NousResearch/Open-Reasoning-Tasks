@@ -1,0 +1,35 @@
+{
+  "name": "Recognizing Patterns in Sequences",
+  "description": "This task involves identifying and extending patterns in numerical, alphabetical, or symbolic sequences. It evaluates the model's ability to recognize underlying rules and apply them to predict subsequent elements in a sequence.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "Identify the next number in the sequence: 2, 4, 8, 16, 32, ?",
+        "output": "The next number in the sequence is 64.\nExplanation: Each number in the sequence is doubling (multiplied by 2) from the previous number. The pattern is:\n2 * 2 = 4\n4 * 2 = 8\n8 * 2 = 16\n16 * 2 = 32\n32 * 2 = 64"
+      }
+    ],
+    [
+      {
+        "input": "What comes next in this sequence? A, C, F, J, O, ?",
+        "output": "The next letter in the sequence is U.\nExplanation: The pattern is based on the alphabetical position of each letter, with the difference between positions increasing by 1 each time:\nA to C: 2 positions\nC to F: 3 positions\nF to J: 4 positions\nJ to O: 5 positions\nO to U: 6 positions"
+      }
+    ],
+    [
+      {
+        "input": "Continue this pattern: 1, 1, 2, 3, 5, 8, 13, ?",
+        "output": "The next number in the sequence is 21.\nExplanation: This is the Fibonacci sequence, where each number is the sum of the two preceding ones:\n1 + 1 = 2\n1 + 2 = 3\n2 + 3 = 5\n3 + 5 = 8\n5 + 8 = 13\n8 + 13 = 21"
+      }
+    ]
+  ],
+  "tags": [
+    "Pattern Recognition",
+    "Sequence Analysis",
+    "Logical Reasoning",
+    "Mathematical Thinking",
+    "Problem Solving",
+    "Synthetic"
+  ]
+}

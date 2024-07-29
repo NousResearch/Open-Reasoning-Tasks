@@ -1,0 +1,28 @@
+{
+  "name": "Pattern Recognition in Spatial Arrangements",
+  "description": "This task involves identifying patterns or rules in the spatial arrangement of objects or shapes. It evaluates the model's ability to recognize spatial regularities and apply them to new situations.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "In a grid of 3x3 squares, the following pattern is observed:\r\nTop row: Circle, Triangle, Square\r\nMiddle row: Triangle, Square, Circle\r\nBottom row: Square, Circle, ?\r\nWhat shape should replace the question mark to complete the pattern?",
+        "output": "The shape that should replace the question mark is a Triangle. The pattern follows a rotation of shapes in each row, moving one position to the right each time. In the bottom row, the Square and Circle have already shifted, so the Triangle should complete the pattern."
+      }
+    ],
+    [
+      {
+        "input": "In a sequence of 3D shapes, you observe: Cube, Tetrahedron, Octahedron, Cube, Tetrahedron, ?\r\nWhat shape comes next in the sequence?",
+        "output": "The shape that comes next in the sequence is an Octahedron. The pattern repeats every three shapes: Cube, Tetrahedron, Octahedron. This is the second repetition of the sequence, so it should follow the same order."
+      }
+    ]
+  ],
+  "tags": [
+    "Pattern Recognition",
+    "Spatial Reasoning",
+    "Sequence Completion",
+    "Logical Thinking",
+    "Visual-Spatial Skills"
+  ]
+}

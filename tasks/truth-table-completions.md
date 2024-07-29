@@ -20,7 +20,7 @@ Output:
 
 ```
 | P | Q | P AND Q | NOT P | (P AND Q) OR (NOT P) |
-|---|---|---------|-------|----------------------|
+||||-|-|
 | T | T |    T    |   F   |          T           |
 | T | F |    F    |   F   |          F           |
 | F | T |    F    |   T   |          T           |
@@ -42,7 +42,7 @@ Output:
 
 ```
 | P | Q | P XOR Q |
-|---|---|---------|
+||||
 | T | T |    F    |
 | T | F |    T    |
 | F | T |    T    |
@@ -56,5 +56,4 @@ Explanation: XOR (exclusive or) is true when P and Q have different truth values
 - Truth Tables
 - Logical Operators
 - Propositional Logic
-
----
+- --

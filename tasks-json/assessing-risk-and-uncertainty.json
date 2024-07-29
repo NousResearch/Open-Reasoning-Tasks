@@ -1,0 +1,29 @@
+{
+  "name": "Assessing Risk and Uncertainty",
+  "description": "This task involves evaluating scenarios with incomplete information to determine potential risks and uncertainties. It assesses the model's ability to identify possible outcomes, estimate their likelihood and impact, and provide reasoned judgments under conditions of uncertainty.",
+  "modality": "Text only",
+  "diagram": null,
+  "citations": null,
+  "examples": [
+    [
+      {
+        "input": "A pharmaceutical company is considering launching a new drug that has shown promising results in initial trials, but long-term effects are unknown. What are the potential risks and uncertainties, and how might they be assessed?",
+        "output": "Potential risks and uncertainties:\n1. Unknown long-term side effects\n2. Regulatory approval challenges\n3. Market acceptance and competition\n4. Manufacturing scalability issues\n5. Liability concerns\n\nAssessment approach:\n1. Conduct extended clinical trials to gather more data on long-term effects\n2. Perform thorough regulatory environment analysis\n3. Commission market research studies\n4. Assess manufacturing capabilities and potential partners\n5. Consult with legal experts on potential liability scenarios\n\nUncertainty can be quantified using probability ranges for each risk factor. For example:\n- Probability of severe long-term side effects: 5-15%\n- Probability of regulatory approval: 60-80%\n- Projected market share range: 10-30%\n\nOverall risk assessment would involve weighing potential benefits against these risks and uncertainties, considering the company's risk tolerance and available resources for mitigation strategies."
+      }
+    ],
+    [
+      {
+        "input": "A city is considering building a new bridge to alleviate traffic congestion. What risks and uncertainties should be considered in this decision?",
+        "output": "Risks and uncertainties to consider:\n1. Construction costs and potential overruns\n2. Environmental impact\n3. Traffic flow changes and potential unintended consequences\n4. Maintenance costs over time\n5. Natural disaster resilience\n6. Public opinion and political implications\n\nAssessment approach:\n1. Conduct detailed cost analysis with contingency budgets\n2. Perform environmental impact studies\n3. Use traffic simulation models to predict flow changes\n4. Analyze long-term maintenance requirements and costs\n5. Assess geological and climate data for disaster risks\n6. Conduct public surveys and stakeholder consultations\n\nUncertainties can be addressed through:\n- Sensitivity analysis on cost projections\n- Scenario planning for different traffic patterns\n- Climate change projections for long-term environmental and disaster risks\n\nRisk mitigation strategies might include:\n- Phased construction approach\n- Incorporating adaptable design elements\n- Establishing public-private partnerships for funding\n\nThe final decision should weigh the potential benefits of reduced congestion against these risks and uncertainties, considering both short-term and long-term impacts on the city and its residents."
+      }
+    ]
+  ],
+  "tags": [
+    "Risk Assessment",
+    "Decision Making",
+    "Probability",
+    "Scenario Analysis",
+    "Critical Thinking",
+    "Synthetic"
+  ]
+}

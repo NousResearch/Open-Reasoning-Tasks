@@ -31,22 +31,25 @@ git checkout -b add-new-task
 ```
     Ensure the task name is in title case and the link uses lowercase with hyphens.
 
-1. **Create Task File**: In the `tasks/` directory, create a new file named `task-name.md` (use lowercase and hyphens). Use the template provided in [tasks/template.md](task-template.md).
+6. **Create Task File**: In the `tasks/` directory, create a new file named `task-name.md` (use lowercase and hyphens). Use the template provided in [tasks/template.md](task-template.md).
 
-2. **Commit Your Changes**: Commit your changes with a meaningful commit message.
+8. **Build the Task**: Tasks are stored in JSON, but are contributed in markdown. Run `npm run build` to convert the markdown to JSON, and then convert it back. This will ensure that the markdown is correctly formatted, and that the structured data contained within the task has been logged correctly. If something about the markdown in your reconstructed file is off, you likely submitted the task incorrectly.
+
+
+7. **Commit Your Changes**: Commit your changes with a meaningful commit message.
 
 ```bash
 git add tasks.md tasks/your-new-task.md
 git commit -m "Add new task: Task Name"
 ```  
 
-8. **Push Your Branch**: Push your branch to your forked repository.
+9. **Push Your Branch**: Push your branch to your forked repository.
 
 ```bash
 git push origin add-new-task
 ```  
 
-9. **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository. Provide a clear description of the task you are submitting and its purpose.
+10. **Create a Pull Request**: Go to the original repository on GitHub and create a pull request from your forked repository. Provide a clear description of the task you are submitting and its purpose.
 
 ## Guidelines
 
