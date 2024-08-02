@@ -9,5 +9,8 @@
         "build": "node generate-json.js && node generate-markdown.js"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "@quarto/netlify-plugin-quarto": "^0.0.5"
+    }
 }

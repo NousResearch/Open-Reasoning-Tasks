@@ -1,0 +1,90 @@
+---
+categories: [
+Rhetoric,
+Persuasion,
+Communication Analysis,
+Critical Thinking,
+Language,
+Synthetic,
+]
+---
+
+# Analyzing Rhetorical Strategies
+
+## Description:
+This task involves identifying and evaluating the rhetorical strategies used in a given text or speech. It assesses the model's ability to recognize persuasive techniques, understand their intended effects, and analyze their effectiveness in the context of the communication.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+Analyze the rhetorical strategies used in this excerpt from Martin Luther King Jr.'s "I Have a Dream" speech:
+
+"I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'"
+```
+
+Output:
+
+```
+Rhetorical strategies used in this excerpt include:
+
+1. Allusion: King references the Declaration of Independence, invoking a foundational American document to support his argument.
+
+2. Repetition: The phrase "I have a dream" is repeated throughout the speech, creating a memorable and powerful refrain.
+
+3. Pathos: By appealing to the audience's emotions and shared values of equality and justice, King evokes strong feelings.
+
+4. Metaphor: The nation "rising up" is a metaphor for societal progress and moral awakening.
+
+5. Ethos: By connecting his vision to America's founding principles, King establishes credibility and aligns his cause with patriotic ideals.
+
+These strategies work together to create a compelling and inspiring message that resonates with the audience's sense of justice and national identity.
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+Analyze the rhetorical strategies used in this advertisement:
+
+"Tired of feeling tired? Our new energy drink, PowerBoost, is scientifically formulated to give you the energy you need to conquer your day. Join the millions of satisfied customers who have discovered the PowerBoost difference. Don't just survive - thrive with PowerBoost!"
+```
+
+Output:
+
+```
+Rhetorical strategies used in this advertisement include:
+
+1. Rhetorical Question: "Tired of feeling tired?" engages the audience and introduces the problem the product aims to solve.
+
+2. Appeal to Science: The phrase "scientifically formulated" lends credibility to the product's claims.
+
+3. Bandwagon: "Join the millions of satisfied customers" suggests widespread approval and encourages potential customers to follow the crowd.
+
+4. Hyperbole: "Conquer your day" exaggerates the effect of the product for emphasis.
+
+5. Antithesis: "Don't just survive - thrive" creates a contrast that highlights the product's supposed benefits.
+
+6. Alliteration: "PowerBoost difference" makes the phrase more memorable.
+
+7. Imperative Mood: The use of commands like "Join" and "Don't just survive" directly engages the audience and prompts action.
+
+These strategies aim to create a sense of need, establish credibility, and motivate the audience to purchase the product by appealing to their desire for energy and success.
+```
+
+## Tags:
+- Rhetoric
+- Persuasion
+- Communication Analysis
+- Critical Thinking
+- Language
+- Synthetic

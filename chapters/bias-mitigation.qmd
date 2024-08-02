@@ -1,0 +1,72 @@
+---
+categories: [
+Critical Thinking,
+Bias Correction,
+Logical Reasoning,
+Data Interpretation,
+Objective Analysis,
+]
+---
+
+# Bias Mitigation
+
+## Description:
+Given a statement and the bias that led to it, this task involves constructing a statement as close to the ground truth as possible. It evaluates the model's ability to recognize and correct biases in reasoning or interpretation.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+I think that all people with hazel eyes are dishonest. Bias present: Overgeneralization
+```
+
+Output:
+
+```
+At one point, someone with hazel eyes lied to, or was dishonest with, me.
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+Maria believes that all politicians are corrupt. Bias present: Confirmation bias
+```
+
+Output:
+
+```
+Maria was initially distrustful of politicians, and she chose to focus on examples of corruption that confirmed her existing beliefs.
+```
+
+---
+
+### Example 3:
+
+Input:
+
+```
+Joe conducted a variety of street interviews at the train station and concluded that modern women are too career-focused to be good mothers. Bias present: Sampling bias
+```
+
+Output:
+
+```
+Joe found that women at the train station tended to be more career-focused.
+```
+
+## Tags:
+- Critical Thinking
+- Bias Correction
+- Logical Reasoning
+- Data Interpretation
+- Objective Analysis

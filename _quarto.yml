@@ -1,0 +1,119 @@
+project:
+  type: book
+
+book:
+  title: "Open Reasoning Tasks"
+  author: "Contributors"
+  date: "7/27/2024"
+  chapters:
+    - index.qmd
+
+    - part: Tasks
+      chapters:
+        - chapters/analogical-problem-solving.qmd
+        - chapters/analogy-creation.qmd
+        - chapters/analyzing-cultural-differences.qmd
+        - chapters/analyzing-decision-making-processes.qmd
+        - chapters/analyzing-decision-trees.qmd
+        - chapters/analyzing-historical-counterfactuals.qmd
+        - chapters/analyzing-rhetorical-strategies.qmd
+        - chapters/assessing-risk-and-uncertainty.qmd
+        - chapters/bias-detection.qmd
+        - chapters/bias-mitigation.qmd
+        - chapters/calculating-probabilities.qmd
+        - chapters/categorizing-information-into-hierarchies.qmd
+        - chapters/causal-chain-analysis.qmd
+        - chapters/completing-analogies.qmd
+        - chapters/constructing-valid-arguments.qmd
+        - chapters/counterfactual-analysis.qmd
+        - chapters/critical-factor-identification-in-theory-of-mind.qmd
+        - chapters/critiquing-argument-structures.qmd
+        - chapters/deciphering-ambiguous-instructions.qmd
+        - chapters/deconstructing-complex-systems.qmd
+        - chapters/deconstructing-metaphors.qmd
+        - chapters/deducing-motives-from-actions.qmd
+        - chapters/deducing-rules-from-examples.qmd
+        - chapters/deductive-logic-puzzles.qmd
+        - chapters/describing-spatial-relationships.qmd
+        - chapters/detecting-sarcasm-and-irony.qmd
+        - chapters/determining-alternative-outcomes.qmd
+        - chapters/distinguishing-correlation-from-causation.qmd
+        - chapters/distinguishing-fact-from-opinion.qmd
+        - chapters/equation-derivation.qmd
+        - chapters/estimating-duration.qmd
+        - chapters/ethical-dilemma-resolution.qmd
+        - chapters/evaluating-analogies-for-accuracy.qmd
+        - chapters/evaluating-competing-theories.qmd
+        - chapters/evaluating-policy-implications.qmd
+        - chapters/evaluating-source-credibility.qmd
+        - chapters/fermi-estimation.qmd
+        - chapters/first-order-false-belief.qmd
+        - chapters/first-order-ignorance.qmd
+        - chapters/forecasting-technological-impacts.qmd
+        - chapters/generating-creative-solutions.qmd
+        - chapters/higher-order-false-belief.qmd
+        - chapters/hypothesis-formation.qmd
+        - chapters/identifying-anachronisms.qmd
+        - chapters/identifying-cause-and-effect-relationships.qmd
+        - chapters/identifying-cognitive-biases.qmd
+        - chapters/identifying-hallucination-prone-questions.qmd
+        - chapters/identifying-implicit-biases-in-language.qmd
+        - chapters/identifying-logical-fallacies.qmd
+        - chapters/identifying-logical-inconsistencies.qmd
+        - chapters/identifying-relationships.qmd
+        - chapters/identifying-unstated-assumptions.qmd
+        - chapters/inference-drawing-from-incomplete-data.qmd
+        - chapters/inferring-emotional-states.qmd
+        - chapters/inferring-motivations-from-actions.qmd
+        - chapters/interpreting-ambiguous-statements.qmd
+        - chapters/interpreting-and-creating-timelines.qmd
+        - chapters/interpreting-body-language-cues.qmd
+        - chapters/interpreting-legal-language-and-precedents.qmd
+        - chapters/interpreting-nonverbal-communication.qmd
+        - chapters/interpreting-statistical-data.qmd
+        - chapters/lateral-thinking-puzzles.qmd
+        - chapters/mathematical-word-problems.qmd
+        - chapters/mental-rotation-tasks.qmd
+        - chapters/moral-reasoning-in-everyday-situations.qmd
+        - chapters/multiturn-latex-generation.qmd
+        - chapters/narrative-gap-filling.qmd
+        - chapters/parsing-complex-sentences.qmd
+        - chapters/pattern-recognition-in-spatial-arrangements.qmd
+        - chapters/perspective-taking-in-social-scenarios.qmd
+        - chapters/predicting-market-trends.qmd
+        - chapters/predicting-outcomes-based-on-scenarios.qmd
+        - chapters/prioritizing-conflicting-goals.qmd
+        - chapters/proof-verification.qmd
+        - chapters/recognizing-emotional-subtext.qmd
+        - chapters/recognizing-patterns-in-behavior.qmd
+        - chapters/recognizing-patterns-in-sequences.qmd
+        - chapters/reconciling-conflicting-information.qmd
+        - chapters/reverse-engineering-processes.qmd
+        - chapters/risk-assessment-in-decision-making.qmd
+        - chapters/second-order-false-belief.qmd
+        - chapters/sequencing-events.qmd
+        - chapters/solving-riddles-and-word-puzzles.qmd
+        - chapters/solving-word-problems-with-multiple-variables.qmd
+        - chapters/spatial-problem-solving.qmd
+        - chapters/syllogism-reasoning.qmd
+        - chapters/trait-attribution-in-behavioral-scenarios.qmd
+        - chapters/trend-analysis-and-forecasting.qmd
+        - chapters/truth-table-completions.qmd
+        - chapters/understanding-time-based-relationships.qmd
+        - chapters/understanding-time-zones-and-global-time-differences.qmd
+        - chapters/unraveling-paradoxes.qmd
+
+    - references.qmd
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
