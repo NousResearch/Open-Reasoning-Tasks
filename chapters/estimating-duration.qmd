@@ -1,0 +1,69 @@
+---
+categories: [
+Time Estimation,
+Temporal Reasoning,
+Process Understanding,
+Comparative Analysis,
+General Knowledge,
+]
+---
+
+# Estimating Duration
+
+## Description:
+This task involves estimating the time required for various activities or processes. It evaluates the model's understanding of time scales and its ability to make reasonable time estimates.
+
+## Modality:
+Text only
+
+## Examples:
+
+### Example 1:
+
+Input:
+
+```
+Estimate the time it typically takes for these events:
+A) Boiling an egg
+B) Flying from New York to London
+C) Growing a tomato plant from seed to fruit
+```
+
+Output:
+
+```
+A) Boiling an egg: Approximately 7-10 minutes
+B) Flying from New York to London: About 7-8 hours
+C) Growing a tomato plant from seed to fruit: Roughly 60-80 days
+```
+
+---
+
+### Example 2:
+
+Input:
+
+```
+Rank these processes from shortest to longest duration:
+A) Continental drift
+B) Human pregnancy
+C) Brewing a cup of coffee
+D) A solar eclipse
+```
+
+Output:
+
+```
+From shortest to longest:
+1. C) Brewing a cup of coffee (minutes)
+2. D) A solar eclipse (minutes to hours)
+3. B) Human pregnancy (about 9 months)
+4. A) Continental drift (millions of years)
+```
+
+## Tags:
+- Time Estimation
+- Temporal Reasoning
+- Process Understanding
+- Comparative Analysis
+- General Knowledge
