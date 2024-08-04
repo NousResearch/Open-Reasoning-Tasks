@@ -115,5 +115,4 @@ format:
     theme: 
       light: flatly
       dark: darkly
-  pdf:
-    documentclass: scrreprt
+      
