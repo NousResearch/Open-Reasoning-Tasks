@@ -10,12 +10,15 @@ Text only
 
 ### Example 1:
 
-**Input:**
+Input:
 
+```
 Analyze the sentence $C$: "Either this sentence is false, or you will hire me." Can this sentence logically compel someone to hire you?
+```
 
-**Output:**
+Output:
 
+```
 1. Suppose $C$ is false. Then the first disjunct ("this sentence is false") is true. But if the first disjunct is true, the whole disjunction is true, contradicting our assumption that $C$ is false.
 2. So, let's suppose $C$ is true. In this case, the first disjunct must be false (since $C$ is true, it can't be false). Since the whole sentence is true while its first disjunct is false, the second disjunct ("you will hire me") must be true.
 3. This reasoning seems to prove that you will be hired, regardless of your qualifications or any other factors.
@@ -30,13 +33,15 @@ iii. This would be a proposition made true by its own failure to be true, which 
 
 Therefore, $C$ does not express a proposition. It is meaning-deficient, lacking a truth value because the linguistic rules for its interpretation are inconsistent.
 So Curry's Paradox cannot logically compel someone to hire you. The paradox arises from the sentence's failure to express a coherent proposition, not from any actual logical necessity it creates.
+```  
 
 ### Example 2:
 
-**Input:**
+Input:
 
+```
 Consider the following formalization of Curry's Paradox:
-
+```
 
 | Step | | | |
 |------|----------|---------|--------------|
@@ -48,10 +53,14 @@ Consider the following formalization of Curry's Paradox:
 | 6 | Either $C$ is false or you will be hired. (From 3, 5.) | $\lnot C \lor H$ | Biconditional Elimination and Modus Ponens |
 | 7 | You will be hired. (From 5, 6.) | $H$ | Disjunctive Syllogism |
 
+```
 What is the key problematic step in this reasoning and why does it fail?
+```  
 
-**Output:**
 
+Output:
+
+```
 The key problematic step in this formalization of Curry's Paradox is premise 2:
 
 2. Sentence $C$ says that $C$ is false or you will be hired. (Premise.)
@@ -65,6 +74,8 @@ This premise is problematic because it assumes that sentence $C$ expresses a wel
 5. Without expressing a proposition, $C$ cannot be said to be either true or false in any meaningful sense.
 
 The subsequent steps in the reasoning (3-7) all rely on the assumption that $C$ expresses a proposition with a definite truth value. Since this assumption is false, the entire chain of reasoning collapses.
+```  
+
 
 ## Tags:
 - Logic
