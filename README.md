@@ -1,4 +1,4 @@
-# Open Reasoning Tasks: LLM Reasoning Tasks Collection
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/ee02b6d4-299d-4da3-9c97-f49e75d23c48"># Open Reasoning Tasks: LLM Reasoning Tasks Collection
 
 ![image](https://github.com/user-attachments/assets/2527a05e-afbc-4145-9daa-96f0229600f6)
 
@@ -18,6 +18,25 @@ Welcome to the **LLM Reasoning Task Collection** repository! This project is an 
 ## Introduction
 
 The goal of this repository is to gather a diverse set of reasoning tasks designed to improve the reasoning capabilities of LLMs. Contributors are encouraged to submit tasks, provide examples, and optionally include diagrams or workflows to illustrate how the tasks function.
+
+## Resources
+
+### [Master Reasoning Tasks List](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks.md)
+You can access the [main tasks list table by clicking here (or open tasks.md file in the top level directory)](https://github.com/NousResearch/Open-Reasoning-Tasks/blob/main/tasks.md)
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/4a644bb7-1e3f-4e37-b302-0ab14ccd11a3">
+
+### [Web Based Directory](https://openreasoningtasks.netlify.app/)
+You can access the full [table of reasoning tasks from our quarto based website by clicking here.](https://openreasoningtasks.netlify.app/)
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/0399415b-b475-4ad8-ae5a-629f9140de15">
+
+### AI Reasoning Papers Master List
+Coming Soon
+
+### AI Reasoning Formats & Systems
+Coming Soon
+
+### AI Reasoning Training and Evaluation Datasets
+Coming Soon
 
 ## Contributing
 
