@@ -1,5 +1,3 @@
-<img width="871" alt="image" src="https://github.com/user-attachments/assets/ee02b6d4-299d-4da3-9c97-f49e75d23c48"># Open Reasoning Tasks: LLM Reasoning Tasks Collection
-
 ![image](https://github.com/user-attachments/assets/2527a05e-afbc-4145-9daa-96f0229600f6)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03dad91c-2330-4213-8cfc-db14c113da16/deploy-status)](https://app.netlify.com/sites/openreasoningtasks/deploys)
