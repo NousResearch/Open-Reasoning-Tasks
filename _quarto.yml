@@ -98,7 +98,7 @@ book:
         - chapters/spatial-problem-solving.qmd
         - chapters/stack-based-reasoning.qmd
         - chapters/syllogism-reasoning.qmd
-        - chapters/tower-of-hanoi.qmd
+        - chapters/towers-of-hanoi.qmd
         - chapters/trait-attribution-in-behavioral-scenarios.qmd
         - chapters/trend-analysis-and-forecasting.qmd
         - chapters/truth-table-completions.qmd
