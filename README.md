@@ -24,7 +24,7 @@ You can access the [main tasks list table by clicking here (or open tasks.md fil
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/4a644bb7-1e3f-4e37-b302-0ab14ccd11a3">
 
 ### [Web Based Directory](https://reasoning.nousresearch.com)
-You can access the full [table of reasoning tasks from our quarto based website by clicking here.](reasoning.nousresearch.com)
+You can access the full [table of reasoning tasks from our quarto based website by clicking here.](https://reasoning.nousresearch.com)
 <img width="973" alt="image" src="https://github.com/user-attachments/assets/0399415b-b475-4ad8-ae5a-629f9140de15">
 
 ### AI Reasoning Papers Master List
