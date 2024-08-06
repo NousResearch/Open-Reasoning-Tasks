@@ -28,6 +28,7 @@ book:
         - chapters/counterfactual-analysis.qmd
         - chapters/critical-factor-identification-in-theory-of-mind.qmd
         - chapters/critiquing-argument-structures.qmd
+        - chapters/currys-paradox.qmd
         - chapters/deciphering-ambiguous-instructions.qmd
         - chapters/deconstructing-complex-systems.qmd
         - chapters/deconstructing-metaphors.qmd
@@ -95,7 +96,9 @@ book:
         - chapters/solving-riddles-and-word-puzzles.qmd
         - chapters/solving-word-problems-with-multiple-variables.qmd
         - chapters/spatial-problem-solving.qmd
+        - chapters/stack-based-reasoning.qmd
         - chapters/syllogism-reasoning.qmd
+        - chapters/towers-of-hanoi.qmd
         - chapters/trait-attribution-in-behavioral-scenarios.qmd
         - chapters/trend-analysis-and-forecasting.qmd
         - chapters/truth-table-completions.qmd
