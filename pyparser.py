@@ -72,10 +72,12 @@ def parse_markdown_to_json(markdown_text):
         if not input_match or not output_match:
             raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
         task["examples"].append([{
-            "input": input_match.group(1).strip(),
-            "output": output_match.group(1).strip().replace('\n', line_ending)
+        "input": input_match.group(1).strip(),
+        "output": output_match.group(1).strip()  # Remove the .replace('\n', line_ending)
         }])
 
+
+    
 
     # Extract tags (required)
     tags_text = extract_section(r'## Tags:')
