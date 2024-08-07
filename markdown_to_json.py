@@ -2,7 +2,7 @@
 import os
 import json
 import re
-from parser import *
+from pyparser import *
 
 def process_tasks(tasks_folder, json_folder):
     # Create the JSON folder if it doesn't exist
