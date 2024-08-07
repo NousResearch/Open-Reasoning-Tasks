@@ -2,7 +2,7 @@
 import os
 import json
 import re
-from parser import parse_markdown_to_json  # Importing the parsing function from a separate file
+from parser import *
 
 def process_tasks(tasks_folder, json_folder):
     # Create the JSON folder if it doesn't exist
