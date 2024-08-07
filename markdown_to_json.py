@@ -31,7 +31,7 @@ def process_tasks(tasks_folder, json_folder):
                 
                 # Write the JSON content to file
                 with open(json_path, 'w', encoding='utf-8') as json_file:
-                    json.dump(json_content, json_file, indent=2, ensure_ascii=False, separators=(',', ': '), sort_keys=True)
+                    json.dump(json_content, json_file, indent=2, ensure_ascii=False, separators=(',', ': '))
                     json_file.write('\n')  # Add a final newline
 
                 
