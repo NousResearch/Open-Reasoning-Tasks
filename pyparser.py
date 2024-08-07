@@ -6,6 +6,9 @@ class MarkdownParsingError(Exception):
     pass
 
 def parse_markdown_to_json(markdown_text):
+
+    line_ending = '\r\n' if '\r\n' in markdown_text else '\n'
+    
     task = {
         "name": "",
         "description": "",
@@ -18,6 +21,7 @@ def parse_markdown_to_json(markdown_text):
 
     # Helper function to extract content between headers
     def extract_section(start_pattern, end_pattern=None):
+        
         if end_pattern:
             match = re.search(f"{start_pattern}(.*?){end_pattern}", markdown_text, re.DOTALL)
         else:
@@ -63,14 +67,15 @@ def parse_markdown_to_json(markdown_text):
         raise MarkdownParsingError("No examples found. Expected at least one '### Example X:' section.")
     
     for example in examples[1:]:  # Skip the first split as it's empty
-        input_match = re.search(r'Input:\s*```(.+?)```', example, re.DOTALL)
-        output_match = re.search(r'Output:\s*```(.+?)```', example, re.DOTALL)
-        if not input_match or not output_match:
-            raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
-        task["examples"].append([{
-            "input": input_match.group(1).strip(),
-            "output": output_match.group(1).strip().replace('\n', '\r\n')
-        }])
+            input_match = re.search(r'Input:\s*```(.+?)```', example, re.DOTALL)
+            output_match = re.search(r'Output:\s*```(.+?)```', example, re.DOTALL)
+            if not input_match or not output_match:
+                raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
+            task["examples"].append({
+                "input": input_match.group(1).strip(),
+                "output": output_match.group(1).strip().replace('\n', line_ending)
+            })
+
 
     # Extract tags (required)
     tags_text = extract_section(r'## Tags:')
