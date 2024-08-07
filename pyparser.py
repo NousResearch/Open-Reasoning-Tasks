@@ -69,7 +69,7 @@ def parse_markdown_to_json(markdown_text):
             raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
         task["examples"].append([{
             "input": input_match.group(1).strip(),
-            "output": "output": output_match.group(1).strip().replace('\n', '\r\n')
+            "output": output_match.group(1).strip().replace('\n', '\r\n')
         }])
 
     # Extract tags (required)
