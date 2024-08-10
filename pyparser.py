@@ -67,17 +67,15 @@ def parse_markdown_to_json(markdown_text):
         raise MarkdownParsingError("No examples found. Expected at least one '### Example X:' section.")
     
     for example in examples[1:]:  # Skip the first split as it's empty
-        input_match = re.search(r'Input:\s*```(.+?)```', example, re.DOTALL)
-        output_match = re.search(r'Output:\s*```(.+?)```', example, re.DOTALL)
+        input_match = re.search(r'Input:\s*(.+?)Output:', example, re.DOTALL)
+        output_match = re.search(r'Output:\s*(.+?)$', example, re.DOTALL)
         if not input_match or not output_match:
             raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
-        task["examples"].append([{
-        "input": input_match.group(1).strip(),
-        "output": output_match.group(1).strip()  # Remove the .replace('\n', line_ending)
-        }])
+        task["examples"].append({
+        "input": input_match.group(1).replace('\`\`\`', '').strip(),
+        "output": output_match.group(1).replace('\`\`\`', '').strip()  # Remove the .replace('\n', line_ending)
+        })
 
-
-    
 
     # Extract tags (required)
     tags_text = extract_section(r'## Tags:')
