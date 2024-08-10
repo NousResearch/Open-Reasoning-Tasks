@@ -71,10 +71,10 @@ def parse_markdown_to_json(markdown_text):
         output_match = re.search(r'Output:\s*(.+?)$', example, re.DOTALL)
         if not input_match or not output_match:
             raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
-        task["examples"].append({
+        task["examples"].append([{
         "input": input_match.group(1).replace('\`\`\`', '').strip(),
         "output": output_match.group(1).replace('\`\`\`', '').strip()  # Remove the .replace('\n', line_ending)
-        })
+        }])
 
 
     # Extract tags (required)
