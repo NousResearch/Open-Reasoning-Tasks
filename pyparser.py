@@ -6,9 +6,6 @@ class MarkdownParsingError(Exception):
     pass
 
 def parse_markdown_to_json(markdown_text):
-
-    line_ending = '\r\n' if '\r\n' in markdown_text else '\n'
-    
     task = {
         "name": "",
         "description": "",
@@ -21,7 +18,6 @@ def parse_markdown_to_json(markdown_text):
 
     # Helper function to extract content between headers
     def extract_section(start_pattern, end_pattern=None):
-        
         if end_pattern:
             match = re.search(f"{start_pattern}(.*?){end_pattern}", markdown_text, re.DOTALL)
         else:
@@ -61,21 +57,20 @@ def parse_markdown_to_json(markdown_text):
     examples_text = extract_section(r'## Examples:', r'## Tags:')
     if not examples_text:
         raise MarkdownParsingError("Examples section not found or empty.")
-    
+
     examples = re.split(r'###\s+Example\s+\d+:', examples_text)
     if len(examples) < 2:  # First split is empty, so we need at least 2 elements
         raise MarkdownParsingError("No examples found. Expected at least one '### Example X:' section.")
-    
+
     for example in examples[1:]:  # Skip the first split as it's empty
-        input_match = re.search(r'Input:\s*(.+?)Output:', example, re.DOTALL)
-        output_match = re.search(r'Output:\s*(.+?)$', example, re.DOTALL)
+        input_match = re.search(r'Input:\s*```(.+?)```\s*Output:', example, re.DOTALL)
+        output_match = re.search(r'Output:\s*```(.+?)```\s*$', example, re.DOTALL)
         if not input_match or not output_match:
             raise MarkdownParsingError(f"Invalid example format. Expected 'Input:' and 'Output:' sections with code blocks.")
         task["examples"].append([{
-        "input": input_match.group(1).replace('\`\`\`', '').strip(),
-        "output": output_match.group(1).replace('\`\`\`', '').strip()  # Remove the .replace('\n', line_ending)
+            "input": input_match.group(1).strip(),
+            "output": output_match.group(1).strip()
         }])
-
 
     # Extract tags (required)
     tags_text = extract_section(r'## Tags:')
