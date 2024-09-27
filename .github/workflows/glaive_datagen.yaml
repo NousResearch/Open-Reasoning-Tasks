@@ -13,46 +13,76 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+    - name: Install jq
+      run: sudo apt-get install jq -y
 
     - name: Get list of added files
       id: get_added_files
       run: |
         # Directory to check for added files
         DIRECTORY_TO_CHECK="tasks"
-
-        # Get list of added files in the specified directory
-        ADDED_FILES=$(git diff --name-status ${{ github.event.before }} ${{ github.sha }} | awk '/^A/ {print $2}' | grep "^$DIRECTORY_TO_CHECK")
-
+    
+        echo "Current commit: $(git rev-parse HEAD)"
+        echo "Parent commits:"
+        git log -n 1 --format=%P HEAD
+    
+        # Get the merge commit parents
+        PARENTS=$(git log -n 1 --format=%P HEAD)
+        PARENT1=$(echo $PARENTS | cut -d' ' -f1)
+        PARENT2=$(echo $PARENTS | cut -d' ' -f2)
+    
+        echo "Parent 1: $PARENT1"
+        echo "Parent 2: $PARENT2"
+    
+        # If we have two parents, it's a merge commit
+        if [ ! -z "$PARENT2" ]; then
+          echo "This is a merge commit. Comparing $PARENT1 with $PARENT2"
+          ADDED_FILES=$(git diff --name-status $PARENT1 $PARENT2 | awk '/^A/ && $2 ~ /^'"$DIRECTORY_TO_CHECK"'/ {print $2}')
+        else
+          echo "This is not a merge commit. Comparing $PARENT1 with HEAD"
+          ADDED_FILES=$(git diff --name-status $PARENT1 HEAD | awk '/^A/ && $2 ~ /^'"$DIRECTORY_TO_CHECK"'/ {print $2}')
+        fi
+    
         # Export the list as an environment variable
-        echo "ADDED_FILES=$ADDED_FILES" >> $GITHUB_ENV
-
+        echo "ADDED_FILES<<EOF" >> $GITHUB_ENV
+        echo "$ADDED_FILES" >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
+    
         # Print the files for debugging
         echo "Added files:"
         echo "$ADDED_FILES"
-        # Convert space-separated string to JSON array
-        JSON_ARRAY=$(echo $ADDED_FILES | jq -R -s -c 'split(" ")')
-
+    
+        # Convert newline-separated string to JSON array
+        JSON_ARRAY=$(echo "$ADDED_FILES" | jq -R -s -c 'split("\n") | map(select(length > 0))')
+    
         # Export the JSON array as an environment variable
         echo "ADDED_FILES_JSON=$JSON_ARRAY" >> $GITHUB_ENV
-
+    
         # Print the JSON array for debugging
         echo "Added files JSON array:"
         echo "$JSON_ARRAY"
+        
+
 
     - name: Notify API
-      if: steps.get_added_files.outputs.added_files != ''
       run: |
         # Define the API endpoint and token
         API_ENDPOINT="https://open-reasoning-tasks-action-production.up.railway.app/process-files"
-
+        PAYLOAD=$(jq -n --argjson files "$ADDED_FILES_JSON" '{"added_files": $files}')
+    
+        # Debugging output for the payload
+        echo "Payload being sent:"
+        echo "$PAYLOAD"
         # Send the list of added files to the API endpoint
         curl -X POST $API_ENDPOINT \
              -H "Content-Type: application/json" \
              -H "Authorization: Bearer ${{ secrets.GLAIVE_API_AUTH_TOKEN }}" \
-             -d "{\"added_files\": \"$ADDED_FILES_JSON\"}"
+             -d "$PAYLOAD"
