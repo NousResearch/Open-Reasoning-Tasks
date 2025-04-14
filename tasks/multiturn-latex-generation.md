@@ -215,7 +215,7 @@ Please tailor the resume specifically for an actress.
 \begin{itemize}
 \item \subsubsection{Winner, \textbf{Best Newcomer} - New York Indie Film Festival 2023 for role in "City Lights".}
 \vspace{-5px}
-\item \subsubsection{Recipient of the \href{https://www.hellohola.org/}{\textbf{Emerging Talent}} from the HOLA, 2021.}
+\item \subsubsection{Recipient of the \href{https://www.holaofficial.org}{\textbf{Emerging Talent}} from the HOLA, 2021.}
 \vspace{-5px}
 \item \subsubsection{First Place, \textbf{Monologue Competition} - College Theater Festival 2020.}
 \end{itemize}
