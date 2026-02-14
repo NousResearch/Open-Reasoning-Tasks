@@ -1,0 +1,40 @@
+{
+    "name": "Islamic Finance Halal Compliance",
+    "description": "This task evaluates whether financial choices are compatible with Islamic finance constraints using explicit screening rules. The model must reason through business activity filters, leverage/interest thresholds, contract structure, and purification requirements, then produce a clear compliance verdict.",
+    "modality": "Text only",
+    "diagram": null,
+    "citations": null,
+    "examples": [
+        [
+            {
+                "input": "Use the following screening policy:\n- Business activity screen: fail if core revenue is from alcohol, gambling, conventional banking, adult entertainment, or weapons manufacturing.\n- Financial ratio screens:\n  - Interest-bearing debt / market cap must be <= 33%\n  - Cash and interest-bearing securities / market cap must be <= 33%\n\nCompany A data:\n- Core business: cloud software\n- Revenue mix: 94% software subscriptions, 6% treasury interest\n- Interest-bearing debt / market cap: 24%\n- Cash and interest-bearing securities / market cap: 38%\n\nQuestion: Is Company A compliant under this policy?",
+                "output": "Not compliant under the stated policy.\n\nReasoning:\n1. Business activity screen passes: cloud software is a permissible core activity.\n2. Debt ratio passes: 24% <= 33%.\n3. Cash/interest-bearing securities ratio fails: 38% > 33%.\n\nConclusion: Company A fails one mandatory financial ratio screen, so it is not compliant."
+            }
+        ],
+        [
+            {
+                "input": "Policy for purification:\n- If an otherwise-compliant stock has incidental non-permissible income, donate that percentage of dividend income to purification.\n\nInvestor received:\n- Dividend: $1,250\n- Non-permissible income ratio reported by screening provider: 4.8%\n\nQuestion: How much should be purified?",
+                "output": "Purification amount = 4.8% of $1,250 = $60.00.\n\nCalculation:\n- 0.048 * 1250 = 60\n\nConclusion: Donate $60.00 as purification."
+            }
+        ],
+        [
+            {
+                "input": "Choose the more Shariah-aligned financing structure based on contract form:\n\nOption A:\n- Conventional loan\n- Principal guaranteed\n- Fixed 8% annual interest payment\n\nOption B:\n- Musharakah partnership\n- Capital contributed by both parties\n- Profit sharing at pre-agreed ratio\n- Loss sharing proportional to capital contribution\n\nQuestion: Which option is more aligned and why?",
+                "output": "Option B is more Shariah-aligned.\n\nReasoning:\n1. Option A is an interest-based debt contract with fixed return on principal, which conflicts with riba prohibition.\n2. Option B is equity-like risk sharing (profit-and-loss sharing), which matches core Islamic finance principles.\n\nConclusion: Option B is the compliant structure among the two."
+            }
+        ],
+        [
+            {
+                "input": "A DeFi vault advertises \"halal yield\". Terms:\n- User deposits stablecoins.\n- Protocol lends to margin traders and charges variable interest.\n- Vault pays depositors from collected lending interest minus fees.\n- No ownership in real assets; returns come from lending spread.\n\nQuestion: Based only on these terms, is the yield source likely compliant? Explain.",
+                "output": "Likely not compliant based on the stated mechanism.\n\nReasoning:\n1. Return source is lending interest from margin borrowing.\n2. Depositor payout is directly derived from interest spread, not trade or asset profit-sharing.\n3. Structure appears debt-interest based rather than partnership/asset-backed profit model.\n\nConclusion: This setup is likely non-compliant unless the underlying return mechanism is materially restructured."
+            }
+        ]
+    ],
+    "tags": [
+        "Islamic Finance",
+        "Halal Compliance",
+        "Financial Screening",
+        "Ethical Reasoning",
+        "Risk Assessment"
+    ]
+}
