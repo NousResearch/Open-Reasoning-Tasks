@@ -20,7 +20,6 @@ A blog post about climate change written by a popular celebrity with no scientif
 Output:
 
 ```
-Credibility: Low
 
 Reasoning:
 1. Expertise: The celebrity lacks scientific credentials or expertise in climate science, which is a complex field requiring specialized knowledge.
@@ -29,6 +28,9 @@ Reasoning:
 4. Reputation: While the celebrity may be well-known, their reputation is likely not based on scientific accuracy or climate knowledge.
 
 Conclusion: For information on climate change, more credible sources would include peer-reviewed scientific journals, reports from established climate research institutions, or statements from qualified climate scientists.
+
+Credibility: Low
+
 ```
 
 ---
@@ -45,7 +47,6 @@ A study on the effectiveness of a new drug, published in a peer-reviewed medical
 Output:
 
 ```
-Credibility: Moderate
 
 Reasoning:
 1. Expertise: The study is published in a peer-reviewed medical journal, suggesting it meets certain academic standards and has been reviewed by experts in the field.
@@ -54,6 +55,9 @@ Reasoning:
 4. Reputation: Medical journals generally have good reputations for scientific accuracy, but the specific journal's standing would need to be considered.
 
 Conclusion: While the peer-review process lends some credibility, the potential bias from industry funding suggests caution. This study should be considered alongside other independent research on the drug's effectiveness. Disclosure of conflicts of interest and replication of results by independent researchers would increase credibility.
+
+Credibility: Moderate
+
 ```
 
 ## Tags:

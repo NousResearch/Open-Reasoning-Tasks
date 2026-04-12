@@ -19,7 +19,6 @@ A politician who has always opposed environmental regulations suddenly starts ad
 Output:
 
 ```
-Possible motives for the politician's change in stance could include:
 
 1. Electoral strategy: The politician may have recognized a shift in public opinion towards environmental concerns and is adapting their position to maintain voter support.
 
@@ -32,6 +31,9 @@ Possible motives for the politician's change in stance could include:
 5. Long-term economic considerations: They might have realized that environmental protection could lead to economic benefits in their constituency, such as green jobs or sustainable tourism.
 
 Without more context, it's impossible to determine the exact motive, but these are plausible explanations based on the sudden change in the politician's stance.
+
+Possible motives for the politician's change in stance could include:
+
 ```
 
 ---
@@ -47,7 +49,6 @@ A student who usually gets average grades suddenly starts spending extra hours s
 Output:
 
 ```
-Possible motivations for the student's change in behavior could include:
 
 1. Future goals: The student might have set a new academic or career goal that requires higher grades, such as getting into a competitive college program.
 
@@ -64,6 +65,9 @@ Possible motivations for the student's change in behavior could include:
 7. Preparation for a specific event: The student could be preparing for an important upcoming test, competition, or application process.
 
 Without more information about the student's circumstances, these are plausible motivations based on the described change in behavior.
+
+Possible motivations for the student's change in behavior could include:
+
 ```
 
 ## Tags:

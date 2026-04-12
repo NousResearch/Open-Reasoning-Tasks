@@ -43,7 +43,6 @@ How might the course of the American Civil Rights Movement have changed if Marti
 Output:
 
 ```
-Potential scenario: Gradual progress with less violent backlash
 
 If Martin Luther King Jr. had not been assassinated in 1968, the Civil Rights Movement might have continued on a more gradual, but potentially more sustainable path:
 
@@ -58,6 +57,9 @@ If Martin Luther King Jr. had not been assassinated in 1968, the Civil Rights Mo
 5. Slower but steadier progress: While change might have come more slowly, it could have been more widely accepted, leading to more durable reforms in the long term.
 
 Reasoning: King's leadership was crucial in maintaining nonviolent tactics and broad coalitions. His continued presence could have moderated some of the more radical elements that emerged after his death, while still pushing for significant change. This could have resulted in a different balance of progress and backlash than what actually occurred in the late 1960s and 1970s.
+
+Potential scenario: Gradual progress with less violent backlash
+
 ```
 
 ## Tags:

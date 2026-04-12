@@ -19,7 +19,6 @@ A pharmaceutical company is considering launching a new drug that has shown prom
 Output:
 
 ```
-Potential risks and uncertainties:
 1. Unknown long-term side effects
 2. Regulatory approval challenges
 3. Market acceptance and competition
@@ -39,6 +38,9 @@ Uncertainty can be quantified using probability ranges for each risk factor. For
 - Projected market share range: 10-30%
 
 Overall risk assessment would involve weighing potential benefits against these risks and uncertainties, considering the company's risk tolerance and available resources for mitigation strategies.
+
+Potential risks and uncertainties:
+
 ```
 
 ---
@@ -54,7 +56,6 @@ A city is considering building a new bridge to alleviate traffic congestion. Wha
 Output:
 
 ```
-Risks and uncertainties to consider:
 1. Construction costs and potential overruns
 2. Environmental impact
 3. Traffic flow changes and potential unintended consequences
@@ -81,6 +82,9 @@ Risk mitigation strategies might include:
 - Establishing public-private partnerships for funding
 
 The final decision should weigh the potential benefits of reduced congestion against these risks and uncertainties, considering both short-term and long-term impacts on the city and its residents.
+
+Risks and uncertainties to consider:
+
 ```
 
 ## Tags:

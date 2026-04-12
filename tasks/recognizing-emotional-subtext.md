@@ -19,7 +19,6 @@ Analyze the emotional subtext in this message from a friend: "Sure, go ahead and
 Output:
 
 ```
-The emotional subtext in this message suggests:
 1. Jealousy: The friend seems envious of the new friendships.
 2. Hurt: There's a sense of feeling left out or replaced.
 3. Passive-aggressiveness: The friend is indirectly expressing their displeasure.
@@ -27,6 +26,9 @@ The emotional subtext in this message suggests:
 5. Resentment: The tone suggests the friend is harboring negative feelings about the situation.
 
 The use of "Sure, go ahead" followed by a statement about staying home alone is a classic passive-aggressive structure, implying the opposite of what's being said on the surface. The friend is likely hoping their emotional state will be recognized and addressed, rather than truly encouraging the recipient to go out.
+
+The emotional subtext in this message suggests:
+
 ```
 
 ---
@@ -42,7 +44,6 @@ What's the emotional subtext in this email from an employee to their boss: "I un
 Output:
 
 ```
-The emotional subtext in this email suggests:
 1. Frustration: The employee likely feels pressured by the sudden change.
 2. Professionalism: Despite potential frustration, the employee is maintaining a respectful tone.
 3. Stress: The phrase "I'll do my best" implies concern about meeting the new deadline.
@@ -50,6 +51,9 @@ The emotional subtext in this email suggests:
 5. Subtle pushback: By mentioning their understanding and effort to accommodate, the employee is indirectly highlighting the difficulty of the situation.
 
 The carefully worded response indicates that the employee is trying to balance expressing their concerns with maintaining a positive working relationship. The use of "accommodate this change" rather than a more enthusiastic phrase suggests that the employee finds the new deadline challenging but is trying to be cooperative.
+
+The emotional subtext in this email suggests:
+
 ```
 
 ## Tags:

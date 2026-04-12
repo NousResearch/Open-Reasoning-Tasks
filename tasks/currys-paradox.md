@@ -61,7 +61,6 @@ What is the key problematic step in this reasoning and why does it fail?
 Output:
 
 ```
-The key problematic step in this formalization of Curry's Paradox is premise 2:
 
 2. Sentence $C$ says that $C$ is false or you will be hired. (Premise.)
 
@@ -74,6 +73,9 @@ This premise is problematic because it assumes that sentence $C$ expresses a wel
 5. Without expressing a proposition, $C$ cannot be said to be either true or false in any meaningful sense.
 
 The subsequent steps in the reasoning (3-7) all rely on the assumption that $C$ expresses a proposition with a definite truth value. Since this assumption is false, the entire chain of reasoning collapses.
+
+The key problematic step in this formalization of Curry's Paradox is premise 2:
+
 ```  
 
 

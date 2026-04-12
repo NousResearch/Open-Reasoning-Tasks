@@ -19,7 +19,6 @@ Analyze the causal chain that led to the 2008 financial crisis, starting with th
 Output:
 
 ```
-Causal chain analysis of the 2008 financial crisis:
 
 1. Increase in subprime mortgage lending
 2. Creation of mortgage-backed securities (MBS) from these loans
@@ -36,6 +35,9 @@ Causal chain analysis of the 2008 financial crisis:
 13. Global financial crisis
 
 This chain demonstrates how initial decisions in lending practices led to a complex series of events that ultimately resulted in a global economic crisis.
+
+Causal chain analysis of the 2008 financial crisis:
+
 ```
 
 ---
@@ -51,7 +53,6 @@ Describe the causal chain that leads from deforestation to increased global warm
 Output:
 
 ```
-Causal chain from deforestation to increased global warming:
 
 1. Deforestation occurs (trees are cut down or burned)
 2. Reduction in the number of trees available to absorb CO2
@@ -69,6 +70,9 @@ Causal chain from deforestation to increased global warming:
 14. Potential feedback loops (e.g., melting permafrost releasing more greenhouse gases)
 
 This chain illustrates how the act of deforestation sets off a complex series of environmental changes that ultimately contribute to global warming.
+
+Causal chain from deforestation to increased global warming:
+
 ```
 
 ## Tags:

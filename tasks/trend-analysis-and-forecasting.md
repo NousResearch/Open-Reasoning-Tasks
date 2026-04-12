@@ -26,7 +26,6 @@ Analyze the trend and forecast the number of players for Year 6, assuming the tr
 Output:
 
 ```
-Trend Analysis:
 1. The number of Bubble Soccer players is increasing each year.
 2. The growth rate appears to be consistent, with each year showing approximately a 50% increase over the previous year.
 
@@ -49,6 +48,9 @@ Factors that might influence this forecast:
 8. Technological advancements: Improvements in equipment or new ways to play (e.g., virtual Bubble Soccer) could affect participation.
 
 These factors highlight that while the mathematical trend suggests continued growth, real-world complexities could lead to deviations from this simple forecast.
+
+Trend Analysis:
+
 ```
 
 ---
@@ -71,7 +73,6 @@ Analyze this trend and predict how many mushrooms might be visible on Night 9. W
 Output:
 
 ```
-Trend Analysis:
 1. The number of visible mushrooms is increasing over time.
 2. The growth appears to follow a geometric progression rather than a linear one.
 3. The common ratio between each observation (every other night) is approximately 1.75.
@@ -99,6 +100,9 @@ Ecological factors that could influence this prediction:
 10. Genetic factors: The mushrooms might have a genetically determined growth limit or pattern.
 
 These factors emphasize that while the mathematical trend suggests continued exponential growth, biological and environmental complexities could lead to significant deviations from this simple forecast.
+
+Trend Analysis:
+
 ```
 
 ## Tags:

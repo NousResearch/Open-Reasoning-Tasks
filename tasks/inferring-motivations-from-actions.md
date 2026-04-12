@@ -19,7 +19,6 @@ A student who usually gets average grades suddenly starts studying late into the
 Output:
 
 ```
-Possible motivations for the student's behavior could include:
 
 1. Academic ambition: The student may have set a goal to improve their grades, possibly aiming for a scholarship or admission to a competitive program.
 
@@ -36,6 +35,9 @@ Possible motivations for the student's behavior could include:
 7. Seeking approval: The student may be trying to impress someone (e.g., a parent, teacher, or peer) with their academic dedication.
 
 Without more context, it's impossible to determine the exact motivation, but these are plausible inferences based on the described change in behavior.
+
+Possible motivations for the student's behavior could include:
+
 ```
 
 ---
@@ -51,7 +53,6 @@ A CEO of a large company suddenly announces a significant donation to an environ
 Output:
 
 ```
-Several potential motivations could be behind the CEO's actions:
 
 1. Genuine environmental concern: The CEO may have developed a sincere interest in environmental issues and wants to make a positive impact.
 
@@ -74,6 +75,9 @@ Several potential motivations could be behind the CEO's actions:
 10. Long-term business strategy: The CEO might view environmental sustainability as crucial for the company's long-term success and profitability.
 
 The actual motivation could be a combination of these factors or something entirely different. Without more information about the CEO and the company's context, these are plausible inferences based on the described actions.
+
+Several potential motivations could be behind the CEO's actions:
+
 ```
 
 ## Tags:

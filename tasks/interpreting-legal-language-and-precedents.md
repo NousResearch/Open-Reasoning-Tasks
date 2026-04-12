@@ -20,7 +20,6 @@ Interpret the following excerpt from the U.S. Constitution's First Amendment:
 Output:
 
 ```
-This excerpt from the First Amendment establishes several fundamental rights:
 
 1. Freedom of Religion: The government cannot establish an official religion or interfere with religious practices.
 2. Freedom of Speech: The government cannot restrict individuals' right to express their opinions.
@@ -29,6 +28,9 @@ This excerpt from the First Amendment establishes several fundamental rights:
 5. Right to Petition: Citizens can appeal to the government to address their concerns.
 
 These rights are not absolute and can be subject to certain restrictions, as interpreted by the courts. The amendment primarily limits the actions of Congress, but through incorporation doctrine, it has been applied to state and local governments as well.
+
+This excerpt from the First Amendment establishes several fundamental rights:
+
 ```
 
 ---
@@ -44,7 +46,6 @@ In the landmark case Miranda v. Arizona (1966), the U.S. Supreme Court ruled tha
 Output:
 
 ```
-The Miranda v. Arizona decision established the requirement for law enforcement to inform suspects of their rights before custodial interrogation. This precedent affects current law enforcement practices in several ways:
 
 1. Miranda Warnings: Police must inform suspects of their rights, including:
    - The right to remain silent
@@ -65,6 +66,9 @@ The Miranda v. Arizona decision established the requirement for law enforcement 
 7. Ongoing Legal Interpretations: Courts continue to refine the application of Miranda rights in various situations.
 
 This precedent significantly impacts how police conduct interrogations and how courts evaluate the admissibility of confessions or statements made by suspects.
+
+The Miranda v. Arizona decision established the requirement for law enforcement to inform suspects of their rights before custodial interrogation. This precedent affects current law enforcement practices in several ways:
+
 ```
 
 ## Tags:

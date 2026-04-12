@@ -19,7 +19,6 @@ Deconstruct the metaphor: "Life is a roller coaster."
 Output:
 
 ```
-This metaphor compares life to a roller coaster ride. Here's the deconstruction:
 
 1. Ups and downs: Just as a roller coaster has high points and low points, life has moments of joy and success (ups) as well as challenges and setbacks (downs).
 
@@ -34,6 +33,9 @@ This metaphor compares life to a roller coaster ride. Here's the deconstruction:
 6. Lack of control: On a roller coaster, you can't control the ride once it starts, similar to how we can't control everything that happens in life.
 
 The metaphor suggests that life, like a roller coaster, is a journey full of varied experiences, emotions, and unexpected events that we must navigate.
+
+This metaphor compares life to a roller coaster ride. Here's the deconstruction:
+
 ```
 
 ---
@@ -49,7 +51,6 @@ Deconstruct the metaphor: "The world is a stage."
 Output:
 
 ```
-This metaphor, famously used by William Shakespeare, compares the world to a theatrical stage. Here's the deconstruction:
 
 1. Roles: Just as actors play roles on a stage, people in life take on various roles (e.g., parent, employee, friend).
 
@@ -68,6 +69,9 @@ This metaphor, famously used by William Shakespeare, compares the world to a the
 8. Improvisation: Life often requires us to adapt and improvise, just as actors might need to on stage.
 
 This metaphor suggests that life is a performance where we all play our parts, with elements of both scripted behavior and improvisation, observed by others around us.
+
+This metaphor, famously used by William Shakespeare, compares the world to a theatrical stage. Here's the deconstruction:
+
 ```
 
 ## Tags:

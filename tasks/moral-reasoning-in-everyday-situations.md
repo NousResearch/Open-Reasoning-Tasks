@@ -19,7 +19,6 @@ You find a wallet on the street containing $500 and the owner's ID. What would b
 Output:
 
 ```
-The most ethical course of action would be to return the wallet with all its contents intact to the owner or to the local authorities.
 
 Reasoning:
 1. Respect for property: The money and wallet belong to someone else, and taking them would be theft.
@@ -29,6 +28,9 @@ Reasoning:
 5. Legal obligation: In many jurisdictions, keeping found property is illegal.
 
 While one might argue that keeping the money could benefit you or that the owner was careless, these arguments don't outweigh the ethical imperative to return others' property. The momentary gain doesn't justify the breach of ethics and potential legal consequences.
+
+The most ethical course of action would be to return the wallet with all its contents intact to the owner or to the local authorities.
+
 ```
 
 ---
@@ -44,7 +46,6 @@ Your close friend confides in you that they're cheating on their partner. The pa
 Output:
 
 ```
-This situation presents a complex ethical dilemma with no clear-cut "right" answer. Here's a reasoned approach:
 
 1. Encourage honesty: The most ethical first step would be to strongly encourage your friend who is cheating to come clean to their partner. Explain the importance of honesty in relationships and the potential consequences of their actions.
 
@@ -61,6 +62,9 @@ This situation presents a complex ethical dilemma with no clear-cut "right" answ
 The most ethical course of action would likely be to strongly encourage your friend to tell their partner, while making it clear that you won't actively lie to cover for them. This balances loyalty to your friend, the partner's right to know, and your own ethical integrity.
 
 Remember, there's no perfect solution here, and any action will have complex consequences. The goal is to act in a way that aligns with your core ethical principles while minimizing harm to all involved.
+
+This situation presents a complex ethical dilemma with no clear-cut "right" answer. Here's a reasoned approach:
+
 ```
 
 ## Tags:

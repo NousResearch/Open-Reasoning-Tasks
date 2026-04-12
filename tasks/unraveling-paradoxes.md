@@ -19,7 +19,6 @@ Explain the Barber's Paradox: In a village, the barber shaves all those, and onl
 Output:
 
 ```
-The Barber's Paradox is a self-referential paradox that reveals a logical inconsistency. Here's the analysis:
 
 1. If the barber shaves himself, then he belongs to the group of people who shave themselves. But the barber is defined as someone who only shaves those who don't shave themselves.
 
@@ -28,6 +27,9 @@ The Barber's Paradox is a self-referential paradox that reveals a logical incons
 Resolution: This paradox demonstrates that the initial premise is self-contradictory. No such barber can exist under these conditions. The paradox is resolved by recognizing that the definition of the barber is logically impossible.
 
 This paradox is similar to Russell's Paradox in set theory and highlights issues with self-reference in logical systems.
+
+The Barber's Paradox is a self-referential paradox that reveals a logical inconsistency. Here's the analysis:
+
 ```
 
 ---
@@ -43,7 +45,6 @@ Resolve the Ship of Theseus paradox: If all the parts of a ship are gradually re
 Output:
 
 ```
-The Ship of Theseus paradox explores the concept of identity over time. Here's an analysis:
 
 1. Physical Continuity Argument: If we define the ship's identity by its physical components, then replacing all parts would make it a different ship.
 
@@ -60,6 +61,9 @@ Resolution: This paradox doesn't have a definitive answer but reveals the comple
 3. If identity is a combination of physical and conceptual continuity, it might be viewed as both the same and different.
 
 This paradox is often used in discussions about personal identity, organizational change, and the nature of existence over time.
+
+The Ship of Theseus paradox explores the concept of identity over time. Here's an analysis:
+
 ```
 
 ## Tags:

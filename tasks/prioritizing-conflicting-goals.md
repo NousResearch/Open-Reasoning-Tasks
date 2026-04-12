@@ -25,7 +25,6 @@ The company has limited resources and cannot fully pursue all goals simultaneous
 Output:
 
 ```
-Prioritization of goals for the tech startup:
 
 1. Develop a new innovative product
    Rationale: This should be the top priority as it's the foundation for future success. Without a compelling product, the other goals become much harder to achieve.
@@ -44,6 +43,9 @@ Strategy:
 - Aim for lean operations to progress towards profitability without sacrificing product quality or employee well-being.
 - Delay major marketing pushes for market share until the product is ready and showing promise.
 - Regularly reassess and adjust priorities as the situation evolves.
+
+Prioritization of goals for the tech startup:
+
 ```
 
 ---
@@ -65,7 +67,6 @@ The student has limited time and energy. How should they prioritize these goals?
 Output:
 
 ```
-Prioritization of goals for the college student:
 
 1. Maintain a high GPA for graduate school applications
    Rationale: This should be the top priority as it's crucial for future academic opportunities and can't be easily compensated for later.
@@ -87,6 +88,9 @@ Strategy:
 - Reassess each semester based on academic performance and financial situation.
 - Look for opportunities that combine goals, such as paid internships or academically relevant part-time work.
 - Consider time management and stress-reduction techniques to optimize limited time and energy.
+
+Prioritization of goals for the college student:
+
 ```
 
 ## Tags:

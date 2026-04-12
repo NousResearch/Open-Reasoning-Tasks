@@ -20,12 +20,14 @@ Analyze the following statement for logical inconsistencies:
 Output:
 
 ```
-This statement contains a logical inconsistency known as the Liar's Paradox.
 
 Explanation:
 If the speaker always lies, then the statement "I always lie" must be a lie, which would mean they don't always lie. However, if they don't always lie, then the statement could be true, which would mean they do always lie. This creates a circular contradiction that cannot be resolved logically.
 
 The addition of "Trust me on this one" further compounds the inconsistency, as someone who always lies cannot be trusted to tell the truth about their lying.
+
+This statement contains a logical inconsistency known as the Liar's Paradox.
+
 ```
 
 ---
@@ -42,7 +44,6 @@ A company advertises its new diet pill with the slogan: "Lose 30 pounds in 30 da
 Output:
 
 ```
-This scenario contains several logical inconsistencies:
 
 1. The claim of losing 30 pounds in 30 days without lifestyle changes is inconsistent with established principles of weight loss and human physiology.
 
@@ -51,6 +52,9 @@ This scenario contains several logical inconsistencies:
 3. The money-back guarantee implies the possibility of failure, which is inconsistent with the "100% guaranteed to work" claim.
 
 These inconsistencies create a logically flawed and potentially misleading advertisement.
+
+This scenario contains several logical inconsistencies:
+
 ```
 
 ## Tags:

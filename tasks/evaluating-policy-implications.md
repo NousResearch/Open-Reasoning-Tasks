@@ -19,7 +19,6 @@ Evaluate the potential implications of a policy that mandates all new vehicles s
 Output:
 
 ```
-Potential implications of this policy:
 
 1. Environmental impact:
    + Reduced greenhouse gas emissions from vehicles
@@ -51,6 +50,9 @@ Potential implications of this policy:
    - Potential cybersecurity concerns with increased connectivity in vehicles
 
 This policy would have far-reaching effects across multiple sectors, requiring careful planning and mitigation strategies to address potential negative consequences.
+
+Potential implications of this policy:
+
 ```
 
 ---
@@ -66,7 +68,6 @@ Analyze the potential implications of implementing a universal basic income (UBI
 Output:
 
 ```
-Potential implications of implementing a UBI:
 
 1. Economic impact:
    + Increased consumer spending, potentially stimulating the economy
@@ -109,6 +110,9 @@ Potential implications of implementing a UBI:
    - Potential for more sustainable choices if basic needs are met
 
 Implementing a UBI would be a transformative policy with wide-ranging effects on society, economy, and governance. Careful consideration of these implications and potential mitigation strategies would be crucial.
+
+Potential implications of implementing a UBI:
+
 ```
 
 ## Tags:

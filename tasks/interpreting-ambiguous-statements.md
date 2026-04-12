@@ -19,7 +19,6 @@ Interpret the following ambiguous statement: "I saw a man on a hill with a teles
 Output:
 
 ```
-This statement has multiple possible interpretations:
 
 1. The speaker used a telescope to see a man who was on a hill.
 2. The speaker saw a man who was on a hill, and that man had a telescope.
@@ -27,6 +26,9 @@ This statement has multiple possible interpretations:
 4. The speaker was on a hill with a telescope and saw a man (somewhere else).
 
 The ambiguity arises from the unclear relationships between the speaker, the man, the hill, and the telescope. Without additional context, it's impossible to determine which interpretation is correct.
+
+This statement has multiple possible interpretations:
+
 ```
 
 ---
@@ -42,13 +44,15 @@ Interpret the ambiguity in this headline: "Local Woman Finds Solution to Rising 
 Output:
 
 ```
-This headline can be interpreted in two main ways:
 
 1. A local woman discovered a solution to the problem of rising prices, and this discovery took place in her garage. For example, she might have invented a new product or process that could help combat inflation.
 
 2. A local woman found that her garage provided a solution to rising prices. This could mean she's using her garage in some way to save money, such as growing her own food, starting a small business, or storing bulk purchases.
 
 The ambiguity stems from whether "in her garage" refers to where she found the solution or if it's part of the solution itself. The headline's brevity leaves room for both interpretations.
+
+This headline can be interpreted in two main ways:
+
 ```
 
 ## Tags:

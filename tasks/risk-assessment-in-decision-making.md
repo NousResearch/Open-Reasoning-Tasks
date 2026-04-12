@@ -23,7 +23,6 @@ Assess the risks and potential benefits of each strategy.
 Output:
 
 ```
-Strategy A: Rapid expansion
 
 Risks:
 1. High debt burden could lead to financial instability if growth targets aren't met
@@ -55,6 +54,9 @@ Overall assessment:
 Strategy A offers higher potential rewards but comes with significantly higher risks. It's more suitable for a company with a proven product in a rapidly growing market. Strategy B is more conservative, offering stability but potentially limiting growth. It's better suited for companies in less volatile markets or those prioritizing long-term sustainability over rapid growth.
 
 The best choice depends on factors like the company's current financial health, market conditions, competition, and risk tolerance of the founders and investors.
+
+Strategy A: Rapid expansion
+
 ```
 
 ---
@@ -74,7 +76,6 @@ Assess the risks and potential benefits of each option.
 Output:
 
 ```
-Option A: Stay put and wait for rescue
 
 Risks:
 1. Limited supplies may run out before rescue arrives
@@ -113,6 +114,9 @@ The best choice depends on several factors:
 Generally, staying put (Option A) is often recommended by survival experts, especially if the hiker is certain that people know they're missing and where to look. However, if the hiker has a good reason to believe they can find their way out or if staying put poses immediate danger (e.g., severe weather approaching), Option B might be preferable.
 
 The hiker should carefully weigh these factors before making a decision, prioritizing safety and conservation of resources.
+
+Option A: Stay put and wait for rescue
+
 ```
 
 ## Tags:

@@ -19,13 +19,15 @@ I speak without a mouth and hear without ears. I have no body, but I come alive 
 Output:
 
 ```
-The answer is: An echo.
 
 Explanation:
 - "I speak without a mouth": An echo produces sound without having a physical mouth.
 - "I hear without ears": An echo seems to 'hear' the original sound and repeat it.
 - "I have no body": An echo is intangible.
 - "I come alive with wind": Sound waves, which are essentially moving air (wind), create echoes.
+
+The answer is: An echo.
+
 ```
 
 ---
@@ -41,7 +43,6 @@ What 8 letter word can have a letter taken away and it still makes a word. Take 
 Output:
 
 ```
-The answer is: Starting
 
 Explanation:
 Starting (8 letters)
@@ -54,6 +55,9 @@ In (2 letters)
 I (1 letter)
 
 Each step removes one letter while still forming a valid English word, until we're left with the single letter 'I'.
+
+The answer is: Starting
+
 ```
 
 ## Tags:

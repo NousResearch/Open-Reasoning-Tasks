@@ -19,7 +19,6 @@ Deconstruct the process of photosynthesis in plants, explaining the key componen
 Output:
 
 ```
-Photosynthesis can be deconstructed into the following key components and interactions:
 
 1. Light absorption:
    - Chlorophyll pigments in chloroplasts capture light energy
@@ -45,6 +44,9 @@ Photosynthesis can be deconstructed into the following key components and intera
    - Glucose produced is used for plant growth or stored as starch
 
 This process demonstrates how plants convert light energy into chemical energy stored in glucose, linking the abiotic (light, water, CO2) and biotic (plant) components of an ecosystem.
+
+Photosynthesis can be deconstructed into the following key components and interactions:
+
 ```
 
 ---
@@ -60,7 +62,6 @@ Deconstruct the components and interactions in a basic computer system.
 Output:
 
 ```
-A basic computer system can be deconstructed into the following components and interactions:
 
 1. Hardware:
    a. Central Processing Unit (CPU):
@@ -91,6 +92,9 @@ A basic computer system can be deconstructed into the following components and i
    - Data flows between components via buses on the motherboard
 
 This deconstruction shows how hardware, software, and data components interact to create a functional computer system, with the CPU acting as the central coordinator for all processes.
+
+A basic computer system can be deconstructed into the following components and interactions:
+
 ```
 
 ## Tags:

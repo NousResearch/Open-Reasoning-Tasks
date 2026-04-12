@@ -35,11 +35,13 @@ A flight departs from Los Angeles at 11:00 PM on Monday and arrives in Sydney 15
 Output:
 
 ```
-The flight arrives in Sydney at 5:00 PM on Wednesday. Here's the calculation:
 1. Los Angeles to Sydney is approximately a 19-hour time difference (Sydney is ahead).
 2. 15 hours of flight time + 19 hours of time zone difference = 34 hours.
 3. 34 hours from Monday 11:00 PM brings us to Wednesday 5:00 PM.
 Note: This calculation doesn't account for potential seasonal time changes or the exact flight path.
+
+The flight arrives in Sydney at 5:00 PM on Wednesday. Here's the calculation:
+
 ```
 
 ## Tags:

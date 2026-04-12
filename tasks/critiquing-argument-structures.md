@@ -21,7 +21,6 @@ Critique the following argument:
 Output:
 
 ```
-Critique:
 
 1. Oversimplification: The argument assumes a direct causal relationship between video games and violence, ignoring other potential factors that could influence aggressive behavior.
 
@@ -40,6 +39,9 @@ Suggestions for Improvement:
 - Consider other factors that might influence teenage violence.
 - Propose more nuanced solutions, such as age restrictions or content warnings.
 - Distinguish between different types of video games rather than grouping them all together.
+
+Critique:
+
 ```
 
 ---
@@ -57,7 +59,6 @@ Critique the following argument:
 Output:
 
 ```
-Critique:
 
 1. Factual Inaccuracy: The premise about Einstein being a poor student who failed math is a common myth. Historical records show he was actually a good student.
 
@@ -77,6 +78,9 @@ Suggestions for Improvement:
 - Consider a more nuanced conclusion about the relationship between academic performance and future success.
 - Acknowledge other factors that contribute to success in addition to academic performance.
 - Specify what is meant by "success" to make the argument more precise.
+
+Critique:
+
 ```
 
 ## Tags:

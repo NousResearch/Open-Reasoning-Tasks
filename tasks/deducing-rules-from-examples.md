@@ -22,7 +22,6 @@ What is the rule governing this sequence, and what would be the next number?
 Output:
 
 ```
-Rule: Each number in the sequence is multiplied by 3 to get the next number.
 
 Explanation:
 2 x 3 = 6
@@ -33,6 +32,9 @@ Explanation:
 The next number in the sequence would be: 162 x 3 = 486
 
 This rule can be expressed mathematically as: a(n+1) = 3 * a(n), where a(n) is the nth term in the sequence.
+
+Rule: Each number in the sequence is multiplied by 3 to get the next number.
+
 ```
 
 ---
@@ -54,7 +56,6 @@ What do the individual words likely mean?
 Output:
 
 ```
-Based on these examples, we can deduce the following:
 
 1. "zop" means "blue"
    Reasoning: It appears in both "blue sky" and "blue water"
@@ -71,6 +72,9 @@ Based on these examples, we can deduce the following:
 Rule: In this alien language, adjectives come before nouns, similar to English.
 
 This deduction allows us to understand the meaning of each word and the basic structure of the language from just a few examples.
+
+Based on these examples, we can deduce the following:
+
 ```
 
 ## Tags:

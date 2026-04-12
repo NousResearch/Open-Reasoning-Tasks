@@ -19,7 +19,6 @@ Solve Towers of Hanoi for 3 disks.
 Output:
 
 ```
-Here's the solution for Towers of Hanoi with 3 disks:
 
 1. Move disk 1 from A to C
 2. Move disk 2 from A to B
@@ -30,6 +29,9 @@ Here's the solution for Towers of Hanoi with 3 disks:
 7. Move disk 1 from A to C
 
 The puzzle is now solved with all disks moved from peg A to peg C.
+
+Here's the solution for Towers of Hanoi with 3 disks:
+
 ```
 
 ---

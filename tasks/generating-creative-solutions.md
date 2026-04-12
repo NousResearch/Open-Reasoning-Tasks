@@ -19,7 +19,6 @@ Generate a creative solution to reduce food waste in urban areas.
 Output:
 
 ```
-Community Compost Vending Machines:
 
 Install reverse vending machines in urban neighborhoods that accept food waste. Here's how it would work:
 
@@ -37,6 +36,9 @@ Benefits:
 - Reduces methane emissions from landfills
 
 This solution combines technology, community engagement, and environmental sustainability to address food waste creatively.
+
+Community Compost Vending Machines:
+
 ```
 
 ---
@@ -52,7 +54,6 @@ Propose a creative solution to encourage more people to read books in the digita
 Output:
 
 ```
-Interactive Augmented Reality (AR) Book Clubs:
 
 Create a mobile app that transforms traditional book reading into an immersive, social experience using AR technology:
 
@@ -73,6 +74,9 @@ Create a mobile app that transforms traditional book reading into an immersive, 
 8. Multi-sensory Enhancements: Add ambient sounds, smells (via smartphone attachments), and haptic feedback to create a more immersive reading experience.
 
 This solution combines the traditional joy of reading with modern technology and social interaction, making books more engaging and appealing in the digital age.
+
+Interactive Augmented Reality (AR) Book Clubs:
+
 ```
 
 ## Tags:

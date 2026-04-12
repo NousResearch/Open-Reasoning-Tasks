@@ -19,9 +19,11 @@ Input:
 Output:
 
 ```
-Cause: Heavy rainfall
 Effect: Widespread flooding in the nearby town
 Explanation: The heavy rainfall led to the river overflowing, which in turn resulted in the flooding. This demonstrates a chain of cause and effect.
+
+Cause: Heavy rainfall
+
 ```
 
 ---
@@ -37,9 +39,11 @@ Input:
 Output:
 
 ```
-Cause: Launching a new marketing campaign
 Effect: Increase in company's profits
 Explanation: The new marketing campaign is presented as the cause that led to the effect of increased profits. However, it's important to note that in real-world scenarios, there might be multiple factors contributing to such outcomes.
+
+Cause: Launching a new marketing campaign
+
 ```
 
 ## Tags:

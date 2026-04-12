@@ -19,7 +19,6 @@ You are given a slice of chocolate cake. Reverse engineer the process of making 
 Output:
 
 ```
-Reverse engineered process for making a chocolate cake:
 
 1. Gather ingredients (flour, sugar, cocoa powder, eggs, milk, oil, baking powder, vanilla extract)
 2. Preheat the oven
@@ -35,6 +34,9 @@ Reverse engineered process for making a chocolate cake:
 12. Slice the cake
 
 Note: This is a simplified process and may vary depending on the specific recipe used.
+
+Reverse engineered process for making a chocolate cake:
+
 ```
 
 ---
@@ -50,7 +52,6 @@ You receive an email newsletter. Reverse engineer the process of how this newsle
 Output:
 
 ```
-Reverse engineered process for creating and sending an email newsletter:
 
 1. Plan newsletter content and design
 2. Write and edit the content
@@ -67,6 +68,9 @@ Reverse engineered process for creating and sending an email newsletter:
 13. Email arrives in recipients' inboxes
 
 Note: The exact process may vary depending on the specific tools and strategies used by the sender.
+
+Reverse engineered process for creating and sending an email newsletter:
+
 ```
 
 ## Tags:

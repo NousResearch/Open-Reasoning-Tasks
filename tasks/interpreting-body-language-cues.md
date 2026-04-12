@@ -19,7 +19,6 @@ During a business negotiation, Amira notices that her potential client, Marcus, 
 Output:
 
 ```
-Marcus's body language suggests discomfort, disinterest, and impatience with the negotiation. Here's a breakdown of the cues:
 
 1. Leaning back in his chair: This posture indicates emotional or physical distance, suggesting Marcus might be trying to create space between himself and the negotiation.
 
@@ -30,6 +29,9 @@ Marcus's body language suggests discomfort, disinterest, and impatience with the
 4. Frequently checking his watch: This behavior typically signifies impatience or a desire for the interaction to end, implying that Marcus may not value the negotiation or find it worth his time.
 
 Together, these cues paint a picture of a client who is not fully invested in the negotiation and may be looking for a way to conclude the meeting quickly. Amira might need to change her approach or address Marcus's concerns more directly to improve the engagement.
+
+Marcus's body language suggests discomfort, disinterest, and impatience with the negotiation. Here's a breakdown of the cues:
+
 ```
 
 ---
@@ -45,7 +47,6 @@ In a rural Inuit community, a young hunter named Aput returns from his first suc
 Output:
 
 ```
-In this context, the elders of the Inuit community would likely interpret Aput's body language positively, as a display of humility and respect. Here's an analysis of his behavior:
 
 1. Lowered eyes: In many cultures, including some Inuit communities, avoiding direct eye contact with elders or authority figures can be a sign of respect rather than discomfort or dishonesty.
 
@@ -61,6 +62,9 @@ In Inuit culture, success in hunting is highly valued, but so is humility. Aput'
 4. Possibly seeking approval and recognition from the elders in a culturally appropriate manner
 
 The elders would likely view this behavior favorably, seeing it as a sign that Aput understands and respects the community's values and social norms. They might interpret his body language as an indication that he will be a responsible and respectful member of the community as he grows into his role as a hunter.
+
+In this context, the elders of the Inuit community would likely interpret Aput's body language positively, as a display of humility and respect. Here's an analysis of his behavior:
+
 ```
 
 ## Tags:
