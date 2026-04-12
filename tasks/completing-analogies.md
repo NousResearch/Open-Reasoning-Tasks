@@ -19,8 +19,10 @@ Complete the analogy: Tree is to forest as brick is to ?
 Output:
 
 ```
-Building
 Explanation: A tree is a component of a forest, just as a brick is a component of a building.
+
+Building
+
 ```
 
 ---
@@ -36,8 +38,10 @@ Complete the analogy: Pen is to writer as brush is to ?
 Output:
 
 ```
-Painter
 Explanation: A pen is the primary tool used by a writer, just as a brush is the primary tool used by a painter.
+
+Painter
+
 ```
 
 ## Tags:

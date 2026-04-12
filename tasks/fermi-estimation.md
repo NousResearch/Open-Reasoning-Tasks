@@ -19,7 +19,6 @@ Estimate the number of piano tuners in Chicago.
 Output:
 
 ```
-Let's break this down step-by-step:
 
 1. Estimate Chicago's population: ~3 million
 2. Assume 1 in 20 households has a piano: 3,000,000 / 20 = 150,000 pianos
@@ -31,6 +30,9 @@ Let's break this down step-by-step:
 Therefore, we estimate there are approximately 150 piano tuners in Chicago.
 
 This is likely an overestimate as some pianos may be tuned less frequently, and some tuners may work part-time. A reasonable range might be 100-200 piano tuners in Chicago.
+
+Let's break this down step-by-step:
+
 ```
 
 ---
@@ -46,7 +48,6 @@ Estimate the weight of all the ants on Earth.
 Output:
 
 ```
-Let's approach this step-by-step:
 
 1. Estimate the number of ants on Earth:
    - Land surface area of Earth: ~150 million km²
@@ -65,6 +66,9 @@ Let's approach this step-by-step:
 Therefore, we estimate the total weight of all ants on Earth to be approximately 600,000 metric tons.
 
 This is a very rough estimate and could easily be off by a factor of 10 in either direction due to the numerous assumptions made.
+
+Let's approach this step-by-step:
+
 ```
 
 ## Tags:

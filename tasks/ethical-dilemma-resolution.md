@@ -19,7 +19,6 @@ A geneticist discovers a way to eliminate a debilitating genetic disorder in emb
 Output:
 
 ```
-This ethical dilemma involves several conflicting principles:
 
 1. Beneficence: The technique could prevent suffering from genetic disorders.
 2. Non-maleficence: It might create societal inequalities and unforeseen consequences.
@@ -39,6 +38,9 @@ The geneticist should publish the discovery but with careful framing and recomme
 6. Ongoing monitoring: Suggest establishing a body to monitor and assess the technology's impact over time.
 
 This approach balances the potential benefits of preventing genetic disorders with the need to mitigate risks of societal inequality. It also respects scientific progress and parental autonomy while emphasizing the importance of careful implementation and ongoing ethical consideration.
+
+This ethical dilemma involves several conflicting principles:
+
 ```
 
 ---
@@ -54,7 +56,6 @@ A small village relies on hunting endangered animals for sustenance and cultural
 Output:
 
 ```
-This ethical dilemma involves several competing interests and principles:
 
 1. Environmental conservation: Protecting endangered species and biodiversity.
 2. Cultural preservation: Respecting the village's traditions and way of life.
@@ -77,6 +78,9 @@ A multi-faceted approach that seeks to balance these competing interests:
 9. Regular reassessment: Continuously monitor and adjust the approach based on ecological and social outcomes.
 
 This resolution aims to respect the village's needs and cultural heritage while working towards long-term conservation goals. It recognizes that sustainable solutions require balancing multiple ethical considerations and stakeholder interests, and that gradual, collaborative change is often more effective than abrupt impositions.
+
+This ethical dilemma involves several competing interests and principles:
+
 ```
 
 ## Tags:

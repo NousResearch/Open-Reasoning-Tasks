@@ -19,7 +19,6 @@ A company is deciding whether to launch a new product. They consider market dema
 Output:
 
 ```
-Analysis of the decision-making process:
 1. Market demand: Understanding potential customer base and interest
 2. Production costs: Evaluating financial feasibility
 3. Competition: Assessing market saturation and uniqueness of the product
@@ -35,6 +34,9 @@ This process covers key business aspects. However, additional factors to conside
 10. Risk assessment: What are the potential risks (financial, reputational, operational) of launching this product?
 
 By including these additional factors, the company can make a more comprehensive and informed decision about launching the new product.
+
+Analysis of the decision-making process:
+
 ```
 
 ---
@@ -50,7 +52,6 @@ A student is deciding between two universities for their undergraduate degree. T
 Output:
 
 ```
-Analysis of the decision-making process:
 1. Location: Considering geographical preferences and potential lifestyle changes
 2. Program reputation: Evaluating the quality and recognition of the academic programs
 3. Scholarship offers: Assessing financial support and potential debt
@@ -82,6 +83,9 @@ This process covers important aspects of university selection. To prioritize the
    - Personal experience can provide valuable insight
 
 By systematically evaluating these factors and considering additional aspects, the student can make a more informed decision aligned with their personal goals and values.
+
+Analysis of the decision-making process:
+
 ```
 
 ## Tags:

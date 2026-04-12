@@ -19,9 +19,11 @@ A company continues to invest money in a failing project because they've already
 Output:
 
 ```
-This is an example of the Sunk Cost Fallacy.
 
 Explanation: The Sunk Cost Fallacy occurs when people continue a behavior or endeavor as a result of previously invested resources (time, money, effort). In this case, the company is making the irrational decision to continue investing in a failing project simply because they've already spent a lot on it, rather than cutting their losses and moving on to more promising ventures.
+
+This is an example of the Sunk Cost Fallacy.
+
 ```
 
 ---
@@ -37,9 +39,11 @@ After learning about a rare disease, a person starts noticing symptoms of it eve
 Output:
 
 ```
-This is likely an example of the Baader-Meinhof Phenomenon, also known as Frequency Illusion.
 
 Explanation: The Baader-Meinhof Phenomenon occurs when something you've just learned about suddenly seems to appear everywhere. It's a combination of two processes: selective attention (paying more attention to something after becoming aware of it) and confirmation bias (looking for things that support your recent awareness). In this case, after learning about the rare disease, the person is more likely to notice and remember things that seem related to it, creating an illusion that it's suddenly more common.
+
+This is likely an example of the Baader-Meinhof Phenomenon, also known as Frequency Illusion.
+
 ```
 
 ## Tags:

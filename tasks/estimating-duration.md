@@ -44,11 +44,13 @@ D) A solar eclipse
 Output:
 
 ```
-From shortest to longest:
 1. C) Brewing a cup of coffee (minutes)
 2. D) A solar eclipse (minutes to hours)
 3. B) Human pregnancy (about 9 months)
 4. A) Continental drift (millions of years)
+
+From shortest to longest:
+
 ```
 
 ## Tags:

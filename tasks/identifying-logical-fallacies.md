@@ -19,8 +19,10 @@ Input:
 Output:
 
 ```
-This argument contains the fallacy of Hasty Generalization.
 Explanation: The premise "All birds can fly" is an overgeneralization. While many birds can fly, there are exceptions like penguins, ostriches, and emus. This fallacy occurs when a general conclusion is drawn from a small or unrepresentative sample.
+
+This argument contains the fallacy of Hasty Generalization.
+
 ```
 
 ---
@@ -36,8 +38,10 @@ Input:
 Output:
 
 ```
-This statement contains the Slippery Slope fallacy.
 Explanation: The Slippery Slope fallacy assumes that a relatively small first step inevitably leads to a chain of related events resulting in a significant and often undesirable effect. It exaggerates the consequences of a proposed action without providing evidence for the alleged chain reaction.
+
+This statement contains the Slippery Slope fallacy.
+
 ```
 
 ## Tags:

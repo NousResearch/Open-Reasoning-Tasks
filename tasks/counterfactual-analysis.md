@@ -19,7 +19,6 @@ Scenario: In 1969, humans first landed on the moon. Perform a counterfactual ana
 Output:
 
 ```
-If the Soviet Union had reached the moon first:
 
 1. Geopolitical shift: The balance of power during the Cold War might have tilted more strongly in favor of the Soviet Union, potentially leading to increased Soviet influence globally.
 
@@ -32,6 +31,9 @@ If the Soviet Union had reached the moon first:
 5. Educational focus: There might have been a greater emphasis on STEM education in Western countries to "catch up" with Soviet advancements.
 
 This analysis considers the potential ripple effects across various domains, illustrating how a single change could have far-reaching consequences.
+
+If the Soviet Union had reached the moon first:
+
 ```
 
 ---
@@ -47,7 +49,6 @@ Scenario: The printing press was invented in the 15th century. Perform a counter
 Output:
 
 ```
-If the printing press had not been invented until the 19th century:
 
 1. Information spread: The dissemination of knowledge would have remained slow and limited, potentially delaying the Scientific Revolution and the Enlightenment by centuries.
 
@@ -64,6 +65,9 @@ If the printing press had not been invented until the 19th century:
 7. Education: Formal education might have remained the privilege of elites for a longer period, as textbooks and other educational materials would have been scarce and expensive.
 
 This analysis demonstrates how a technological innovation can have profound and wide-ranging effects on society, culture, and human progress.
+
+If the printing press had not been invented until the 19th century:
+
 ```
 
 ## Tags:

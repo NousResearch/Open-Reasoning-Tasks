@@ -19,12 +19,14 @@ Every Friday, Sarah orders takeout for dinner. On Mondays, she always goes to th
 Output:
 
 ```
-The pattern in Sarah's behavior is a consistent weekly routine:
 1. Fridays: Orders takeout for dinner
 2. Mondays: Goes to the gym after work
 3. Wednesdays: Calls her mother in the evening
 
 This pattern suggests that Sarah has structured her week with specific activities on certain days, likely to maintain a balance between social connections (calling her mother), health (going to the gym), and treating herself (ordering takeout).
+
+The pattern in Sarah's behavior is a consistent weekly routine:
+
 ```
 
 ---
@@ -46,7 +48,6 @@ What behavioral patterns can you identify from this data?
 Output:
 
 ```
-The behavioral patterns identified from the website traffic data are:
 
 1. Weekly cycle: Traffic is highest on Mondays and lowest on weekends, suggesting that users are more likely to engage with the website during the workweek.
 
@@ -57,6 +58,9 @@ The behavioral patterns identified from the website traffic data are:
 4. Product interest: The 20% increase in traffic with new product releases indicates that the audience is interested in and responsive to new offerings from the company.
 
 These patterns suggest that the website caters to a professional audience who primarily engage with it during work hours and are keen on staying updated with new products or services.
+
+The behavioral patterns identified from the website traffic data are:
+
 ```
 
 ## Tags:

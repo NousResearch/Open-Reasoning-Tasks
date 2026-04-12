@@ -19,8 +19,10 @@ Derive an equation for the area of a circle given that the area is proportional 
 Output:
 
 ```
-A = πr²
 Explanation: We know the area (A) is proportional to the square of the radius (r²). The constant of proportionality is π (pi). Therefore, the equation is A = πr².
+
+A = πr²
+
 ```
 
 ---
@@ -36,13 +38,15 @@ A rectangular pool is being filled with water at a constant rate. The length of 
 Output:
 
 ```
-V = t * w * 2w * 0.5
 Explanation: 
 - Volume = length * width * height
 - Length = 2 * width
 - Height after t minutes = 0.5t cm
 - Substituting: V = (2w) * w * (0.5t/100) = tw²/100
 - Final equation: V = 0.01tw², where V is in cubic meters, t in minutes, and w in meters.
+
+V = t * w * 2w * 0.5
+
 ```
 
 ## Tags:

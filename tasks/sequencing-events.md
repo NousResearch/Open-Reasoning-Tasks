@@ -23,11 +23,13 @@ D) The Berlin Wall falls
 Output:
 
 ```
-The correct chronological order is:
 1. C) The American Revolution begins (1775)
 2. A) World War II ends (1945)
 3. B) The first human lands on the moon (1969)
 4. D) The Berlin Wall falls (1989)
+
+The correct chronological order is:
+
 ```
 
 ---
@@ -47,11 +49,13 @@ D) Place bread slices on a plate
 Output:
 
 ```
-The correct order is:
 1. D) Place bread slices on a plate
 2. C) Spread condiments on bread
 3. A) Add toppings
 4. B) Cut the sandwich
+
+The correct order is:
+
 ```
 
 ## Tags:

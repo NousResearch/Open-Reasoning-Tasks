@@ -19,8 +19,10 @@ A man pushes his car to a hotel and tells the owner he's bankrupt. Why?
 Output:
 
 ```
-The man is playing Monopoly.
 Explanation: This puzzle requires thinking outside the box. The scenario described doesn't make sense in real life, but it's a common situation in the board game Monopoly.
+
+The man is playing Monopoly.
+
 ```
 
 ---
@@ -36,8 +38,10 @@ A woman shoots her husband, then holds him under water for five minutes. Next, s
 Output:
 
 ```
-The woman is a photographer. She shot a picture of her husband, developed it in water, and hung it up to dry.
 Explanation: This puzzle relies on the multiple meanings of words like "shoot" and "hang" to create a misleading scenario.
+
+The woman is a photographer. She shot a picture of her husband, developed it in water, and hung it up to dry.
+
 ```
 
 ## Tags:

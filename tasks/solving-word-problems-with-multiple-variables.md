@@ -19,7 +19,6 @@ A farm has chickens and cows. If there are 50 heads and 140 legs in total, how m
 Output:
 
 ```
-Let's solve this step by step:
 
 1. Define variables:
    x = number of chickens
@@ -40,6 +39,9 @@ Let's solve this step by step:
    y = 50 - 30 = 20
 
 Therefore, there are 30 chickens and 20 cows.
+
+Let's solve this step by step:
+
 ```
 
 ---
@@ -55,7 +57,6 @@ A rectangle's length is 5 cm more than twice its width. If the perimeter of the 
 Output:
 
 ```
-Let's solve this step-by-step:
 
 1. Define variables:
    w = width of the rectangle
@@ -77,6 +78,9 @@ Let's solve this step-by-step:
    l = 2(10) + 5 = 25 cm
 
 Therefore, the rectangle's dimensions are 10 cm wide and 25 cm long.
+
+Let's solve this step-by-step:
+
 ```
 
 ## Tags:

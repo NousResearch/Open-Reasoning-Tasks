@@ -34,7 +34,6 @@ What car would be recommended for someone with a $40,000 budget who wants a new,
 Output:
 
 ```
-Based on the given decision tree, for someone with a $40,000 budget who wants a new, economical car, the recommended choice would be to buy a Toyota Camry.
 
 Here's the path through the decision tree:
 1. Budget? - >$30,000 (Budget is $40,000)
@@ -43,6 +42,9 @@ Here's the path through the decision tree:
 4. Recommendation: Buy Toyota Camry
 
 The decision tree leads to this conclusion by first considering the budget, then whether the buyer wants a new or used car, and finally whether they prefer a luxury or economy model.
+
+Based on the given decision tree, for someone with a $40,000 budget who wants a new, economical car, the recommended choice would be to buy a Toyota Camry.
+
 ```
 
 ---
@@ -70,7 +72,6 @@ What would be the diagnosis if a computer turns on, but the screen doesn't displ
 Output:
 
 ```
-Based on the given decision tree, if a computer turns on but the screen doesn't display anything, the diagnosis would be a Monitor problem.
 
 Here's the path through the decision tree:
 1. Computer turns on? - Yes
@@ -80,6 +81,9 @@ Here's the path through the decision tree:
 The decision tree leads to this conclusion by first checking if the computer turns on, which it does. Then it checks if the screen displays anything, which it doesn't. This combination of conditions results in the diagnosis of a monitor problem.
 
 It's worth noting that while this simplified decision tree provides a quick diagnosis, in reality, there could be other factors causing a lack of display even when the computer turns on, such as a graphics card issue or a loose cable connection.
+
+Based on the given decision tree, if a computer turns on but the screen doesn't display anything, the diagnosis would be a Monitor problem.
+
 ```
 
 ## Tags:

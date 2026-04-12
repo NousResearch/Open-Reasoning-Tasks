@@ -49,12 +49,14 @@ What can you infer about the company's development?
 Output:
 
 ```
-This timeline suggests a rapidly growing company:
 1. It took 2 years from founding to launch their first product, indicating a development phase.
 2. Within 3 years of product launch, they reached a significant customer milestone, suggesting strong market acceptance.
 3. Just 2 years later, the company went public, indicating financial success and investor confidence.
 4. Three years post-IPO, they expanded internationally, showing continued growth and market expansion.
 Overall, this timeline depicts a successful startup that achieved significant milestones roughly every 2-3 years, culminating in international expansion within a decade of founding.
+
+This timeline suggests a rapidly growing company:
+
 ```
 
 ## Tags:

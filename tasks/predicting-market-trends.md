@@ -25,7 +25,6 @@ Based on these factors, predict a potential market trend for the next 5-10 years
 Output:
 
 ```
-Potential Market Trend: Rise in Demand for Healthcare Technology and Services
 
 Reasoning:
 1. Rising inflation rates may lead to increased healthcare costs, prompting a search for more efficient and cost-effective healthcare solutions.
@@ -41,6 +40,9 @@ Given these factors, we can predict a significant increase in demand for healthc
 - Home healthcare solutions
 
 This trend could lead to substantial growth in the healthcare technology sector, with potential for new startups and increased investment in research and development by established companies.
+
+Potential Market Trend: Rise in Demand for Healthcare Technology and Services
+
 ```
 
 ---
@@ -62,7 +64,6 @@ Based on this scenario, predict a potential market trend for the next 3-5 years.
 Output:
 
 ```
-Potential Market Trend: Surge in Quantum-Resistant Cryptography and Blockchain Technologies
 
 Reasoning:
 1. The breakthrough in quantum computing poses a significant threat to current encryption methods, including those used in cryptocurrencies and blockchain technologies.
@@ -83,6 +84,9 @@ This trend could lead to:
 - New regulations and standards for quantum-safe digital systems
 
 The market for these technologies is likely to see rapid growth as businesses and governments scramble to protect sensitive data and financial systems from potential quantum computing threats while also leveraging the benefits of blockchain and cryptocurrencies.
+
+Potential Market Trend: Surge in Quantum-Resistant Cryptography and Blockchain Technologies
+
 ```
 
 ## Tags:

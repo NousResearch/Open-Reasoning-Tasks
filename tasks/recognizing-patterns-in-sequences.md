@@ -19,13 +19,15 @@ Identify the next number in the sequence: 2, 4, 8, 16, 32, ?
 Output:
 
 ```
-The next number in the sequence is 64.
 Explanation: Each number in the sequence is doubling (multiplied by 2) from the previous number. The pattern is:
 2 * 2 = 4
 4 * 2 = 8
 8 * 2 = 16
 16 * 2 = 32
 32 * 2 = 64
+
+The next number in the sequence is 64.
+
 ```
 
 ---
@@ -41,13 +43,15 @@ What comes next in this sequence? A, C, F, J, O, ?
 Output:
 
 ```
-The next letter in the sequence is U.
 Explanation: The pattern is based on the alphabetical position of each letter, with the difference between positions increasing by 1 each time:
 A to C: 2 positions
 C to F: 3 positions
 F to J: 4 positions
 J to O: 5 positions
 O to U: 6 positions
+
+The next letter in the sequence is U.
+
 ```
 
 ---
@@ -63,7 +67,6 @@ Continue this pattern: 1, 1, 2, 3, 5, 8, 13, ?
 Output:
 
 ```
-The next number in the sequence is 21.
 Explanation: This is the Fibonacci sequence, where each number is the sum of the two preceding ones:
 1 + 1 = 2
 1 + 2 = 3
@@ -71,6 +74,9 @@ Explanation: This is the Fibonacci sequence, where each number is the sum of the
 3 + 5 = 8
 5 + 8 = 13
 8 + 13 = 21
+
+The next number in the sequence is 21.
+
 ```
 
 ## Tags:

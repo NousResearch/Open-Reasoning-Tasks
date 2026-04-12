@@ -21,7 +21,6 @@ Parse the following sentence and identify its main clause, subordinate clause(s)
 Output:
 
 ```
-Main clause: 
 - "the children... reluctantly headed home for dinner"
 
 Subordinate clauses:
@@ -33,6 +32,9 @@ Notable phrases:
 2. "for dinner" (prepositional phrase indicating purpose)
 
 The main action of the sentence is the children heading home. The first subordinate clause sets the time, while the participial phrase provides additional context about the setting. The relative clause gives background information about the children's activities.
+
+Main clause: 
+
 ```
 
 ---
@@ -50,7 +52,6 @@ Analyze the structure of this sentence and explain how its parts relate to each 
 Output:
 
 ```
-Structure breakdown:
 
 1. Main clause: "The old man sat silently on the park bench"
    - Subject: "The old man"
@@ -70,6 +71,9 @@ Relationships:
 - The prepositional phrase "near his feet" within the participial phrase provides spatial context for the pigeons' action.
 
 This sentence structure allows for a rich, layered description of the scene, combining the old man's physical appearance, his current action, and the environment around him into a single, complex sentence.
+
+Structure breakdown:
+
 ```
 
 ## Tags:

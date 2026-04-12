@@ -19,8 +19,10 @@ There are five houses in a row, each painted a different color. The English pers
 Output:
 
 ```
-The French person owns the snail.
 Explanation: This is a complex puzzle that requires multiple steps of deduction. The full solution involves creating a grid and eliminating possibilities based on the given clues.
+
+The French person owns the snail.
+
 ```
 
 ---
@@ -36,8 +38,10 @@ Alice, Bob, and Charlie are standing in a line. Alice is not last. Bob is not fi
 Output:
 
 ```
-Bob is in the middle.
 Explanation: If Alice is not last and Bob is not first, the only possible arrangement is: Charlie, Bob, Alice.
+
+Bob is in the middle.
+
 ```
 
 ## Tags:

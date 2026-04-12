@@ -21,7 +21,6 @@ Analyze the rhetorical strategies used in this excerpt from Martin Luther King J
 Output:
 
 ```
-Rhetorical strategies used in this excerpt include:
 
 1. Allusion: King references the Declaration of Independence, invoking a foundational American document to support his argument.
 
@@ -34,6 +33,9 @@ Rhetorical strategies used in this excerpt include:
 5. Ethos: By connecting his vision to America's founding principles, King establishes credibility and aligns his cause with patriotic ideals.
 
 These strategies work together to create a compelling and inspiring message that resonates with the audience's sense of justice and national identity.
+
+Rhetorical strategies used in this excerpt include:
+
 ```
 
 ---
@@ -51,7 +53,6 @@ Analyze the rhetorical strategies used in this advertisement:
 Output:
 
 ```
-Rhetorical strategies used in this advertisement include:
 
 1. Rhetorical Question: "Tired of feeling tired?" engages the audience and introduces the problem the product aims to solve.
 
@@ -68,6 +69,9 @@ Rhetorical strategies used in this advertisement include:
 7. Imperative Mood: The use of commands like "Join" and "Don't just survive" directly engages the audience and prompts action.
 
 These strategies aim to create a sense of need, establish credibility, and motivate the audience to purchase the product by appealing to their desire for energy and success.
+
+Rhetorical strategies used in this advertisement include:
+
 ```
 
 ## Tags:

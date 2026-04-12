@@ -19,12 +19,14 @@ A standard deck of 52 cards contains 4 aces. If you draw two cards without repla
 Output:
 
 ```
-The probability of drawing two aces is 1/221 or approximately 0.45%.
 Explanation:
 1. Probability of drawing first ace: 4/52 = 1/13
 2. Probability of drawing second ace, given first was an ace: 3/51
 3. Probability of both events occurring: (1/13) * (3/51) = 3/663 = 1/221
 4. 1/221 ≈ 0.0045 or 0.45%
+
+The probability of drawing two aces is 1/221 or approximately 0.45%.
+
 ```
 
 ---
@@ -40,7 +42,6 @@ In a group of 100 people, 60 like chocolate, 50 like vanilla, and 30 like both f
 Output:
 
 ```
-The probability is 80% or 0.8.
 Explanation:
 1. Use the addition rule of probability: P(A or B) = P(A) + P(B) - P(A and B)
 2. P(Chocolate) = 60/100 = 0.6
@@ -48,6 +49,9 @@ Explanation:
 4. P(Both) = 30/100 = 0.3
 5. P(Chocolate or Vanilla) = 0.6 + 0.5 - 0.3 = 0.8
 6. 0.8 = 80%
+
+The probability is 80% or 0.8.
+
 ```
 
 ## Tags:

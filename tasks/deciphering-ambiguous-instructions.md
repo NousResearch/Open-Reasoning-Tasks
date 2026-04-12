@@ -20,7 +20,6 @@ Decipher the following ambiguous instruction:
 Output:
 
 ```
-This instruction is ambiguous because it's unclear whether the stirring and baking are related or separate steps. Here are the ambiguities and potential clarifications:
 
 1. Is the sugar being stirred into a liquid or dry ingredients?
 2. Should the mixture be stirred continuously for 30 minutes while baking, or is the stirring completed before baking begins?
@@ -29,6 +28,9 @@ This instruction is ambiguous because it's unclear whether the stirring and baki
 
 A clearer version might be:
 "Add the sugar to the liquid mixture and stir until dissolved. Pour the mixture into a baking dish. Bake at 350°F (175°C) for 30 minutes."
+
+This instruction is ambiguous because it's unclear whether the stirring and baking are related or separate steps. Here are the ambiguities and potential clarifications:
+
 ```
 
 ---
@@ -45,7 +47,6 @@ Decipher the following ambiguous instruction:
 Output:
 
 ```
-This instruction contains several ambiguities:
 
 1. "The light" could refer to a traffic light, a street light, or any other light source.
 2. It's unclear how far to drive after turning right before looking for parking.
@@ -60,6 +61,9 @@ To clarify, one might ask:
 
 A clearer version might be:
 "Turn right at the next traffic light. Drive for about 200 meters and look for parking spaces on your right, close to the XYZ Financial Bank building."
+
+This instruction contains several ambiguities:
+
 ```
 
 ## Tags:

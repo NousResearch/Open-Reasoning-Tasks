@@ -22,11 +22,13 @@ C) Birds fly away from the area
 Output:
 
 ```
-The time-based relationship is likely:
 1. A) A tree falls in the forest (initial event)
 2. B) A loud crash is heard (immediate consequence, almost simultaneous with A)
 3. C) Birds fly away from the area (slightly delayed reaction to A and B)
 This sequence suggests a causal relationship where the falling tree causes the crash, which in turn startles the birds, causing them to fly away.
+
+The time-based relationship is likely:
+
 ```
 
 ---
@@ -45,11 +47,13 @@ C) Mortgage applications decline
 Output:
 
 ```
-The time-based relationship is:
 1. A) Interest rates increase (initial event)
 2. C) Mortgage applications decline (short-term consequence)
 3. B) Housing prices decrease (longer-term consequence)
 This sequence shows a chain of events where the increase in interest rates makes mortgages more expensive, leading to fewer applications. Over time, this reduced demand can cause housing prices to decrease.
+
+The time-based relationship is:
+
 ```
 
 ## Tags:
